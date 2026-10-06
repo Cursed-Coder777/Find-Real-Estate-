@@ -1,0 +1,48 @@
+.header_em{color:#b3b3b3}
+.header_invisible{visibility:hidden}
+.header_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.header_desktop-only{display:initial!important;pointer-events:auto}}
+.header_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.header_mobile-only{display:initial!important;pointer-events:auto}}
+.header_underline{text-decoration:underline}
+.header_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.header_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.header_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.header_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.header_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.header_dropdown-content{padding:2rem 0}}
+.header_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.header_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.header_dropdown-trigger.header_underlined{border-bottom:1px solid #151717}
+.header_dropdown-trigger.header_outlined{border:1px solid rgba(21,23,23,.1)}
+.header_wrapper{position:sticky;top:0;left:0;right:0;z-index:50;background-color:#fff;transition:background-color .3s,transform .3s ease-in-out}
+.header_wrapper .header_content{color:#151717}
+.header_wrapper.header_dark{background-color:#151717}
+.header_wrapper.header_dark .header_content{color:#151717;transition-duration:0s}
+.header_wrapper.header_dark .header_burger-control:not([aria-expanded=true]){color:#fff}
+.header_wrapper.header_dark:not(.header_-opened) .header_content{color:#fff}
+.header_wrapper.header_transparent:not(.header_-fixed){background-color:rgba(0,0,0,0)}
+.header_wrapper.header_-hidden{transform:translateY(-100%)}
+.header_content{min-height:8.4rem;position:relative;display:grid;grid-template-columns:1fr auto;align-items:center;z-index:50;transition:background-color 1s ease-in-out,color 1s ease-in-out}
+@media(min-width:768px){.header_content{min-height:7.8rem;grid-template-columns:25rem 1fr 25rem}}
+.header_logo{display:flex;align-items:center}
+.header_logo svg{width:9.1rem;height:2.6rem}
+.header_nav{display:none;margin:auto}
+@media(min-width:768px){.header_nav{display:flex;gap:4rem}}
+.header_nav-item{font-weight:500;font-size:1.8rem;line-height:1.25;cursor:pointer;display:flex;align-items:center;gap:1rem;overflow:hidden}
+@media(min-width:768px){.header_nav-item{font-size:2rem}}
+.header_nav-item span{position:relative;display:block;transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.header_nav-item span:after{content:attr(data-text);display:block;position:absolute;top:105%;left:0;right:0}
+@media(pointer:fine){.header_nav-item span:hover{transform:translateY(-105%)}}
+.header_nav-arrow{position:relative;top:.05em;display:flex;align-items:center;width:1em;height:1em;transition:transform .3s ease}
+.header_nav-arrow.header_-rotated{transform:rotate(180deg)}
+.header_nav-arrow svg{height:100%;width:100%}
+.header_actions{display:none}
+@media(min-width:768px){.header_actions{display:flex;align-items:center;justify-content:flex-end}}
+.header_actions a{font-weight:500;font-size:1.8rem;line-height:1.25;cursor:pointer;display:flex;align-items:center;overflow:hidden}
+@media(min-width:768px){.header_actions a{font-size:2rem}}
+.header_actions a span{position:relative;display:block;transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.header_actions a span:after{content:attr(data-text);display:block;position:absolute;top:105%;left:0;right:0}
+@media(pointer:fine){.header_actions a span:hover{transform:translateY(-105%)}}
+.header_burger-control{margin-left:auto;background-color:rgba(0,0,0,0);border:none;outline:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
+@media(min-width:768px){.header_burger-control{display:none!important}}

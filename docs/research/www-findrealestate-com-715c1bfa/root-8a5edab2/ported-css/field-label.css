@@ -1,0 +1,21 @@
+.field-label_em{color:#b3b3b3}
+.field-label_invisible{visibility:hidden}
+.field-label_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.field-label_desktop-only{display:initial!important;pointer-events:auto}}
+.field-label_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.field-label_mobile-only{display:initial!important;pointer-events:auto}}
+.field-label_underline{text-decoration:underline}
+.field-label_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.field-label_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.field-label_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.field-label_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.field-label_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.field-label_dropdown-content{padding:2rem 0}}
+.field-label_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.field-label_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.field-label_dropdown-trigger.field-label_underlined{border-bottom:1px solid #151717}
+.field-label_dropdown-trigger.field-label_outlined{border:1px solid rgba(21,23,23,.1)}
+.field-label_label{display:inline-flex;align-items:center;gap:.6rem;padding:.4rem 1rem;border-radius:100px;font-size:1.2rem;font-weight:500;line-height:1.5;background-color:#fff;color:#151717;border:1px solid rgba(21,23,23,.15);white-space:nowrap}
+@media(min-width:768px){.field-label_label{font-size:1.4rem}}
+.field-label_dark{background-color:rgba(21,23,23,.7);color:#fff;border-color:hsla(0,0%,100%,.2)}
+.field-label_dark .field-label_note,.field-label_note,.missing-data_em{color:#b3b3b3}

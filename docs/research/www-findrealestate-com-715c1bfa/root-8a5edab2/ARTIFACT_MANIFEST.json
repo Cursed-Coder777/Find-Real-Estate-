@@ -1,0 +1,137 @@
+{
+  "assets": [
+    {
+      "source": "/_next/static/media/1.52131ac7.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/1.52131ac7.jpg",
+      "bytes": 573406,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/1.e7a1ff18.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/1.e7a1ff18.jpg",
+      "bytes": 541894,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/1.f6e8f2e8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/1.f6e8f2e8.jpg",
+      "bytes": 150443,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/2.41633fa6.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/2.41633fa6.jpg",
+      "bytes": 3644189,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/2.58bf2fb8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/2.58bf2fb8.jpg",
+      "bytes": 438888,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/3.483e04ae.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/3.483e04ae.jpg",
+      "bytes": 520898,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/4.ea5fa732.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/4.ea5fa732.jpg",
+      "bytes": 329361,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/back.f53e9773.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/back.f53e9773.jpg",
+      "bytes": 2855419,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/bg.ec610793.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/bg.ec610793.jpg",
+      "bytes": 3241377,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/buy.fed72bc8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/buy.fed72bc8.jpg",
+      "bytes": 1191304,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/cloud.c8800fa9.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/cloud.c8800fa9.png",
+      "bytes": 408925,
+      "contentType": "image/png",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/development.0de63e1b.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/development.0de63e1b.jpg",
+      "bytes": 770577,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/house.8ed9b3db.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/house.8ed9b3db.png",
+      "bytes": 26710824,
+      "contentType": "image/png",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/mortgage-services.e92904b1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/mortgage-services.e92904b1.jpg",
+      "bytes": 925113,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/property-management.7a9cbb34.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/property-management.7a9cbb34.jpg",
+      "bytes": 998673,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/rent.6736c732.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/rent.6736c732.jpg",
+      "bytes": 804656,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/sell.90b8e66b.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/sell.90b8e66b.jpg",
+      "bytes": 551687,
+      "contentType": "image/jpeg",
+      "status": "ok"
+    },
+    {
+      "source": "/_next/static/media/smoke.9f683cb4.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/smoke.9f683cb4.png",
+      "bytes": 736039,
+      "contentType": "image/png",
+      "status": "ok"
+    },
+    {
+      "source": "/videos/why-us.mp4",
+      "local": "/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/video/why-us.mp4",
+      "bytes": 7308771,
+      "contentType": "video/mp4",
+      "status": "ok"
+    }
+  ]
+}

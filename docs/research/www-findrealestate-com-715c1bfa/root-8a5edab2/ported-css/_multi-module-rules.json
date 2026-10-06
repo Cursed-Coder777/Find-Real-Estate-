@@ -1,0 +1,10 @@
+[
+  {
+    "file": "71f84529a6422d60.css",
+    "modules": [
+      "field-label",
+      "missing-data"
+    ],
+    "rule": ".field-label_dark .field-label_note,.field-label_note,.missing-data_em{color:#b3b3b3}"
+  }
+]

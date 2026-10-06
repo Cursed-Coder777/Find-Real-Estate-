@@ -1,0 +1,31 @@
+.FileUploadInput_em{color:#b3b3b3}
+.FileUploadInput_invisible{visibility:hidden}
+.FileUploadInput_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.FileUploadInput_desktop-only{display:initial!important;pointer-events:auto}}
+.FileUploadInput_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.FileUploadInput_mobile-only{display:initial!important;pointer-events:auto}}
+.FileUploadInput_underline{text-decoration:underline}
+.FileUploadInput_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.FileUploadInput_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.FileUploadInput_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.FileUploadInput_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.FileUploadInput_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.FileUploadInput_dropdown-content{padding:2rem 0}}
+.FileUploadInput_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.FileUploadInput_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.FileUploadInput_dropdown-trigger.FileUploadInput_underlined{border-bottom:1px solid #151717}
+.FileUploadInput_dropdown-trigger.FileUploadInput_outlined{border:1px solid rgba(21,23,23,.1)}
+.FileUploadInput_input-wrapper{position:relative;overflow:hidden;width:100%;border-bottom:1px solid #151717;padding:0 0 1.5rem;cursor:pointer}
+@media(min-width:768px){.FileUploadInput_input-wrapper{padding:0 0 1.8rem}}
+.FileUploadInput_input-wrapper.FileUploadInput_uploading{border-bottom:none}
+.FileUploadInput_input-wrapper.FileUploadInput_has-file .FileUploadInput_icon-after{cursor:pointer}
+.FileUploadInput_input-wrapper.FileUploadInput_has-file .FileUploadInput_icon-after:hover{transform:scale(1.1)}
+.FileUploadInput_input{visibility:hidden;position:absolute;top:0;left:0;width:0;height:0}
+.FileUploadInput_label{font-weight:400;font-size:1.4rem;line-height:1.5;color:#b3b3b3;margin-bottom:1.5rem}
+@media(min-width:768px){.FileUploadInput_label{margin-bottom:2rem}}
+.FileUploadInput_fake-input{display:flex;align-items:center;justify-content:space-between;gap:1rem;font-size:1.4rem;font-weight:500;line-height:1.5}
+@media(min-width:768px){.FileUploadInput_fake-input{font-size:1.8rem}}
+.FileUploadInput_icon-after{--size:2.4rem;min-width:var(--size);width:var(--size);height:var(--size);transition:transform .2s ease}
+.FileUploadInput_icon-after:hover{transform:scale(1.1)}
+.FileUploadInput_progress-container{position:absolute;bottom:0;left:0;width:100%;height:2px;background-color:rgba(21,23,23,.2);overflow:hidden}
+.FileUploadInput_progress-bar{height:100%;background-color:#151717;transition:width .3s ease;border-radius:1px}

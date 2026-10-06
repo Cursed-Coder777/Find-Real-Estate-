@@ -1,0 +1,44 @@
+.club-amenities_em{color:#b3b3b3}
+.club-amenities_invisible{visibility:hidden}
+.club-amenities_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.club-amenities_desktop-only{display:initial!important;pointer-events:auto}}
+.club-amenities_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.club-amenities_mobile-only{display:initial!important;pointer-events:auto}}
+.club-amenities_underline{text-decoration:underline}
+.club-amenities_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.club-amenities_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.club-amenities_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.club-amenities_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.club-amenities_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.club-amenities_dropdown-content{padding:2rem 0}}
+.club-amenities_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.club-amenities_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.club-amenities_dropdown-trigger.club-amenities_underlined{border-bottom:1px solid #151717}
+.club-amenities_dropdown-trigger.club-amenities_outlined{border:1px solid rgba(21,23,23,.1)}
+.club-amenities_wrapper{padding:4rem 0 6rem;overflow:hidden}
+@media(min-width:768px){.club-amenities_wrapper{padding:10rem 0 15rem;overflow:visible}}
+.club-amenities_head{display:flex;flex-direction:column;gap:3rem}
+@media(min-width:768px){.club-amenities_head{flex-direction:row;align-items:flex-end;justify-content:space-between;gap:6rem}}
+.club-amenities_title{font-weight:500;font-size:4.4rem;line-height:1;letter-spacing:-.02em}
+@media(min-width:768px){.club-amenities_title{font-size:7.2rem;letter-spacing:-.04em}}
+.club-amenities_subtitle{font-weight:500;font-size:1.6rem;line-height:1.5;margin-top:2rem}
+@media(min-width:768px){.club-amenities_subtitle{font-size:2.4rem;margin-top:3rem}}
+.club-amenities_controls{display:none;gap:1.6rem;flex-shrink:0}
+@media(min-width:768px){.club-amenities_controls{gap:2rem;display:flex}}
+.club-amenities_arrow{--size:5.6rem;width:var(--size);height:var(--size);border-radius:50%;border:2px solid #151717;background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .3s,border-color .3s,transform .3s}
+.club-amenities_arrow svg{width:2.4rem;height:2.4rem;color:#151717;transition:color .3s}
+.club-amenities_arrow:first-child svg{transform:rotate(180deg)}
+.club-amenities_arrow:hover{background:#151717;border-color:#151717;transform:scale(1.08)}
+.club-amenities_arrow:hover svg{color:#fff}
+@media(min-width:768px){.club-amenities_arrow{--size:7.2rem}.club-amenities_arrow svg{width:3.2rem;height:3.2rem}}
+.club-amenities_rows{margin-top:6rem;display:flex;flex-direction:column;gap:3rem}
+@media(min-width:768px){.club-amenities_rows{margin-top:10rem;gap:4rem}}
+.club-amenities_track{display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-behavior:smooth;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.club-amenities_track::-webkit-scrollbar{display:none}
+@media(min-width:768px){.club-amenities_track{gap:2.4rem}}
+.club-amenities_card{min-width:22rem;max-width:22rem;flex-shrink:0;scroll-snap-align:start}
+.club-amenities_card-img{position:relative;aspect-ratio:3/2;overflow:hidden}
+.club-amenities_card-img img{transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.club-amenities_card-name{font-weight:500;font-size:1.6rem;line-height:1.5;margin-top:1.2rem}
+@media(min-width:768px){.club-amenities_card-name{font-size:2rem;margin-top:1.5rem}.club-amenities_card{min-width:36rem;max-width:36rem}}
+@media(pointer:fine){.club-amenities_card:hover .club-amenities_card-img img{transform:scale(1.06)}}

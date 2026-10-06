@@ -1,0 +1,55 @@
+.collage_em{color:#b3b3b3}
+.collage_invisible{visibility:hidden}
+.collage_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.collage_desktop-only{display:initial!important;pointer-events:auto}}
+.collage_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.collage_mobile-only{display:initial!important;pointer-events:auto}}
+.collage_underline{text-decoration:underline}
+.collage_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.collage_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.collage_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.collage_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.collage_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.collage_dropdown-content{padding:2rem 0}}
+.collage_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.collage_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.collage_dropdown-trigger.collage_underlined{border-bottom:1px solid #151717}
+.collage_dropdown-trigger.collage_outlined{border:1px solid rgba(21,23,23,.1)}
+.collage_gallery{display:grid;grid-gap:.5rem;gap:.5rem;margin:0 calc(-50vw + 50% + .5rem + var(--scrollbar-width, 0px))}
+@media(min-width:768px){.collage_gallery{gap:2rem;margin:0}}
+.collage_grid-template-1{grid-template-areas:"a";grid-template-columns:1fr}
+.collage_grid-template-1>:first-child{grid-area:a;width:100%;aspect-ratio:365/400}
+@media(min-width:768px){.collage_grid-template-1>:first-child{aspect-ratio:1720/700}}
+.collage_grid-template-2{grid-template-areas:"a a" "b b"}
+.collage_grid-template-2>:first-child{grid-area:a}
+.collage_grid-template-2>:nth-child(2){grid-area:b}
+.collage_grid-template-2>:first-child,.collage_grid-template-2>:nth-child(2){width:100%;aspect-ratio:365/400}
+@media(min-width:768px){.collage_grid-template-2>:first-child,.collage_grid-template-2>:nth-child(2){aspect-ratio:1720/700}}
+.collage_grid-template-3{grid-template-areas:"a a" "b c"}
+.collage_grid-template-3>:first-child{grid-area:a;width:100%;aspect-ratio:365/400}
+@media(min-width:768px){.collage_grid-template-3>:first-child{aspect-ratio:1720/700}}
+.collage_grid-template-3>:nth-child(2){grid-area:b;aspect-ratio:180/377}
+@media(min-width:768px){.collage_grid-template-3>:nth-child(2){aspect-ratio:976/700}}
+.collage_grid-template-3>:nth-child(3){aspect-ratio:180/377;grid-area:c}
+@media(min-width:768px){.collage_grid-template-3>:nth-child(3){aspect-ratio:unset}}
+@media(min-width:768px){.collage_grid-template-3{grid-template-columns:1fr calc(40% - 2rem)}}
+.collage_grid-template-4{grid-template-areas:"a a" "b c" "b d";grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,auto)}
+.collage_grid-template-4>:first-child{grid-area:a;width:100%;aspect-ratio:365/400}
+@media(min-width:768px){.collage_grid-template-4>:first-child{aspect-ratio:1720/700}}
+.collage_grid-template-4>:nth-child(2){grid-area:b;aspect-ratio:180/377}
+@media(min-width:768px){.collage_grid-template-4>:nth-child(2){aspect-ratio:976/700}}
+.collage_grid-template-4>:nth-child(3){grid-area:c}
+.collage_grid-template-4>:nth-child(4){grid-area:d}
+@media(min-width:768px){.collage_grid-template-4{grid-template-columns:1fr calc(33% - 2rem)}}
+.collage_grid-template-5{grid-template-areas:"a a" "b c" "b d" "e e";grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,auto)}
+.collage_grid-template-5>:first-child{grid-area:a}
+.collage_grid-template-5>:nth-child(2){grid-area:b;aspect-ratio:180/377}
+@media(min-width:768px){.collage_grid-template-5>:nth-child(2){aspect-ratio:976/700}}
+.collage_grid-template-5>:nth-child(3){grid-area:c}
+.collage_grid-template-5>:nth-child(4){grid-area:d}
+.collage_grid-template-5>:nth-child(5){grid-area:e}
+.collage_grid-template-5>:first-child,.collage_grid-template-5>:nth-child(5){width:100%;aspect-ratio:365/450}
+@media(min-width:768px){.collage_grid-template-5>:first-child,.collage_grid-template-5>:nth-child(5){aspect-ratio:1720/700}}
+@media(min-width:768px){.collage_grid-template-5{grid-template-columns:1fr calc(40% - 2rem)}}
+.collage_item{position:relative}
+.collage_item-inner{position:absolute;top:0;left:0;width:100%;height:100%}

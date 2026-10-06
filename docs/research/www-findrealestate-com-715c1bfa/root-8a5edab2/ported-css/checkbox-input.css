@@ -1,0 +1,25 @@
+.checkbox-input_em{color:#b3b3b3}
+.checkbox-input_invisible{visibility:hidden}
+.checkbox-input_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.checkbox-input_desktop-only{display:initial!important;pointer-events:auto}}
+.checkbox-input_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.checkbox-input_mobile-only{display:initial!important;pointer-events:auto}}
+.checkbox-input_underline{text-decoration:underline}
+.checkbox-input_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.checkbox-input_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.checkbox-input_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.checkbox-input_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.checkbox-input_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.checkbox-input_dropdown-content{padding:2rem 0}}
+.checkbox-input_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.checkbox-input_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.checkbox-input_dropdown-trigger.checkbox-input_underlined{border-bottom:1px solid #151717}
+.checkbox-input_dropdown-trigger.checkbox-input_outlined{border:1px solid rgba(21,23,23,.1)}
+.checkbox-input_checkbox-container{display:flex;gap:1.5rem;min-height:4.7rem}
+@media(min-width:768px){.checkbox-input_checkbox-container{align-items:center}}
+.checkbox-input_checkbox-label{display:inline-block;font-weight:500;font-size:1.6rem;line-height:1.5;cursor:pointer}
+@media(min-width:768px){.checkbox-input_checkbox-label{font-size:1.8rem}}
+.checkbox-input_checkbox{--size:2.4rem;border:1px solid rgba(0,0,0,0);padding:0;margin:0;min-width:var(--size);width:var(--size);height:var(--size);color:#fff;cursor:pointer;transition:transform .7s cubic-bezier(.34,2.56,.64,1)}
+.checkbox-input_checkbox[data-state=checked]{background-color:#151717}
+.checkbox-input_checkbox[data-state=unchecked]{border:1px solid rgba(21,23,23,.1);background-color:#fff}
+.checkbox-input_checkbox-input{visibility:hidden;position:absolute;width:0;height:0;pointer-events:none}

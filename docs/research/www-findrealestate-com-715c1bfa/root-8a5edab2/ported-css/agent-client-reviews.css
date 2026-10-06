@@ -1,0 +1,40 @@
+.agent-client-reviews_em{color:#b3b3b3}
+.agent-client-reviews_invisible{visibility:hidden}
+.agent-client-reviews_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.agent-client-reviews_desktop-only{display:initial!important;pointer-events:auto}}
+.agent-client-reviews_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.agent-client-reviews_mobile-only{display:initial!important;pointer-events:auto}}
+.agent-client-reviews_underline{text-decoration:underline}
+.agent-client-reviews_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.agent-client-reviews_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.agent-client-reviews_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.agent-client-reviews_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.agent-client-reviews_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.agent-client-reviews_dropdown-content{padding:2rem 0}}
+.agent-client-reviews_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.agent-client-reviews_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.agent-client-reviews_dropdown-trigger.agent-client-reviews_underlined{border-bottom:1px solid #151717}
+.agent-client-reviews_dropdown-trigger.agent-client-reviews_outlined{border:1px solid rgba(21,23,23,.1)}
+.agent-client-reviews_wrapper{margin-top:4rem}
+@media(min-width:768px){.agent-client-reviews_wrapper{margin-top:5rem}}
+.agent-client-reviews_stats{display:flex;flex-direction:column;gap:1rem;font-size:1.6rem;font-weight:500;line-height:1.3;margin-top:2rem}
+@media(min-width:768px){.agent-client-reviews_stats{font-size:2rem;gap:2.4rem;flex-direction:row;align-items:center}}
+.agent-client-reviews_with-dot{content:"";display:block;position:absolute;min-width:.5rem;width:.5rem;height:.5rem;background-color:#b3b3b3;right:calc(100% + var(--gap)/2);top:50%;transform:translate(50%,-50%);border-radius:50%}
+.agent-client-reviews_stats-text{--gap:2.4rem;display:flex;gap:var(--gap)}
+.agent-client-reviews_stats-text>*{position:relative}
+.agent-client-reviews_stats-text>:before{content:"";display:block;position:absolute;min-width:.5rem;width:.5rem;height:.5rem;background-color:#b3b3b3;right:calc(100% + var(--gap)/2);top:50%;transform:translate(50%,-50%);border-radius:50%}
+@media(max-width:767px){.agent-client-reviews_stats-text>:first-child:before{display:none}}
+.agent-client-reviews_reviews{display:flex;margin-top:4rem;overflow:hidden;width:100%;max-width:100%}
+@media(max-width:767px){.agent-client-reviews_reviews>*{min-width:100%;flex-basis:100%;width:100%}}
+@media(min-width:768px){.agent-client-reviews_reviews{display:grid;grid-template-columns:repeat(2,1fr);margin-top:3rem;grid-gap:3rem;gap:3rem;align-items:flex-start}.agent-client-reviews_review{padding:3rem;border:1px solid rgba(21,23,23,.1)}}
+.agent-client-reviews_review-text{font-size:2.4rem;font-weight:400;line-height:1.15;font-family:var(--font-secondary)}
+@media(min-width:768px){.agent-client-reviews_review-text{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}}
+.agent-client-reviews_review-name,.agent-client-reviews_review-rating-wrapper{font-size:1.2rem;font-weight:500;line-height:1.1}
+@media(min-width:768px){.agent-client-reviews_review-name,.agent-client-reviews_review-rating-wrapper{font-size:1.6rem}}
+.agent-client-reviews_review-name{text-transform:uppercase;margin-top:4rem}
+.agent-client-reviews_review-rating-wrapper{display:flex;align-items:center;gap:2rem;margin-top:1rem}
+@media(min-width:768px){.agent-client-reviews_review-rating-wrapper{gap:3rem}}
+.agent-client-reviews_pagination{margin-top:4rem}
+@media(min-width:768px){.agent-client-reviews_pagination{margin-top:5rem}}
+.agent-client-reviews_headerWrapper{display:flex;justify-content:space-between;flex-direction:column;gap:2rem}
+@media(min-width:768px){.agent-client-reviews_headerWrapper{flex-direction:row;align-items:center}}

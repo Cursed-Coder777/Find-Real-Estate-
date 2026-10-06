@@ -1,0 +1,52 @@
+.form-date-input_em{color:#b3b3b3}
+.form-date-input_invisible{visibility:hidden}
+.form-date-input_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.form-date-input_desktop-only{display:initial!important;pointer-events:auto}}
+.form-date-input_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.form-date-input_mobile-only{display:initial!important;pointer-events:auto}}
+.form-date-input_underline{text-decoration:underline}
+.form-date-input_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.form-date-input_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.form-date-input_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.form-date-input_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.form-date-input_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.form-date-input_dropdown-content{padding:2rem 0}}
+.form-date-input_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.form-date-input_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.form-date-input_dropdown-trigger.form-date-input_underlined{border-bottom:1px solid #151717}
+.form-date-input_dropdown-trigger.form-date-input_outlined{border:1px solid rgba(21,23,23,.1)}
+.form-date-input_control{position:relative}
+.form-date-input_control.form-date-input_error .form-date-input_input-wrapper{border-color:#d92424;color:#d92424}
+.form-date-input_control.form-date-input_error .form-date-input_label{color:#d92424}
+.form-date-input_input{flex:1 1;border:none;padding:0;background:rgba(0,0,0,0);color:inherit;font-size:1.4rem;font-weight:500;line-height:1.5;min-width:0}
+.form-date-input_input:focus{outline:none}
+.form-date-input_input:focus::placeholder{opacity:.5}
+.form-date-input_input::placeholder{color:inherit}
+.form-date-input_input:disabled{opacity:.5}
+.form-date-input_input.form-date-input_error{color:#d92424}
+@media(min-width:768px){.form-date-input_input{font-size:1.8rem}}
+.form-date-input_input-wrapper{position:relative;overflow:hidden;display:flex;align-items:center;gap:1rem;width:100%;border-bottom:1px solid rgba(21,23,23,.15);padding:0 0 1.5rem;cursor:text}
+.form-date-input_input-wrapper.form-date-input_error{border-color:#d92424;color:#d92424}
+@media(min-width:768px){.form-date-input_input-wrapper{padding:0 0 1.8rem}}
+.form-date-input_trigger{cursor:pointer;color:inherit;min-width:2.4rem;width:2.4rem;height:2.4rem;margin-right:1px;background-color:rgba(0,0,0,0);border:none;padding:0;display:flex;align-items:center;justify-content:center}
+.form-date-input_trigger:not(:active):focus{outline-color:currentColor;color:inherit}
+.form-date-input_label{font-weight:400;font-size:1.4rem;line-height:1.5;color:#b3b3b3;display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:768px){.form-date-input_label{margin-bottom:2rem}}
+.form-date-input_root{z-index:1!important}
+.form-date-input_content{width:37.5rem;background-color:#fff;padding:2.5rem;filter:drop-shadow(0 4px 4px rgba(0,0,0,.1))}
+.form-date-input_view-control{display:flex;align-items:center;gap:1rem}
+.form-date-input_view-trigger{flex:1 1;font-weight:500;font-size:1.8rem;line-height:1.5;padding:.7rem 0!important}
+.form-date-input_prev-trigger{transform:rotate(180deg)}
+.form-date-input_next-trigger,.form-date-input_prev-trigger,.form-date-input_view-trigger{cursor:pointer;background-color:rgba(0,0,0,0);border:none;padding:0;color:inherit}
+.form-date-input_table-header{font-weight:500;font-size:1.4rem;line-height:1.5;color:#b3b3b3;padding:1rem 0}
+.form-date-input_table-cell{position:relative}
+.form-date-input_table-cell-trigger{position:relative;font-weight:500;font-size:1.6rem;line-height:1.5;display:flex;align-items:center;justify-content:center;cursor:pointer;border:1px solid rgba(0,0,0,0)}
+.form-date-input_table-cell-trigger[data-focus]{background-color:#ededed}
+.form-date-input_table-cell-trigger[data-selected]{background-color:#151717;color:#fff}
+.form-date-input_table-cell-trigger[data-disabled]{color:#b3b3b3;cursor:default}
+.form-date-input_table-cell-trigger:not([data-disabled]):not([data-selected]):not([data-today]):hover{background-color:#ededed}
+.form-date-input_table-cell-trigger[data-view=day]{width:4.2rem;height:4.2rem}
+.form-date-input_table-cell-trigger[data-view=day][data-today]{border-color:#151717}
+.form-date-input_table-cell-trigger[data-view=month],.form-date-input_table-cell-trigger[data-view=year]{position:absolute;top:0;left:0;width:100%;height:100%}
+.form-date-input_view:not([hidden]){height:100%;display:flex;flex-direction:column}
+.form-date-input_view:not([hidden]) .form-date-input_table{flex:1 1}

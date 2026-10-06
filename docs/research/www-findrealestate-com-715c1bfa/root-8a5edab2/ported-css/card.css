@@ -1,0 +1,33 @@
+.card_em{color:#b3b3b3}
+.card_invisible{visibility:hidden}
+.card_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.card_desktop-only{display:initial!important;pointer-events:auto}}
+.card_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.card_mobile-only{display:initial!important;pointer-events:auto}}
+.card_underline{text-decoration:underline}
+.card_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.card_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.card_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.card_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.card_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.card_dropdown-content{padding:2rem 0}}
+.card_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.card_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.card_dropdown-trigger.card_underlined{border-bottom:1px solid #151717}
+.card_dropdown-trigger.card_outlined{border:1px solid rgba(21,23,23,.1)}
+.card_card{cursor:pointer}
+.card_image{position:relative;aspect-ratio:1/1}
+.card_image,.card_image img{transition:transform .5s ease}
+.card_image:hover img{transform:scale(1.03)}
+.card_content{margin-top:1.5rem}
+@media(min-width:768px){.card_content{margin-top:2rem}}
+.card_name{font-size:2rem;font-weight:500;line-height:1.5}
+@media(min-width:768px){.card_name{font-size:2.4rem;line-height:1.3;letter-spacing:-.01em}}
+.card_title{font-size:1.4rem;font-weight:400;line-height:1.5;color:#666;margin-top:.5rem}
+@media(min-width:768px){.card_title{font-size:1.6rem}}
+.card_company{font-size:1.4rem;font-weight:400;line-height:1.5;color:#666;margin-top:.3rem}
+@media(min-width:768px){.card_company{font-size:1.6rem}}
+.card_license{font-size:1.4rem;font-weight:400;line-height:1.5;color:#666;margin-top:.3rem}
+@media(min-width:768px){.card_license{font-size:1.6rem}}
+.card_placeholder{background-color:#e3e3e3;color:#fff;display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-weight:400;font-size:12em;line-height:.95;letter-spacing:-.05em}
+.card_card-image img{object-position:top}

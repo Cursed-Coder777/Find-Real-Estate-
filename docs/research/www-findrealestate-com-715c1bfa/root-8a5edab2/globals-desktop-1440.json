@@ -1,0 +1,2123 @@
+{
+  "title": "FIND Real Estate | Purchase, Rent or Sell Commercial and Residential Real Estate",
+  "url": "https://www.findrealestate.com/",
+  "viewport": {
+    "w": 1440,
+    "h": 900
+  },
+  "docHeight": 16289,
+  "bodyClasses": "__variable_3d9088 __variable_c1a059",
+  "htmlClasses": "lenis",
+  "htmlStyles": {
+    "font-family": "\"Times New Roman\"",
+    "font-size": "7.5px"
+  },
+  "bodyStyles": {
+    "font-family": "\"Instrument Sans\", \"Instrument Sans Fallback\"",
+    "font-size": "7.5px",
+    "line-height": "8.625px",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "margin": "0px"
+  },
+  "fonts": {
+    "\"Times New Roman\" | 400 | normal": 96,
+    "\"Instrument Sans\", \"Instrument Sans Fallback\" | 400 | normal": 481,
+    "\"Instrument Sans\", \"Instrument Sans Fallback\" | 500 | normal": 339,
+    "\"Instrument Sans\", \"Instrument Sans Fallback\" | 700 | normal": 9,
+    "\"Instrument Sans\", \"Instrument Sans Fallback\" | 600 | normal": 31,
+    "Lora, \"Lora Fallback\", serif | 400 | normal": 10,
+    "Lora, \"Lora Fallback\", serif | 500 | normal": 10
+  },
+  "colors": {
+    "rgb(0, 0, 0)": 437,
+    "rgb(21, 23, 23)": 238,
+    "rgb(255, 255, 255)": 222,
+    "rgba(0, 0, 0, 0)": 21,
+    "rgba(21, 23, 23, 0.5)": 1,
+    "rgb(179, 179, 179)": 24,
+    "rgb(156, 156, 156)": 9,
+    "rgba(255, 255, 255, 0.4)": 22,
+    "rgba(255, 255, 255, 0.7)": 1,
+    "rgb(4, 150, 255)": 1
+  },
+  "bgs": {
+    "rgba(255, 255, 255, 0.1)": 1,
+    "rgb(21, 23, 23)": 13,
+    "rgb(255, 255, 255)": 24,
+    "rgba(255, 255, 255, 0.8)": 7,
+    "rgb(241, 241, 241)": 14,
+    "rgba(241, 241, 241, 0.8)": 3,
+    "rgba(21, 23, 23, 0.8)": 8,
+    "rgb(26, 28, 28)": 3,
+    "rgb(239, 239, 239)": 1
+  },
+  "images": [
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fback.f53e9773.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fback.f53e9773.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x",
+      "sizes": null,
+      "alt": "",
+      "naturalWidth": 1920,
+      "naturalHeight": 1306,
+      "loading": "lazy",
+      "parentClasses": "hero_back__8ReFI",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 400px, (max-width: 1640px) 700px, 75vw",
+      "alt": "",
+      "naturalWidth": 700,
+      "naturalHeight": 622,
+      "loading": "eager",
+      "parentClasses": "hero_house__aJy7p",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": -1,
+        "y": 534,
+        "w": 1443,
+        "h": 1284
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 400px, (max-width: 1640px) 700px, 75vw",
+      "alt": "",
+      "naturalWidth": 700,
+      "naturalHeight": 622,
+      "loading": "eager",
+      "parentClasses": "hero_house__aJy7p",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": -1,
+        "y": 534,
+        "w": 1443,
+        "h": 1284
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 75vw, (max-width: 1024px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 475,
+      "naturalHeight": 201,
+      "loading": "lazy",
+      "parentClasses": "hero_cloud__TvA3o",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": -254,
+        "y": 225,
+        "w": 843,
+        "h": 358
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.c8800fa9.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 75vw, (max-width: 1024px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 475,
+      "naturalHeight": 201,
+      "loading": "lazy",
+      "parentClasses": "hero_cloud__TvA3o",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 992,
+        "y": 180,
+        "w": 702,
+        "h": 298
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 75vw, (max-width: 1024px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 475,
+      "naturalHeight": 153,
+      "loading": null,
+      "parentClasses": "hero_smoke__8za_R",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 758,
+        "w": 1440,
+        "h": 465
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 640px) 75vw, (max-width: 1024px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 475,
+      "naturalHeight": 153,
+      "loading": null,
+      "parentClasses": "hero_smoke__8za_R",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 3120,
+        "w": 1440,
+        "h": 465
+      }
+    },
+    {
+      "src": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/169de036-5df3-4f91-8a4f-aa4c24cbd214.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "75 South 9th Street, Apt Building, Brooklyn, NY 11249",
+      "naturalWidth": 560,
+      "naturalHeight": 800,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 76,
+        "y": 4921,
+        "w": 309,
+        "h": 442
+      }
+    },
+    {
+      "src": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/52610178-25b5-4de3-bbeb-0922e489abff.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "339 Bedford Avenue, Apt 30, Brooklyn, NY 11211",
+      "naturalWidth": 1067,
+      "naturalHeight": 800,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 402,
+        "y": 4921,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/3489ea7c-63be-41ba-839f-17b7425ce8af.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "373 South 4th Street, Apt 10, Brooklyn, NY 11211",
+      "naturalWidth": 1199,
+      "naturalHeight": 800,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 729,
+        "y": 4921,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://jagmedia1.airpear.net/Aptphotos/108621734_IMG_0546.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "256 North 9th Street, Apt 2B, Brooklyn, NY 11211",
+      "naturalWidth": 1500,
+      "naturalHeight": 984,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1055,
+        "y": 4921,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1070,
+        "y": 5290,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: REBNY",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 75,
+        "y": 5568,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: OneKey",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 126,
+        "y": 5568,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY426511781_f0488276-3be0-40cd-9839-7345b51471e1.jpeg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "33-64 21st Street, Apt 6-C, Astoria, NY 11106",
+      "naturalWidth": 2048,
+      "naturalHeight": 1365,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 76,
+        "y": 5791,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 91,
+        "y": 6140,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427302939_5f65b3cf-7d25-4448-bbf2-c681f805927d.jpeg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "3514 30th Avenue, Astoria, NY 11103",
+      "naturalWidth": 1512,
+      "naturalHeight": 2016,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 402,
+        "y": 5791,
+        "w": 309,
+        "h": 412
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 417,
+        "y": 6320,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297114_ba55c9bc-5504-45c5-a861-b814b19ae520.jpeg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "2540 Shore Boulevard, Apt 20-N, Astoria, NY 11102",
+      "naturalWidth": 1730,
+      "naturalHeight": 1372,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 729,
+        "y": 5791,
+        "w": 309,
+        "h": 245
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 744,
+        "y": 6173,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297087_8c104f29-7b1a-460b-bae4-a1263a6d55e0.jpeg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "1833 27th Avenue, Astoria, NY 11102",
+      "naturalWidth": 2048,
+      "naturalHeight": 1536,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1055,
+        "y": 5791,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1070,
+        "y": 6140,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: REBNY",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 75,
+        "y": 6415,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: OneKey",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 126,
+        "y": 6415,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://media.elliman.com/01a0f44b-e732-71f0-ad28-796769676fb7.webp",
+      "srcset": null,
+      "sizes": null,
+      "alt": "405 West 23rd Street, Apt 7J, New York, NY 10011",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 76,
+        "y": 6638,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 91,
+        "y": 7007,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://media.elliman.com/01a0fd2f-5ae7-78e2-acac-e65cf3396a4a.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "100 West 15th Street, Apt 5F, New York, NY 10011",
+      "naturalWidth": 1920,
+      "naturalHeight": 1280,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 402,
+        "y": 6638,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 417,
+        "y": 7007,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/01941d8c-2ca5-447c-8900-d245f9aaea5a.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "315 Seventh Avenue, Apt 8-D, New York, NY 10001",
+      "naturalWidth": 1200,
+      "naturalHeight": 800,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 729,
+        "y": 6638,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://corcjagmedia1.airpear.net/Aptphotos/115033550_DSC_8986_1.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "256 West 21st Street, Apt G1, New York, NY 10011",
+      "naturalWidth": 1500,
+      "naturalHeight": 1000,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_image__UtUoL",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1055,
+        "y": 6638,
+        "w": 309,
+        "h": 232
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Listing data source",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": "lazy",
+      "parentClasses": "listing-discovery_body__soygB",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1070,
+        "y": 7007,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: REBNY",
+      "naturalWidth": 710,
+      "naturalHeight": 444,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 75,
+        "y": 7102,
+        "w": 29,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "IDX: OneKey",
+      "naturalWidth": 1101,
+      "naturalHeight": 384,
+      "loading": null,
+      "parentClasses": "listings-disclaimer_logos__D3PID",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 126,
+        "y": 7102,
+        "w": 52,
+        "h": 18
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e7a1ff18.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 93px, 346px",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "arrows-section_arrow___KXxg",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 276,
+        "y": 7546,
+        "w": 260,
+        "h": 330
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.58bf2fb8.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 93px, 346px",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "arrows-section_arrow___KXxg",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 486,
+        "y": 7579,
+        "w": 208,
+        "h": 264
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.483e04ae.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 93px, 346px",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "arrows-section_arrow___KXxg",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 695,
+        "y": 7579,
+        "w": 208,
+        "h": 264
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ea5fa732.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 93px, 346px",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "arrows-section_arrow___KXxg",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 904,
+        "y": 7579,
+        "w": 208,
+        "h": 264
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=375&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=375&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=768&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=768&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1024&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1024&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1200&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1200&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1400&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1400&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1600&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1600&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f6e8f2e8.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "assymetric-image-split_small-img__199s0",
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": 75,
+        "y": 9285,
+        "w": 273,
+        "h": 323
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=375&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=375&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=768&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=768&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1024&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1024&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1200&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1200&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1400&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1400&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1600&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1600&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.41633fa6.jpg&w=1920&q=95&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "assymetric-image-split_image___yxAD",
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": 633,
+        "y": 9022,
+        "w": 732,
+        "h": 516
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.52131ac7.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.52131ac7.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.52131ac7.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 2x",
+      "sizes": null,
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "testimonials_preview___uhyO",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 75,
+        "y": 10276,
+        "w": 732,
+        "h": 516
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuy.fed72bc8.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "100vw",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "services_item-bg___wJGg",
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": -36,
+        "y": 11199,
+        "w": 1512,
+        "h": 314
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsell.90b8e66b.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "100vw",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "services_item-bg___wJGg",
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": -36,
+        "y": 11499,
+        "w": 1512,
+        "h": 314
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=375&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=768&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1024&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1400&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1600&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frent.6736c732.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w",
+      "sizes": "100vw",
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "services_item-bg___wJGg",
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": -36,
+        "y": 11799,
+        "w": 1512,
+        "h": 314
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmortgage-services.e92904b1.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmortgage-services.e92904b1.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmortgage-services.e92904b1.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 2x",
+      "sizes": null,
+      "alt": "Mortgage Services",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "features_item-bg__gntQ1",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 73,
+        "y": 12799,
+        "w": 419,
+        "h": 356
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproperty-management.7a9cbb34.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproperty-management.7a9cbb34.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproperty-management.7a9cbb34.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 2x",
+      "sizes": null,
+      "alt": "Property Management",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "features_item-bg__gntQ1",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 510,
+        "y": 12799,
+        "w": 419,
+        "h": 356
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdevelopment.0de63e1b.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdevelopment.0de63e1b.jpg&w=1200&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdevelopment.0de63e1b.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 2x",
+      "sizes": null,
+      "alt": "Property Management",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "features_item-bg__gntQ1",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 948,
+        "y": 12799,
+        "w": 419,
+        "h": 356
+      }
+    },
+    {
+      "src": "https://fresh-boot-3c0a0dc212.media.strapiapp.com/Untitled_design_2026_09_02_T035929_341_6ca6e73a0f.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "FIND Real Estate Featured in Redfin: What It Really Costs to Live in Harry Styles’ Neighborhood",
+      "naturalWidth": 1464,
+      "naturalHeight": 900,
+      "loading": null,
+      "parentClasses": "image_container__RA4p4 image_loaded__kIqzn",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 633,
+        "y": 13613,
+        "w": 732,
+        "h": 338
+      }
+    },
+    {
+      "src": "https://fresh-boot-3c0a0dc212.media.strapiapp.com/nyc_604e40fa02.png",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Q1 2026 NYC Market Report",
+      "naturalWidth": 1464,
+      "naturalHeight": 900,
+      "loading": null,
+      "parentClasses": "image_container__RA4p4 image_loaded__kIqzn",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 633,
+        "y": 13997,
+        "w": 732,
+        "h": 338
+      }
+    },
+    {
+      "src": "https://fresh-boot-3c0a0dc212.media.strapiapp.com/jonathan_gong_tl3jdt_Z_u_YM_unsplash_5f055e7e75.jpg",
+      "srcset": null,
+      "sizes": null,
+      "alt": "Philly Real Estate: A Winter Chill or a Spring Opportunity?",
+      "naturalWidth": 6000,
+      "naturalHeight": 4000,
+      "loading": null,
+      "parentClasses": "image_container__RA4p4 image_loaded__kIqzn",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 633,
+        "y": 14380,
+        "w": 732,
+        "h": 338
+      }
+    },
+    {
+      "src": "https://www.findrealestate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.ec610793.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+      "srcset": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.ec610793.jpg&w=1920&q=75&dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1x",
+      "sizes": null,
+      "alt": "",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "loading": "lazy",
+      "parentClasses": "outro_bg__9kU9x",
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 14854,
+        "w": 1440,
+        "h": 675
+      }
+    }
+  ],
+  "backgroundImages": [
+    {
+      "bg": "linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255))",
+      "tag": "div",
+      "classes": "hero_overlay__7ubgG",
+      "rect": {
+        "x": 0,
+        "y": 3353,
+        "w": 1440,
+        "h": 232
+      }
+    },
+    {
+      "bg": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\"><path fill=\\\"%23151717\\\" d=\\\"M7.52 1.46a.5.5 0 0 1 .96 0l1.2 3.72c.07.2.26.35.48.35h3.91a.5.5 0 0 1 .3.9l-3.17 2.3a.5.5 0 0 0-.18.56l1.2 3.72a.5.5 0 0 1-.76.56l-3.17-2.3a.5.5 0 0 0-.58 0l-3.17 2.3a.5.5 0 0 1-.77-.56l1.21-3.72a.5.5 0 0 0-.18-.56l-3.16-2.3a.5.5 0 0 1 .29-.9h3.91a.5.5 0 0 0 .48-.35l1.2-3.72Z\\\"/></svg>\")",
+      "tag": "div",
+      "classes": "testimonials_rating__EHl0R",
+      "rect": {
+        "x": 1073,
+        "y": 10592,
+        "w": 75,
+        "h": 15
+      }
+    },
+    {
+      "bg": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\"><path fill=\\\"%23151717\\\" d=\\\"M7.52 1.46a.5.5 0 0 1 .96 0l1.2 3.72c.07.2.26.35.48.35h3.91a.5.5 0 0 1 .3.9l-3.17 2.3a.5.5 0 0 0-.18.56l1.2 3.72a.5.5 0 0 1-.76.56l-3.17-2.3a.5.5 0 0 0-.58 0l-3.17 2.3a.5.5 0 0 1-.77-.56l1.21-3.72a.5.5 0 0 0-.18-.56l-3.16-2.3a.5.5 0 0 1 .29-.9h3.91a.5.5 0 0 0 .48-.35l1.2-3.72Z\\\"/></svg>\")",
+      "tag": "div",
+      "classes": "testimonials_rating__EHl0R",
+      "rect": {
+        "x": 1472,
+        "y": 10647,
+        "w": 75,
+        "h": 15
+      }
+    },
+    {
+      "bg": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\"><path fill=\\\"%23151717\\\" d=\\\"M7.52 1.46a.5.5 0 0 1 .96 0l1.2 3.72c.07.2.26.35.48.35h3.91a.5.5 0 0 1 .3.9l-3.17 2.3a.5.5 0 0 0-.18.56l1.2 3.72a.5.5 0 0 1-.76.56l-3.17-2.3a.5.5 0 0 0-.58 0l-3.17 2.3a.5.5 0 0 1-.77-.56l1.21-3.72a.5.5 0 0 0-.18-.56l-3.16-2.3a.5.5 0 0 1 .29-.9h3.91a.5.5 0 0 0 .48-.35l1.2-3.72Z\\\"/></svg>\")",
+      "tag": "div",
+      "classes": "testimonials_rating__EHl0R",
+      "rect": {
+        "x": 2019,
+        "y": 10647,
+        "w": 75,
+        "h": 15
+      }
+    },
+    {
+      "bg": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\"><path fill=\\\"%23151717\\\" d=\\\"M7.52 1.46a.5.5 0 0 1 .96 0l1.2 3.72c.07.2.26.35.48.35h3.91a.5.5 0 0 1 .3.9l-3.17 2.3a.5.5 0 0 0-.18.56l1.2 3.72a.5.5 0 0 1-.76.56l-3.17-2.3a.5.5 0 0 0-.58 0l-3.17 2.3a.5.5 0 0 1-.77-.56l1.21-3.72a.5.5 0 0 0-.18-.56l-3.16-2.3a.5.5 0 0 1 .29-.9h3.91a.5.5 0 0 0 .48-.35l1.2-3.72Z\\\"/></svg>\")",
+      "tag": "div",
+      "classes": "testimonials_rating__EHl0R",
+      "rect": {
+        "x": 2505,
+        "y": 10675,
+        "w": 75,
+        "h": 15
+      }
+    },
+    {
+      "bg": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\"><path fill=\\\"%23151717\\\" d=\\\"M7.52 1.46a.5.5 0 0 1 .96 0l1.2 3.72c.07.2.26.35.48.35h3.91a.5.5 0 0 1 .3.9l-3.17 2.3a.5.5 0 0 0-.18.56l1.2 3.72a.5.5 0 0 1-.76.56l-3.17-2.3a.5.5 0 0 0-.58 0l-3.17 2.3a.5.5 0 0 1-.77-.56l1.21-3.72a.5.5 0 0 0-.18-.56l-3.16-2.3a.5.5 0 0 1 .29-.9h3.91a.5.5 0 0 0 .48-.35l1.2-3.72Z\\\"/></svg>\")",
+      "tag": "div",
+      "classes": "testimonials_rating__EHl0R",
+      "rect": {
+        "x": 3034,
+        "y": 10647,
+        "w": 75,
+        "h": 15
+      }
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://www.findrealestate.com/videos/why-us.mp4",
+      "sources": [],
+      "poster": "",
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "playsInline": true
+    }
+  ],
+  "favicons": [
+    {
+      "href": "https://www.findrealestate.com/favicon.ico",
+      "sizes": "48x48",
+      "rel": "icon"
+    },
+    {
+      "href": "https://www.findrealestate.com/icon.svg?4da604c165d9faaa",
+      "sizes": "any",
+      "rel": "icon"
+    },
+    {
+      "href": "https://www.findrealestate.com/apple-icon.png?a541775b48fe0eb0",
+      "sizes": "180x180",
+      "rel": "apple-touch-icon"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "burger-menu_wrapper__gKR7D",
+      "top": 0,
+      "height": 900,
+      "dataset": {
+        "lenisPrevent": "true"
+      },
+      "childCount": 3,
+      "firstText": "SearchNeighborhoodsAgentsJoinPaperworkResourcesAboutSign In",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "burger-menu_backdrop__wfXK5",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "burger-menu_content__rv4kf",
+      "top": 59,
+      "height": 752,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "SearchNeighborhoodsAgentsJoinPaperworkResourcesAbout",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": "burger-menu_nav__dAhwA",
+      "top": 59,
+      "height": 752,
+      "dataset": {},
+      "childCount": 7,
+      "firstText": "SearchNeighborhoodsAgentsJoinPaperworkResourcesAbout",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "main",
+      "id": null,
+      "classes": "",
+      "top": 59,
+      "height": 15470,
+      "dataset": {},
+      "childCount": 12,
+      "firstText": "Find What Moves YouExpert agents. Real guidance. A clear path to find what’s next.Find PropertiesWhy FINDYour life’s cha",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "hero_root__N0Loz",
+      "top": -15,
+      "height": 4500,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Find What Moves YouExpert agents. Real guidance. A clear path to find what’s next.Find Properties",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_top__WegWw",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Find What Moves YouExpert agents. Real guidance. A clear path to find what’s next.Find Properties",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_bg__S_r_n",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 6,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_back__8ReFI",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 0,
+      "height": 900,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_house__aJy7p",
+      "top": 534,
+      "height": 1284,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 534,
+      "height": 1284,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_composite__3blHB",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_house__aJy7p",
+      "top": 534,
+      "height": 1284,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 534,
+      "height": 1284,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_clouds__bC7V4",
+      "top": 0,
+      "height": 900,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_cloud__TvA3o",
+      "top": 225,
+      "height": 358,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 225,
+      "height": 358,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_cloud__TvA3o",
+      "top": 180,
+      "height": 298,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 180,
+      "height": 298,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_logo__FxgRj",
+      "top": 291,
+      "height": 317,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": "[object SVGAnimatedString]",
+      "top": 291,
+      "height": 317,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": "[object SVGAnimatedString]",
+      "top": 292,
+      "height": 315,
+      "dataset": {},
+      "childCount": 13,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_smoke__8za_R",
+      "top": 758,
+      "height": 465,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 758,
+      "height": 465,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_content__DK_Ny",
+      "top": 2,
+      "height": 899,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Find What Moves YouExpert agents. Real guidance. A clear path to find what’s next.Find Properties",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 253,
+      "height": 225,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Find What Moves YouExpert agents. Real guidance. A clear path to find what’s next.Find Properties",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_overlap__d3EJV",
+      "top": -15,
+      "height": 3600,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_smoke__8za_R",
+      "top": 3120,
+      "height": 465,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 3120,
+      "height": 465,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "hero_overlay__7ubgG",
+      "top": 3353,
+      "height": 232,
+      "dataset": {},
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "why-us_root__aGsFp",
+      "top": 3585,
+      "height": 1225,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Why FINDYour life’s changing. Don’t just find a place — find what’s next. We help you move forward with clarity, confide",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 3698,
+      "height": 1000,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Why FINDYour life’s changing. Don’t just find a place — find what’s next. We help you move forward with clarity, confide",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "why-us_grid__RSZoF",
+      "top": 3698,
+      "height": 193,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Why FINDYour life’s changing. Don’t just find a place — find what’s next. We help you move forward with clarity, confide",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "why-us_text__rT1u9",
+      "top": 3698,
+      "height": 193,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "Your life’s changing. Don’t just find a place — find what’s next. We help you move forward with clarity, confidence, and",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "why-us_preview__OofJt",
+      "top": 3966,
+      "height": 732,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "video",
+      "id": null,
+      "classes": "",
+      "top": 3966,
+      "height": 732,
+      "dataset": {},
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "listing-discovery_home__TRCXV",
+      "top": 4810,
+      "height": 2510,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Homes in WilliamsburgSee all homes →$4,500,000For Sale · 8 beds · 4 baths75 South 9th Street, Apt Building, Brooklyn, NY",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 4870,
+      "height": 2375,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Homes in WilliamsburgSee all homes →$4,500,000For Sale · 8 beds · 4 baths75 South 9th Street, Apt Building, Brooklyn, NY",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "listing-discovery_row__jcdo5",
+      "top": 4870,
+      "height": 840,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Homes in WilliamsburgSee all homes →$4,500,000For Sale · 8 beds · 4 baths75 South 9th Street, Apt Building, Brooklyn, NY",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "listing-discovery_cards__Qkxq9",
+      "top": 4920,
+      "height": 587,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "$4,500,000For Sale · 8 beds · 4 baths75 South 9th Street, Apt Building, Brooklyn, NY 11249Williamsburg$4,200/moFor Rent ",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "listing-discovery_row__jcdo5",
+      "top": 5740,
+      "height": 817,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Homes in AstoriaSee all homes →$519,999For Sale · 2 beds · 1 bath33-64 21st Street, Apt 6-C, Astoria, NY 11106Astoria$1,",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "listing-discovery_cards__Qkxq9",
+      "top": 5790,
+      "height": 564,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "$519,999For Sale · 2 beds · 1 bath33-64 21st Street, Apt 6-C, Astoria, NY 11106Astoria$1,900/moFor Rent · 1 bed · 1 bath",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "listing-discovery_row__jcdo5",
+      "top": 6588,
+      "height": 657,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Homes in ChelseaSee all homes →$590,000For Sale · Studio · 1 bath405 West 23rd Street, Apt 7J, New York, NY 10011Chelsea",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "listing-discovery_cards__Qkxq9",
+      "top": 6637,
+      "height": 404,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "$590,000For Sale · Studio · 1 bath405 West 23rd Street, Apt 7J, New York, NY 10011Chelsea$525,000For Sale · Studio · 1 b",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "arrows-section_root__yyPBl",
+      "top": 7320,
+      "height": 823,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "This isn’t just about real estate.It’s about identity. Progress. Getting unstuck. You’re not just looking for a place. Y",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 7432,
+      "height": 598,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "This isn’t just about real estate.It’s about identity. Progress. Getting unstuck. You’re not just looking for a place. Y",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "arrows-section_arrows__BPayV",
+      "top": 7546,
+      "height": 330,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "",
+      "top": 8142,
+      "height": 645,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Real Estate,Rewired.Start Your SearchSteps:Talk to a Real Human. We match you with an expert who actually listens.Get Cl",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "rewired_wrapper__mqx1v",
+      "top": 8142,
+      "height": 645,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Real Estate,Rewired.Start Your SearchSteps:Talk to a Real Human. We match you with an expert who actually listens.Get Cl",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 8255,
+      "height": 420,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Real Estate,Rewired.Start Your SearchSteps:Talk to a Real Human. We match you with an expert who actually listens.Get Cl",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-cols_row__tAyrs",
+      "top": 8255,
+      "height": 420,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Real Estate,Rewired.Start Your SearchSteps:Talk to a Real Human. We match you with an expert who actually listens.Get Cl",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-cols_col__yB8jY",
+      "top": 8255,
+      "height": 420,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Steps:Talk to a Real Human. We match you with an expert who actually listens.Get Clarity. We define what you really need",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "",
+      "top": 8255,
+      "height": 420,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Steps:Talk to a Real Human. We match you with an expert who actually listens.Get Clarity. We define what you really need",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "",
+      "top": 8309,
+      "height": 367,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Talk to a Real Human. We match you with an expert who actually listens.Get Clarity. We define what you really need, not ",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "",
+      "top": 8788,
+      "height": 1247,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "For AgentsDon’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We giv",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "for-agents_wrapper__Os8to",
+      "top": 8788,
+      "height": 1247,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "For AgentsDon’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We giv",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 8900,
+      "height": 1022,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "For AgentsDon’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We giv",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-cols_row__tAyrs",
+      "top": 8900,
+      "height": 1022,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "For AgentsDon’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We giv",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-cols_col__yB8jY",
+      "top": 8900,
+      "height": 1022,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Don’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We give top perf",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-image-split_right-col__HoO1A",
+      "top": 8900,
+      "height": 1022,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Don’t Rent Your Career. Own It.At FIND, our agents don’t just work for the brand—they own a part of it. We give top perf",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "assymetric-image-split_image___yxAD",
+      "top": 9022,
+      "height": 516,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 9022,
+      "height": 516,
+      "dataset": {
+        "nimg": "fill"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "",
+      "top": 9598,
+      "height": 323,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "At FIND, our agents don’t just work for the brand—they own a part of it. We give top performers real equity, so they’re ",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "for-agents_below-text__DBjLv",
+      "top": 9598,
+      "height": 250,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "At FIND, our agents don’t just work for the brand—they own a part of it. We give top performers real equity, so they’re ",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "em",
+      "top": 9630,
+      "height": 216,
+      "dataset": {},
+      "childCount": 0,
+      "firstText": "We give top performers real equity, so they’re invested in more than just your transaction—they're invested in your outc",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "testimonials_root__PiYLZ",
+      "top": 10034,
+      "height": 870,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "Don’t Take Our Word for It.\"Michael was a great realtor. Such a hard worker, dedicated to helping us find the perfect ne",
+      "bg": "rgb(241, 241, 241)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 10147,
+      "height": 645,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "Don’t Take Our Word for It.\"Michael was a great realtor. Such a hard worker, dedicated to helping us find the perfect ne",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "testimonials_grid__S3Kng",
+      "top": 10276,
+      "height": 516,
+      "dataset": {},
+      "childCount": 2,
+      "firstText": "\"Michael was a great realtor. Such a hard worker, dedicated to helping us find the perfect neighborhood, price point and",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "testimonials_grid-col__LIQw1",
+      "top": 10276,
+      "height": 516,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "testimonials_preview___uhyO",
+      "top": 10276,
+      "height": 516,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 10276,
+      "height": 516,
+      "dataset": {
+        "nimg": "1"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "classes": "services_root__Ch_WM",
+      "top": 10904,
+      "height": 1547,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "ServicesHow FIND Can Help YouBuy smarter with expert agents backed by mortgage, legal, and appraisal pros—dialed in to g",
+      "bg": "rgb(21, 23, 23)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "services_items__PESAO",
+      "top": 11205,
+      "height": 901,
+      "dataset": {},
+      "childCount": 3,
+      "firstText": "Buy smarter with expert agents backed by mortgage, legal, and appraisal pros—dialed in to get you the best deal, fast. W",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "services_item__D_u7g",
+      "top": 11205,
+      "height": 300,
+      "dataset": {
+        "state": "closed"
+      },
+      "childCount": 1,
+      "firstText": "Buy smarter with expert agents backed by mortgage, legal, and appraisal pros—dialed in to get you the best deal, fast. W",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 11207,
+      "height": 297,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "Buy smarter with expert agents backed by mortgage, legal, and appraisal pros—dialed in to get you the best deal, fast. W",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "services_item-bg___wJGg",
+      "top": 11199,
+      "height": 314,
+      "dataset": {},
+      "childCount": 1,
+      "firstText": "",
+      "bg": "rgb(26, 28, 28)"
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "",
+      "top": 11199,
+      "height": 314,
+      "dataset": {
+        "nimg": "fill"
+      },
+      "childCount": 0,
+      "firstText": "",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "services_item__D_u7g",
+      "top": 11505,
+      "height": 300,
+      "dataset": {
+        "state": "closed"
+      },
+      "childCount": 1,
+      "firstText": "Sell fast, sell high. Your listing gets pro staging, strategic pricing, constant open houses, and agents who never stop ",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "container_container__v5gtR",
+      "top": 11507,
+      "height": 297,
+      "dataset": {},
+      "childCount": 4,
+      "firstText": "Sell fast, sell high. Your listing gets pro staging, strategic pricing, constant open houses, and agents who never stop ",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "cssVars": {
+    "--font-primary": "",
+    "--font-secondary": "",
+    "--full-width": "calc(100vw + 0px)",
+    "--swiper-scrollbar-bg-color": "",
+    "--swiper-scrollbar-border-radius": "",
+    "--swiper-scrollbar-sides-offset": "",
+    "--swiper-scrollbar-size": "",
+    "--swiper-scrollbar-bottom": "",
+    "--swiper-scrollbar-drag-bg-color": "",
+    "--solo": "",
+    "--avatar-size": "",
+    "--size": "",
+    "--icon-size": "",
+    "--gap": "",
+    "--aspect-ratio": "",
+    "--slide-width": "",
+    "--padding": "",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-preloader-color": "",
+    "--p": ""
+  },
+  "scriptSrcs": [
+    "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.108.0/core-en.js",
+    "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+    "https://connect.facebook.net/signals/config/2879346719108936?v=2.9.414&r=stable&domain=www.findrealestate.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://embeds.iubenda.com/widgets/90f9d31e-bf06-414e-88c4-05282220eafe.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-PQQ5DTWQ",
+    "https://www.findrealestate.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/1255-ce331652855bc096.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/main-app-b7ac91ae224968d9.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/c15bf2b0-1894ff94ed039d0f.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/7605-e8c59d9d93203c75.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/5580-a4808b0cf38336a6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/8493-eabb64bffdc2c959.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/268-f5ebced453d17f84.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/8241-316ea64c71753dcf.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/layout-9954496755e00be4.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/5697-0a3cbad00af0547a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/1207-c5b2738d9f9af787.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/919-21105c8b55532aec.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/9427-d27953b805769efa.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/7520-e3e24f2f1b664bc8.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/4628-3ff206df99d738a1.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/1912-abfb749a7d02dd70.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/6348-da34bed15522b681.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/5271-feb8ffd14690bee5.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/9134-f2dffbf8b037dfac.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/9868-d7739c55d8b44e96.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/8314-69e9c22c7d08a819.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/error-8a4d24a502e1ce28.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/(home)/layout-0b33e2184a726eae.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/(dark)/not-found-6c03e2486a1debf3.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/7457-42d61bd19b7e339a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/(join-pro)/layout-f527b63a8cd85e30.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/(landing)/layout-88c1fcecb45f7b41.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/8527-ad2da9b06241478e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/8276-6483413b5a32d4ba.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/7300-de0e9bdc43841de6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/3677-311d860b167e68ff.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/3070-f1c72743eb81cbb5.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/9911-e8cd64fb3da6907e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/app/(home)/page-1a3b644319932385.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.google.com/recaptcha/api.js?render=6LdnFyItAAAAAMI3gpLJjwOb8UDP8dDyH9L3l9x3",
+    "https://www.findrealestate.com/_next/static/chunks/app/(light)/neighborhoods/page-c4d030f92eb982f6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo",
+    "https://www.findrealestate.com/_next/static/chunks/webpack-04f200ac0947df6e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+  ],
+  "linkHrefs": [
+    {
+      "rel": "preload",
+      "href": "https://www.findrealestate.com/_next/static/media/26d0ba92e140f0dc-s.p.woff2"
+    },
+    {
+      "rel": "preload",
+      "href": "https://www.findrealestate.com/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2"
+    },
+    {
+      "rel": "preload",
+      "href": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png"
+    },
+    {
+      "rel": "preload",
+      "href": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/e2782cd3e79a266b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/3e4de9e2f1642d9b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/d298f74ff67acb3b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/e57884f9deb6ac47.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/33f3cda2aa79f5e3.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/b1a3e0b8c491fb9c.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/71f84529a6422d60.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/ecb3f615dc4b3a15.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/76625cdb983d5d00.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/9d77dbede7dc22a9.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/9044e4a6e5dba7a8.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.findrealestate.com/_next/static/css/b5b2aff2d516d26f.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "preload",
+      "href": "https://www.findrealestate.com/_next/static/chunks/webpack-04f200ac0947df6e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo"
+    },
+    {
+      "rel": "manifest",
+      "href": "https://www.findrealestate.com/manifest.webmanifest"
+    },
+    {
+      "rel": "canonical",
+      "href": "https://www.findrealestate.com/"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.findrealestate.com/favicon.ico"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.findrealestate.com/icon.svg?4da604c165d9faaa"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.findrealestate.com/apple-icon.png?a541775b48fe0eb0"
+    }
+  ],
+  "headInner": "<meta http-equiv=\"origin-trial\" content=\"A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"/_next/static/media/26d0ba92e140f0dc-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=375&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=375&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=768&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=768&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1024&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1024&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1200&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1200&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1400&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1400&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1600&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1600&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1920&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhouse.8ed9b3db.png&amp;w=1920&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w\" imagesizes=\"(max-width: 640px) 400px, (max-width: 1640px) 700px, 75vw\"><link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=375&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=375&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 375w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=768&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=768&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 768w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1024&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1024&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1024w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1200&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1200&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1400&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1400&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1400w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1600&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1600&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1600w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1920&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmoke.9f683cb4.png&amp;w=1920&amp;q=75&amp;dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo 1920w\" imagesizes=\"(max-width: 640px) 75vw, (max-width: 1024px) 50vw, 33vw\"><link rel=\"preload\" as=\"image\" href=\"https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png\"><link rel=\"preload\" as=\"image\" href=\"https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png\"><link rel=\"stylesheet\" href=\"/_next/static/css/e2782cd3e79a266b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/3e4de9e2f1642d9b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/d298f74ff67acb3b.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/e57884f9deb6ac47.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/33f3cda2aa79f5e3.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/b1a3e0b8c491fb9c.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/71f84529a6422d60.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/ecb3f615dc4b3a15.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/76625cdb983d5d00.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/9d77dbede7dc22a9.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/9044e4a6e5dba7a8.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"/_next/static/css/b5b2aff2d516d26f.css?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" data-precedence=\"next\"><link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-04f200ac0947df6e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\"><script src=\"https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.108.0/core-en.js\" charset=\"UTF-8\"></script><script type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js\" crossorigin=\"anonymous\" integrity=\"sha384-hC9D98xBXYbEu4dt1OTOUEfSfKHxW5VSB/KvC5wfm1Dl42E/ppKetKNpzoO9NCxo\"></script><script src=\"https://connect.facebook.net/signals/config/2879346719108936?v=2.9.414&amp;r=stable&amp;domain=www.findrealestate.com&amp;hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&amp;ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188\" async=\"\"></script><script async=\"\" src=\"https://connect.facebook.net/en_US/fbevents.js\"></script><script type=\"text/javascript\" async=\"\" src=\"https://embeds.iubenda.com/widgets/90f9d31e-bf06-414e-88c4-05282220eafe.js\"></script><script async=\"\" src=\"https://www.googletagmanager.com/gtm.js?id=GTM-PQQ5DTWQ\"></script><script src=\"/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/1255-ce331652855bc096.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-b7ac91ae224968d9.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/c15bf2b0-1894ff94ed039d0f.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/7605-e8c59d9d93203c75.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/5580-a4808b0cf38336a6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/8493-eabb64bffdc2c959.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/268-f5ebced453d17f84.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/8241-316ea64c71753dcf.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/layout-9954496755e00be4.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/5697-0a3cbad00af0547a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/1207-c5b2738d9f9af787.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/919-21105c8b55532aec.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/9427-d27953b805769efa.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/7520-e3e24f2f1b664bc8.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/4628-3ff206df99d738a1.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/1912-abfb749a7d02dd70.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/6348-da34bed15522b681.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/5271-feb8ffd14690bee5.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/9134-f2dffbf8b037dfac.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/9868-d7739c55d8b44e96.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/8314-69e9c22c7d08a819.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/error-8a4d24a502e1ce28.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/(home)/layout-0b33e2184a726eae.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/(dark)/not-found-6c03e2486a1debf3.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/7457-42d61bd19b7e339a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/(join-pro)/layout-f527b63a8cd85e30.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/(landing)/layout-88c1fcecb45f7b41.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/8527-ad2da9b06241478e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/8276-6483413b5a32d4ba.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/7300-de0e9bdc43841de6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/3677-311d860b167e68ff.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/3070-f1c72743eb81cbb5.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/9911-e8cd64fb3da6907e.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><script src=\"/_next/static/chunks/app/(home)/page-1a3b644319932385.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" async=\"\"></script><meta name=\"next-size-adjust\" content=\"\"><title>FIND Real Estate | Purchase, Rent or Sell Commercial and Residential Real Estate</title><meta name=\"description\" content=\"FIND is an agent-owned real estate brokerage helping you buy, sell or rent in New York, New Jersey, Philadelphia, Connecticut and Miami.\"><link rel=\"manifest\" href=\"/manifest.webmanifest\"><link rel=\"canonical\" href=\"https://www.findrealestate.com\"><meta property=\"og:title\" content=\"FIND Real Estate | Purchase, Rent or Sell Commercial and Residential Real Estate\"><meta property=\"og:description\" content=\"FIND is an agent-owned real estate brokerage helping you buy, sell or rent in New York, New Jersey, Philadelphia, Connecticut and Miami.\"><meta property=\"og:site_name\" content=\"FIND Real Estate\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image:type\" content=\"image/png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image\" content=\"https://www.findrealestate.com/opengraph-image.png?8c59c28bc49b67f5\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"FIND Real Estate | Purchase, Rent or Sell Commercial and Residential Real Estate\"><meta name=\"twitter:description\" content=\"FIND is an agent-owned real estate brokerage helping you buy, sell or rent in New York, New Jersey, Philadelphia, Connecticut and Miami.\"><meta name=\"twitter:image:type\" content=\"image/png\"><meta name=\"twitter:image:width\" content=\"1200\"><meta name=\"twitter:image:height\" content=\"630\"><meta name=\"twitter:image\" content=\"https://www.findrealestate.com/opengraph-image.png?8c59c28bc49b67f5\"><link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"48x48\"><link rel=\"icon\" href=\"/icon.svg?4da604c165d9faaa\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"/apple-icon.png?a541775b48fe0eb0\" type=\"image/png\" sizes=\"180x180\"><script>(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"\\n            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\\n            })(window,document,'script','dataLayer','GTM-PQQ5DTWQ');\\n          \",\"id\":\"gtm-script\"}])</script><script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\" nomodule=\"\"></script><script id=\"gtm-script\">\n            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n            })(window,document,'script','dataLayer','GTM-PQQ5DTWQ');\n          </script><style id=\"_goober\"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style><script id=\"google-recaptcha-v3\" src=\"https://www.google.com/recaptcha/api.js?render=6LdnFyItAAAAAMI3gpLJjwOb8UDP8dDyH9L3l9x3\"></script><script charset=\"utf-8\" data-webpack=\"_N_E:chunk-2692\" src=\"/_next/static/chunks/app/(light)/neighborhoods/page-c4d030f92eb982f6.js?dpl=dpl_9Jktce8AkGLqpGkHe2EtqqzPEGFo\"></script>",
+  "bodyHTML": 185949
+}
