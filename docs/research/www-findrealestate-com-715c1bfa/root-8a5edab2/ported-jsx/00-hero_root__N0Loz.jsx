@@ -1,0 +1,97 @@
+<section className="hero_root" style={{ opacity: "1" }}>
+  <div className="hero_top">
+    <div className="hero_bg">
+      <div className="hero_back">
+        <img alt width="3840" height="2612" style={{ color: "transparent" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/back.f53e9773.jpg" /
+      </div>
+      <div className="hero_house" style={{ opacity: "1" }}>
+        <img alt loading="eager" width="3840" height="3416" style={{ color: "transparent", opacity: "1" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/house.8ed9b3db.png" /
+      </div>
+      <div className="hero_composite" style={{ opacity: "0" }}>
+        <div className="hero_house">
+          <img alt loading="eager" width="3840" height="3416" style={{ color: "transparent", opacity: "1" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/house.8ed9b3db.png" /
+        </div>
+      </div>
+      <div className="hero_clouds">
+        <div className="hero_cloud">
+          <img alt width="2248" height="954" style={{ color: "transparent" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/cloud.c8800fa9.png" /
+        </div>
+        <div className="hero_cloud">
+          <img alt width="2248" height="954" style={{ color: "transparent" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/cloud.c8800fa9.png" /
+        </div>
+      </div>
+      <div className="hero_logo" style={{ opacity: "0" }}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 977 423">
+          <g fill="currentColor">
+            <path d="M836.06 1.01c77.3 0 139.94 62.69 139.94 140C976 218.33 913.35 281 836.06 281H702.61V1.01zm-52.82 80.17v119.44h44.58a59.5 59.5 0 0 0 42.21-17.5 59.7 59.7 0 0 0-42.2-101.94z" data-letter="d" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M595.45 183.2V1h80.14v279.99H556.68l-73.33-152.93V281H403.2V1h110.33z" data-letter="n" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M376.19 280.99h-141l61.26-140.29L235.2 1h141v279.99Z" data-letter="i" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M244.55 81.28H81.14v59.42h101.02v80.17H81.14v60.12H1V1h207.91z" data-letter="f" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M610.88 350.4h18.48v13.96h-18.48v31.8c0 3.36.95 6.05 3 7.89 2.03 1.82 5.08 2.63 8.92 2.63 1.47 0 2.85-.14 4.15-.44.8-.19 1.6-.4 2.41-.63v14c-1.04.47-2.48.88-4.34 1.19a42 42 0 0 1-7.12.54c-9 0-15.5-2.16-19.73-6.29-4.13-4.22-6.29-10.69-6.29-19.59v-31.1h-13.3V350.4h13.3v-16.26l19-7.1z" data-letter="t" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M732.73 350.6h18.48v13.96h-18.48v31.8c0 3.36.94 6.05 3 7.89 2.03 1.82 5.07 2.63 8.92 2.63 1.46 0 2.85-.14 4.14-.44.8-.19 1.61-.4 2.42-.63v14c-1.05.47-2.49.87-4.35 1.18a41.7 41.7 0 0 1-7.11.55c-9 0-15.51-2.16-19.74-6.29-4.13-4.22-6.28-10.69-6.28-19.59v-31.1h-13.3V350.6h13.3v-16.27l19-7.09z" data-letter="t2" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M546.65 349c9.3 0 16.6 1.89 21.98 5.56v.01c5.05 3.36 7.93 7.96 8.69 13.85h-16.84a8.17 8.17 0 0 0-4.25-5.34c-2.46-1.42-5.83-2.08-10-2.08-3.8 0-6.8.56-8.9 1.81a5.9 5.9 0 0 0-3.16 5.35c0 2.04.93 3.69 2.67 4.88l.02.02h.02c1.65 1.04 4.26 1.9 7.74 2.66l12.89 2.66c7.04 1.46 12.24 4.18 15.7 8.08v.02a19.26 19.26 0 0 1 5.34 13.6c0 6.48-2.45 11.52-7.36 15.21l-.48.35c-5.18 3.66-12.64 5.56-22.52 5.56-10.33 0-18.42-2.08-24.36-6.13-5.6-3.82-8.77-8.98-9.54-15.53h16.83a10.8 10.8 0 0 0 5.06 7.13l.02.01.02.01c3 1.7 7.02 2.51 11.97 2.51 4.43 0 7.84-.6 10.04-1.97h.02a7.14 7.14 0 0 0 3.54-6.31c0-2.01-.7-3.67-2.18-4.82-1.33-1.21-3.65-2.09-6.73-2.74l-11.49-2.38c-8.15-1.7-14.1-4.2-17.93-7.43l-.37-.32c-3.78-3.44-5.68-7.83-5.68-13.25 0-6.6 2.52-11.66 7.56-15.29h.01c5.09-3.75 12.27-5.69 21.67-5.69" data-letter="s" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M508.46 321v14.52h-51.8v26.64h48.58v14.24h-48.58v28.88h53.48v14.52H437.1V321z" data-letter="e" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M404.3 321v98.8h-19V321z" data-letter="l" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M345.13 349c10.13 0 17.7 2.26 22.87 6.62 5.14 4.35 7.76 10.62 7.76 18.98v31.5c0 2.37.15 4.8.43 7.25v.05c.33 2 .79 4.14 1.37 6.4h-18.92c-.45-1.78-.8-3.68-1.04-5.68a89 89 0 0 1-.24-5l-1.89-.43a22.06 22.06 0 0 1-7.67 8.61c-4 2.58-8.94 3.9-14.86 3.9-6.92 0-12.3-1.73-16.28-5.08-3.96-3.43-5.96-7.95-5.96-13.66 0-6.34 2.35-11.37 7.06-15.18 4.85-3.96 11.65-6.57 20.5-7.77l17.64-2.49.87-.12v-4.54c0-3.14-1.08-5.68-3.3-7.48-2.12-1.9-5.2-2.76-9.05-2.76-3.64 0-6.68.62-9.03 1.95h-.01a9.6 9.6 0 0 0-4.28 5.19h-18.11c1.1-5.64 4.2-10.35 9.35-14.16 5.46-4.03 13.02-6.1 22.79-6.1m10.48 38.26-14.13 2.17c-3.82.57-6.78 1.64-8.76 3.3-2.03 1.71-3.02 4.06-3.02 6.93 0 2.6.96 4.7 2.94 6.13 1.9 1.37 4.37 2.01 7.3 2.01 4.58 0 8.53-1.22 11.8-3.7h.02v-.01c3.26-2.57 5-5.64 5-9.19v-7.81l-1.15.18ZM667.85 349c10.13 0 17.7 2.26 22.87 6.62 5.14 4.35 7.77 10.62 7.77 18.98v31.5c0 2.37.14 4.8.42 7.25v.03l.01.02c.32 2 .78 4.14 1.37 6.4h-18.93c-.45-1.78-.8-3.68-1.04-5.68-.12-1.5-.2-3.17-.24-5l-1.89-.43a22.05 22.05 0 0 1-7.66 8.61c-4.01 2.58-8.95 3.9-14.86 3.9-6.92 0-12.32-1.73-16.29-5.08-3.96-3.43-5.95-7.95-5.95-13.66 0-6.34 2.35-11.37 7.05-15.18 4.85-3.96 11.66-6.57 20.5-7.77l17.65-2.49.86-.12v-4.54c0-3.14-1.08-5.68-3.3-7.48-2.12-1.9-5.2-2.76-9.04-2.76-3.65 0-6.69.62-9.03 1.95h-.02a9.6 9.6 0 0 0-4.28 5.19h-18.1c1.1-5.64 4.19-10.35 9.34-14.16 5.47-4.03 13.03-6.1 22.79-6.1m10.49 38.26-14.14 2.17c-3.81.57-6.78 1.64-8.76 3.3-2.03 1.71-3.01 4.06-3.01 6.93 0 2.6.96 4.7 2.93 6.13 1.9 1.37 4.37 2.01 7.3 2.01 4.58 0 8.54-1.22 11.81-3.7l.02-.01c3.25-2.57 5-5.64 5-9.19v-7.81l-1.15.18Z" data-letter="a" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M269.54 349c7.23 0 13.45 1.46 18.7 4.36a30.73 30.73 0 0 1 12.2 12.07c2.9 5.15 4.36 11.22 4.36 18.27 0 1.47-.05 2.85-.14 4.13-.07.88-.16 1.74-.28 2.57h-53.25l.16 1.14c.63 4.51 2.05 8.16 4.32 10.86l.01.02c3.32 3.82 8.21 5.66 14.48 5.66 3.46 0 6.5-.58 9.1-1.77a12 12 0 0 0 5.65-5.37h17.7a30.76 30.76 0 0 1-10.68 14.2l-.5.36c-5.4 3.77-12.41 5.7-21.13 5.7-7.56 0-14.13-1.42-19.72-4.23l-.54-.28c-5.54-2.99-9.87-7.08-13.02-12.27l-.3-.5c-3.07-5.43-4.62-11.7-4.62-18.82 0-7.23 1.55-13.49 4.62-18.82a32.8 32.8 0 0 1 13.19-12.64c5.63-3.08 12.17-4.64 19.69-4.64m-.28 13.12c-5.76 0-10.36 1.97-13.66 5.96v.01c-1.93 2.42-3.25 5.52-3.98 9.26l-.24 1.19h34.26l-.08-1.08c-.37-4.67-1.8-8.34-4.4-10.86-2.94-3.02-6.95-4.48-11.9-4.48" data-letter="e2" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M789.93 349c7.24 0 13.46 1.46 18.7 4.36a30.73 30.73 0 0 1 12.2 12.07c2.9 5.15 4.36 11.22 4.36 18.27 0 1.47-.05 2.85-.14 4.13-.07.88-.16 1.74-.28 2.57h-53.25l.16 1.14c.63 4.51 2.05 8.16 4.32 10.86l.01.02c3.33 3.82 8.21 5.66 14.48 5.66 3.47 0 6.51-.58 9.1-1.77a12 12 0 0 0 5.65-5.37h17.7a30.75 30.75 0 0 1-10.68 14.2l-.5.36c-5.4 3.77-12.41 5.7-21.13 5.7-7.56 0-14.13-1.42-19.72-4.23l-.54-.28a33.5 33.5 0 0 1-13.02-12.27l-.3-.5c-3.07-5.43-4.62-11.7-4.62-18.82 0-7.23 1.55-13.49 4.62-18.82a32.8 32.8 0 0 1 13.19-12.64c5.63-3.08 12.18-4.64 19.69-4.64m-.28 13.12c-5.76 0-10.36 1.97-13.65 5.96v.01h-.01c-1.93 2.42-3.25 5.52-3.98 9.26l-.24 1.19h34.26l-.08-1.08c-.37-4.67-1.8-8.34-4.4-10.86-2.94-3.02-6.95-4.48-11.9-4.48" data-letter="e3" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+            <path d="M196.08 321c7.17 0 13.36 1.24 18.62 3.69h.01c5.26 2.36 9.3 5.7 12.18 10 2.86 4.3 4.31 9.33 4.31 15.13 0 5.7-1.44 10.68-4.3 14.98-2.88 4.21-6.92 7.55-12.19 10a42.7 42.7 0 0 1-14.92 3.45l-2.06.13 1.37 1.53 35.63 39.89h-26.4l-31.72-41.05-.3-.39h-4.75v41.44H152V321zm-24.52 43.54h23.96c5.27 0 9.46-1.2 12.41-3.74 3.06-2.65 4.55-6.3 4.55-10.84 0-4.6-1.43-8.22-4.4-10.7-2.96-2.55-7.2-3.74-12.56-3.74h-23.96z" data-letter="r" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+          </g>
+        </svg>
+      </div>
+      <div className="hero_smoke">
+        <img alt width="3840" height="1240" style={{ color: "transparent" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/smoke.9f683cb4.png" /
+      </div>
+    </div>
+    <div className="hero_content" style={{ opacity: "0.9669" }}>
+      <div className="container_container">
+        <div className="hero_title" aria-label="Find What Moves You">
+          <h1>
+            <div aria-hidden="true" aria-label="Find" style={{ position: "relative", display: "inline-block", margin: "-0.15em", padding: "0.15em", verticalAlign: "top", overflow: "hidden" }}>
+              <div aria-hidden="true" style={{ position: "relative", display: "inline-block" }}>Find</div>
+            </div>
+            <div aria-hidden="true" aria-label="What" style={{ position: "relative", display: "inline-block", margin: "-0.15em", padding: "0.15em", verticalAlign: "top", overflow: "hidden" }}>
+              <div aria-hidden="true" style={{ position: "relative", display: "inline-block" }}>What</div>
+            </div>
+            <div aria-hidden="true" aria-label="Moves" style={{ position: "relative", display: "inline-block", margin: "-0.15em", padding: "0.15em", verticalAlign: "top", overflow: "hidden" }}>
+              <div aria-hidden="true" style={{ position: "relative", display: "inline-block" }}>Moves</div>
+            </div>
+            <div aria-hidden="true" aria-label="You" style={{ position: "relative", display: "inline-block", margin: "-0.15em", padding: "0.15em", verticalAlign: "top", overflow: "hidden" }}>
+              <div aria-hidden="true" style={{ position: "relative", display: "inline-block" }}>You</div>
+            </div>
+          </h1>
+        </div>
+        <div className="hero_text" style={{ opacity: "1" }}>
+          <p>
+            Expert agents. Real guidance. 
+            <span className="em">A clear path to find what’s next.</span>
+          </p>
+        </div>
+        <div className="hero_actions" style={{ opacity: "1" }}>
+          <div>
+            <button type="button" className="button_button-round button_color-primary" aria-haspopup="dialog" aria-expanded="false">
+              <div className="button_content">
+                <div className="button_button-round-text">
+                  <span data-text="Find Properties">Find Properties</span>
+                </div>
+                <span className="button_icon-after">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="m20.78 12.531-6.75 6.75a.75.75 0 1 1-1.06-1.061l5.47-5.47H3.75a.75.75 0 1 1 0-1.5h14.69l-5.47-5.469a.75.75 0 1 1 1.06-1.061l6.75 6.75a.75.75 0 0 1 0 1.061" style={{ strokeDashoffset: "0.002", strokeDasharray: "0px, 999999px" }}></path>
+                  </svg>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div className="hero_overlap">
+      <div className="hero_smoke">
+        <img alt width="3840" height="1240" style={{ color: "transparent" }} src="/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/images/smoke.9f683cb4.png" /
+      </div>
+      <div className="hero_overlay"></div>
+    </div>
+  </div>
+</section>

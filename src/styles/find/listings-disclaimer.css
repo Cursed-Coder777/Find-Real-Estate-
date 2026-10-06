@@ -1,0 +1,25 @@
+.listings-disclaimer_em{color:#b3b3b3}
+.listings-disclaimer_invisible{visibility:hidden}
+.listings-disclaimer_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.listings-disclaimer_desktop-only{display:initial!important;pointer-events:auto}}
+.listings-disclaimer_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.listings-disclaimer_mobile-only{display:initial!important;pointer-events:auto}}
+.listings-disclaimer_underline{text-decoration:underline}
+.listings-disclaimer_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.listings-disclaimer_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.listings-disclaimer_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.listings-disclaimer_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.listings-disclaimer_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.listings-disclaimer_dropdown-content{padding:2rem 0}}
+.listings-disclaimer_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.listings-disclaimer_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.listings-disclaimer_dropdown-trigger.listings-disclaimer_underlined{border-bottom:1px solid #151717}
+.listings-disclaimer_dropdown-trigger.listings-disclaimer_outlined{border:1px solid rgba(21,23,23,.1)}
+.listings-disclaimer_disclaimer{margin-top:4rem;padding:3rem 0 4rem;border-top:1px solid #ededed}
+@media(min-width:768px){.listings-disclaimer_disclaimer{padding:4rem 0 5rem}}
+.listings-disclaimer_logos{display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin-bottom:2rem}
+@media(min-width:768px){.listings-disclaimer_logos{gap:3rem;margin-bottom:2.4rem}}
+.listings-disclaimer_logo{display:block;max-height:2.4rem;max-width:10rem;width:auto;height:auto;object-fit:contain}
+.listings-disclaimer_text{display:flex;flex-direction:column;gap:1rem}
+.listings-disclaimer_text p{font-size:1.5rem;font-weight:400;line-height:1.5;color:#9c9c9c}
+@media(min-width:768px){.listings-disclaimer_text p{font-size:1.2rem}}

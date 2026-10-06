@@ -1,0 +1,29 @@
+.why-us_em{color:#b3b3b3}
+.why-us_invisible{visibility:hidden}
+.why-us_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.why-us_desktop-only{display:initial!important;pointer-events:auto}}
+.why-us_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.why-us_mobile-only{display:initial!important;pointer-events:auto}}
+.why-us_underline{text-decoration:underline}
+.why-us_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.why-us_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.why-us_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.why-us_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.why-us_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.why-us_dropdown-content{padding:2rem 0}}
+.why-us_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.why-us_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.why-us_dropdown-trigger.why-us_underlined{border-bottom:1px solid #151717}
+.why-us_dropdown-trigger.why-us_outlined{border:1px solid rgba(21,23,23,.1)}
+.why-us_root{position:relative;padding:6rem 0;background:#fff}
+@media(min-width:768px){.why-us_root{padding:15rem 0}}
+.why-us_grid{display:grid;margin:0 0 6rem}
+@media(min-width:768px){.why-us_grid{grid-template-columns:auto 97.6rem;margin:0 0 10rem}}
+.why-us_grid-col:first-child{display:none}
+@media(min-width:768px){.why-us_grid-col:first-child{display:block}}
+.why-us_title{font-weight:600;font-size:2rem;line-height:140%}
+.why-us_text{font-weight:500;font-size:3rem;line-height:115%;letter-spacing:-.01em}
+@media(min-width:768px){.why-us_text{font-size:5.6rem;letter-spacing:-.03em}}
+.why-us_preview{margin:0 -2rem;aspect-ratio:365/450}
+@media(min-width:768px){.why-us_preview{margin:0;aspect-ratio:auto;height:97.6rem}}
+.why-us_preview img,.why-us_preview video{width:100%;height:100%;object-fit:cover}

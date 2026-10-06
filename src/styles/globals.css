@@ -1,6 +1,24 @@
 @import "tailwindcss";
 
+/*
+ * Foundation for the cloned findrealestate.com homepage.
+ *
+ * Tailwind v4 emits its preflight inside `@layer base`, so the unlayered CSS
+ * below always wins over it — which is what we want, because the next two
+ * imports reproduce the origin site's own reset, fluid root font-size and
+ * design tokens verbatim.
+ *
+ * `base.css` carries the origin's normalize.css v8 reset, the fluid
+ * `html { font-size }` scale that every `rem` in the design depends on, the
+ * body defaults, the Swiper/Lenis globals and the site keyframes.
+ *
+ * `index.css` pulls in the per-module stylesheets captured from the origin's
+ * CSS Modules (hash suffixes stripped: `hero_root__N0Loz` -> `.hero_root`).
+ */
+@import "./find/base.css";
+@import "./find/index.css";
+
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: var(--font-primary), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-secondary), ui-serif, Georgia, serif;
 }
