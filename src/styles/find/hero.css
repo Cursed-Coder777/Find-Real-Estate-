@@ -1,740 +1,358 @@
 /* ============================================================
-   PIXEL-PERFECT HERO SECTION
-   Matches: ezgif-frame-001.jpg → ezgif-frame-007.jpg → ezgif-frame-010.jpg
+   HERO SECTION - Pixel-perfect clone from findrealestate.com
+   Extracted via browser automation
    ============================================================ */
 
-/* --- Root container: tall scroll area (~300vh for cinematic scroll) --- */
+/* --- Root: 500vh tall with margin-top -9.8rem (matches live site) --- */
 .hero_root{
   position: relative;
-  width: 100%;
+  height: 500vh;
+  margin-top: -9.8rem;
+  margin-bottom: -100vh;
 }
 
-/* --- Sticky viewport: stays pinned while scrolling --- */
-.hero_sticky{
+@media (min-width: 768px) {
+  .hero_root{
+    height: 600vh;
+    margin-top: -9.8rem;
+  }
+}
+
+/* --- Sticky hero top: 100vh --- */
+.hero_top{
   position: sticky;
   top: 0;
   height: 100vh;
-  width: 100%;
+}
+
+/* --- Background layer --- */
+.hero_bg{
   overflow: hidden;
-  background: #CBE3F7;
+  pointer-events: none;
 }
 
-/* --- Scroll spacer: provides scroll distance --- */
-.hero_spacer{
-  height: 300vh;
-}
-
-/* ============================================================
-   FRAME 1: INITIAL STATE
-   Bright sky, building lower half, headline centered
-   ============================================================ */
-
-/* --- Sky background with gradient + warm glow (lower-left peach) --- */
-.hero_sky{
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: 
-    radial-gradient(ellipse at 20% 80%, rgba(244, 211, 197, 0.6) 0%, transparent 50%),
-    linear-gradient(
-      180deg,
-      #CBE3F7 0%,
-      #D4E8F7 25%,
-      #E8F4FC 55%,
-      #EEF7FC 70%,
-      #F4D3C5 100%
-    );
-}
-
-/* --- Navigation: top bar, high z-index (10) --- */
-.hero_nav{
+.hero_back,.hero_bg{
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 90px;
-  height: 100vh;
-  pointer-events: none;
-}
-
-.hero_nav-inner{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 72px;
-  pointer-events: auto;
-}
-
-/* LEFT: FIND logo - 90px from left, 25-30px from top */
-.hero_nav-left{
-  position: absolute;
-  left: 90px;
-  top: 28px;
-  display: flex;
-  align-items: center;
-}
-
-.hero_nav-logo{
-  font-size: 38px;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  color: #111;
-  font-family: inherit;
-  line-height: 1;
-}
-
-/* CENTER: Nav links - horizontally centered, vertically aligned with logo */
-.hero_nav-center{
-  position: absolute;
-  left: 50%;
-  top: 28px;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 36px;
-}
-
-.hero_nav-link{
-  font-size: 17px;
-  font-weight: 500;
-  color: #151717;
-  text-decoration: none;
-  letter-spacing: -0.01em;
-  white-space: nowrap;
-}
-
-.hero_nav-link:hover{
-  color: #444;
-}
-
-.hero_nav-dropdown-trigger{
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  cursor: pointer;
-}
-
-.hero_nav-arrow{
-  width: 14px;
-  height: 14px;
-  transition: transform 0.2s;
-}
-
-.hero_nav-dropdown:hover .hero_nav-arrow{
-  transform: rotate(180deg);
-}
-
-/* RIGHT: Sign In pill button - 90px from right, ~13px from top */
-.hero_nav-right{
-  position: absolute;
-  right: 90px;
-  top: 13px;
-  display: flex;
-  align-items: center;
-}
-
-.hero_nav-signin{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 115px;
-  height: 52px;
-  background: #111;
-  color: #fff;
-  border-radius: 30px;
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  letter-spacing: -0.01em;
-  transition: all 0.2s ease;
-  pointer-events: auto;
-}
-
-.hero_nav-signin:hover{
-  background: #222;
-  transform: translateY(-1px);
-}
-
-/* --- FRAME 1 hero content: headline + subtitle + CTA --- */
-.hero_content-frame1{
-  position: absolute;
-  top: 205px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 5;
-  text-align: center;
-  width: 100%;
-  pointer-events: none;
-}
-
-.hero_headline{
-  font-size: clamp(100px, 12.5vw, 130px);
-  font-weight: 900;
-  letter-spacing: -0.03em;
-  line-height: 0.95;
-  color: #111;
-  margin: 0;
-  font-family: inherit;
-}
-
-.hero_subtitle{
-  margin-top: 24px;
-  font-size: clamp(16px, 1.8vw, 20px);
-  line-height: 1.45;
-  text-align: center;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 400;
-}
-
-.hero_subtitle-dark{
-  color: #111;
-  font-weight: 500;
-}
-
-.hero_subtitle-light{
-  color: rgba(21, 23, 23, 0.45);
-}
-
-/* CTA: 210px x 55px pill button, 35-45px below subtitle */
-.hero_cta{
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 42px;
-  padding: 0 36px;
-  height: 55px;
-  background: #111;
-  color: #fff;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  letter-spacing: -0.01em;
-  transition: all 0.2s ease;
-  pointer-events: auto;
-}
-
-.hero_cta:hover{
-  background: #222;
-  transform: translateY(-2px);
-}
-
-.hero_cta-text{
-  line-height: 1;
-}
-
-.hero_cta-arrow{
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-}
-
-/* --- Building: lower half of viewport, extends beyond bottom --- */
-.hero_building-wrap{
-  position: absolute;
   bottom: 0;
+}
+
+.hero_back img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* --- Building (hero_house) --- */
+.hero_house{
+  position: absolute;
+  top: 60vh;
   left: 0;
   right: 0;
-  height: 55%;
-  z-index: 3;
-  overflow: hidden;
+  height: 33.4rem;
+  z-index: 1;
   transform-origin: bottom center;
 }
 
-.hero_building{
-  position: absolute;
-  inset: 0;
+@media (min-width: 768px) {
+  .hero_house{
+    top: 60vh; /* 540px at 900px viewport - matches live site exactly */
+    height: 170.8rem; /* 1281px - matches live site */
+  }
+}
+
+.hero_house img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 35%;
-  filter: blur(0.4px);
 }
 
-/* ============================================================
-   FRAME 2: TRANSITION STATE
-   Building zooms, FIND overlay, Real Estate text
-   ============================================================ */
-
-/* --- Giant FIND overlay: appears over building (Frame 2) --- */
-.hero_giant-find-wrap{
+/* --- Composite layer (SVG masked) --- */
+.hero_composite{
   position: absolute;
-  inset: 0;
-  z-index: 6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
   opacity: 0;
+  -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 975 280"><path fill="currentColor" d="M836.06 1.01c77.3 0 139.94 62.69 139.94 140C976 218.33 913.35 281 836.06 281H702.61V1.01zm-52.82 80.17v119.44h44.58a59.5 59.5 0 0 0 42.21-17.5 59.7 59.7 0 0 0-42.2-101.94z"/><path fill="currentColor" d="M595.45 183.2V1h80.14v279.99H556.68l-73.33-152.93V281H403.2V1h110.33z"/><path fill="currentColor" d="M376.19 280.99h-141l61.26-140.29L235.2 1h141v279.99Z"/><path fill="currentColor" d="M244.55 81.28H81.14v59.42h101.02v80.17H81.14v60.12H1V1h207.91z"/></svg>');
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 975 280"><path fill="currentColor" d="M836.06 1.01c77.3 0 139.94 62.69 139.94 140C976 218.33 913.35 281 836.06 281H702.61V1.01zm-52.82 80.17v119.44h44.58a59.5 59.5 0 0 0 42.21-17.5 59.7 59.7 0 0 0-42.2-101.94z"/><path fill="currentColor" d="M595.45 183.2V1h80.14v279.99H556.68l-73.33-152.93V281H403.2V1h110.33z"/><path fill="currentColor" d="M376.19 280.99h-141l61.26-140.29L235.2 1h141v279.99Z"/><path fill="currentColor" d="M244.55 81.28H81.14v59.42h101.02v80.17H81.14v60.12H1V1h207.91z"/></svg>');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-size: auto;
+  mask-size: auto;
 }
 
-.hero_giant-find{
-  font-size: clamp(180px, 28vw, 380px);
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  color: rgba(0, 0, 0, 0.35);
-  line-height: 0.9;
-  text-transform: uppercase;
-  font-family: inherit;
-  text-shadow: 0 4px 40px rgba(0,0,0,0.15);
+@media (min-width: 768px) {
+  .hero_composite{
+    -webkit-mask-size: 97.5rem 28rem;
+    mask-size: 97.5rem 28rem;
+  }
 }
 
-.hero_real-estate{
-  font-size: clamp(28px, 4.5vw, 56px);
-  font-weight: 500;
-  color: rgba(21, 23, 23, 0.55);
-  line-height: 1.1;
-  margin-top: 8px;
-  letter-spacing: -0.01em;
-  font-family: inherit;
+/* --- Clouds --- */
+.hero_clouds{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-/* --- Building mask for cutout effect (Frame 2 late stage) --- */
-.hero_building-mask{
+.hero_cloud,.hero_clouds{
   position: absolute;
-  inset: 0;
-  z-index: 4;
-  opacity: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 2;
 }
 
-.hero_building-mask img{
+.hero_cloud:first-child{
+  top: 33.7rem;
+  left: -57.2rem;
+  width: 70.2rem;
+  height: 29.8rem;
+}
+
+@media (min-width: 768px) {
+  .hero_cloud:first-child{
+    top: 22%;
+    left: -33.72rem;
+    width: 112.4rem;
+    height: 47.7rem;
+  }
+}
+
+.hero_cloud:last-child{
+  top: 37.12rem;
+  right: -41.2rem;
+  width: 55.7rem;
+  height: 23.6rem;
+}
+
+@media (min-width: 768px) {
+  .hero_cloud:last-child{
+    top: 18%;
+    right: -33.72rem;
+    width: 93.6rem;
+    height: 39.7rem;
+  }
+}
+
+.hero_cloud img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
-  filter: blur(0.3px);
 }
 
-/* ============================================================
-   FRAME 3: LATE STATE
-   White/clouds, Why FIND text, next section copy
-   ============================================================ */
-
-/* --- Clouds layer: expands and becomes white --- */
-.hero_clouds{
+/* --- Hero logo (giant FIND watermark) --- */
+.hero_logo{
   position: absolute;
-  inset: 0;
-  z-index: 4;
-  pointer-events: none;
+  top: calc(50% - 5.1rem);
+  left: calc(50% - 11.75rem);
+  z-index: 1;
+  width: 23.5rem;
+  height: 10.2rem;
+  opacity: 0;
 }
 
-.hero_cloud{
-  position: absolute;
-  opacity: 0.85;
+@media (min-width: 768px) {
+  .hero_logo{
+    top: calc(50% - 21.15rem);
+    left: calc(50% - 48.75rem);
+    width: 97.5rem;
+    height: 28rem;
+  }
 }
 
-.hero_cloud svg{
+.hero_logo svg{
   width: 100%;
   height: 100%;
+  overflow: visible;
 }
 
-.hero_cloud-left{
-  top: 12%;
-  left: -5%;
-  width: 45%;
-  height: 22%;
+.hero_logo path{
+  fill: rgba(0,0,0,0);
+  stroke: #fff;
+  stroke-width: 3px;
 }
 
-.hero_cloud-right{
-  top: 18%;
-  right: -5%;
-  width: 40%;
-  height: 18%;
+@media (min-width: 768px) {
+  .hero_logo path{
+    stroke-width: 2px;
+  }
 }
 
-.hero_cloud-bottom{
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 45%;
-}
-
-/* --- FRAME 3: Next section content (emerging from bottom) --- */
-.hero_next-section{
+/* --- Smoke overlay --- */
+.hero_overlap{
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 15;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 0 90px;
+  bottom: 100vh;
   pointer-events: none;
-  padding-top: 675px; /* Matches reference: ~675px vertical position for Why FIND */
 }
 
-.hero_next-left{
-  width: 160px;
-}
-
-.hero_why-find{
-  font-size: 18px;
-  font-weight: 500;
-  color: #111;
-  letter-spacing: -0.01em;
-}
-
-.hero_next-right{
-  width: 50%;
-  max-width: 550px;
-}
-
-.hero_next-copy{
-  font-size: clamp(22px, 3.2vw, 40px);
-  line-height: 1.15;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  font-family: inherit;
-}
-
-.hero_next-dark{
-  color: #111;
-  font-weight: 600;
-}
-
-.hero_next-light{
-  color: rgba(21, 23, 23, 0.5);
-  display: block;
-  margin-top: 14px;
-}
-
-/* --- N badge: bottom-left corner (small black circle with white N) --- */
-.hero_n-badge{
+.hero_smoke{
   position: absolute;
-  bottom: 30px;
-  left: 30px;
-  z-index: 12;
-  width: 44px;
-  height: 44px;
-  background: #111;
-  border-radius: 50%;
-  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45rem;
+  z-index: 3;
+}
+
+@media (min-width: 768px) {
+  .hero_smoke{
+    height: 70rem;
+  }
+}
+
+.hero_top .hero_smoke{
+  transform: translateY(70%);
+}
+
+.hero_smoke img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.hero_overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10rem;
+  z-index: 3;
+  background: linear-gradient(180deg, rgba(255,255,255,0), #fff);
+}
+
+@media (min-width: 768px) {
+  .hero_overlay{
+    height: 35rem;
+  }
+}
+
+/* --- Hero content --- */
+.hero_content{
+  position: relative;
+  display: grid;
   align-items: center;
+  height: 100%;
+  padding-bottom: 15rem;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .hero_content{
+    padding-bottom: 22.8rem;
+  }
+}
+
+/* --- Hero title h1 --- */
+.hero_title h1{
+  font-weight: 700;
+  font-size: 5.4rem;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .hero_title h1{
+    font-size: 6.5625rem; /* 105px - matches live site exactly */
+    letter-spacing: -2.1px;
+  }
+}
+
+/* --- Hero text/subtitle --- */
+.hero_text{
+  margin: 1.5rem 0 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  text-wrap: balance;
+}
+
+@media (min-width: 768px) {
+  .hero_text{
+    margin: 2rem 0 0;
+    font-size: 2.125rem; /* 34px - matches live site */
+    line-height: 130%;
+    letter-spacing: -0.01em;
+  }
+}
+
+.hero_text .em{
+  color: rgba(21,23,23,0.5);
+}
+
+/* --- Hero actions (CTA) --- */
+.hero_actions{
+  margin: 3rem 0 0;
+  display: flex;
   justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0;
-  pointer-events: none;
 }
 
-.hero_n-badge span{
-  line-height: 1;
-}
-
-/* --- White overlay for final transition --- */
-.hero_white-overlay{
-  position: absolute;
-  inset: 0;
-  z-index: 9;
-  background: #fff;
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* ============================================================
-   RESPONSIVENESS
-   ============================================================ */
-
-/* Tablet: 1024px */
-@media (max-width: 1024px) {
-  .hero_nav{
-    padding: 0 40px;
-  }
-  
-  .hero_nav-left{
-    left: 40px;
-    top: 22px;
-  }
-  
-  .hero_nav-logo{
-    font-size: 32px;
-  }
-  
-  .hero_nav-center{
-    gap: 20px;
-    top: 22px;
-  }
-  
-  .hero_nav-link{
-    font-size: 14px;
-  }
-  
-  .hero_nav-center{
-    display: none; /* Hide center nav on tablet to simplify */
-  }
-  
-  .hero_nav-right{
-    right: 40px;
-    top: 10px;
-  }
-  
-  .hero_nav-signin{
-    width: 100px;
-    height: 44px;
-    font-size: 13px;
-  }
-  
-  .hero_content-frame1{
-    top: 150px;
-  }
-  
-  .hero_headline{
-    font-size: clamp(72px, 10vw, 100px);
-  }
-  
-  .hero_subtitle{
-    font-size: 14px;
-    margin-top: 18px;
-  }
-  
-  .hero_cta{
-    margin-top: 30px;
-    height: 48px;
-    padding: 0 28px;
-    font-size: 14px;
-  }
-  
-  .hero_building-wrap{
-    height: 50%;
-  }
-  
-  .hero_giant-find{
-    font-size: clamp(130px, 20vw, 240px);
-    color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .hero_real-estate{
-    font-size: clamp(22px, 3.5vw, 34px);
-    margin-top: 6px;
-  }
-  
-  .hero_next-copy{
-    font-size: clamp(18px, 2.8vw, 28px);
-  }
-  
-  .hero_next-section{
-    padding: 0 40px;
-    padding-top: 500px;
-  }
-  
-  .hero_why-find{
-    font-size: 15px;
-  }
-  
-  .hero_n-badge{
-    width: 36px;
-    height: 36px;
-    bottom: 20px;
-    left: 20px;
-    font-size: 14px;
+@media (min-width: 768px) {
+  .hero_actions{
+    margin: 5rem 0 0;
   }
 }
 
-/* Small tablet: 768px */
-@media (max-width: 768px) {
-  .hero_nav{
-    padding: 0 16px;
+/* --- Utility classes --- */
+.hero_em{color:#b3b3b3}
+.hero_invisible{visibility:hidden}
+.hero_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.hero_desktop-only{display:initial!important;pointer-events:auto}}
+.hero_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.hero_mobile-only{display:initial!important;pointer-events:auto}}
+.hero_underline{text-decoration:underline}
+
+.hero_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.hero_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.hero_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.hero_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+
+.hero_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.hero_dropdown-content{padding:2rem 0}}
+
+.hero_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.hero_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.hero_dropdown-trigger.hero_underlined{border-bottom:1px solid #151717}
+.hero_dropdown-trigger.hero_outlined{border:1px solid rgba(21,23,23,.1)}
+
+.hero_flush:first-child{margin-top:0}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 767px) {
+  .hero_title h1{
+    font-size: 56.16px;
+    letter-spacing: -1.1232px;
   }
   
-  .hero_nav-left{
-    left: 16px;
-    top: 16px;
+  .hero_text{
+    font-size: 1.6rem;
   }
   
-  .hero_nav-logo{
-    font-size: 28px;
+  .hero_actions{
+    margin: 2rem 0 0;
   }
   
-  .hero_nav-center{
+  .hero_house{
+    top: 50vh;
+    height: 40rem;
+  }
+  
+  .hero_cloud:first-child,
+  .hero_cloud:last-child{
     display: none;
-  }
-  
-  .hero_nav-right{
-    right: 16px;
-    top: 8px;
-  }
-  
-  .hero_nav-signin{
-    width: 80px;
-    height: 36px;
-    font-size: 12px;
-  }
-  
-  .hero_content-frame1{
-    top: 100px;
-  }
-  
-  .hero_headline{
-    font-size: clamp(48px, 11vw, 68px);
-    letter-spacing: -0.02em;
-  }
-  
-  .hero_subtitle{
-    font-size: 13px;
-    margin-top: 12px;
-    max-width: 340px;
-    line-height: 1.4;
-  }
-  
-  .hero_cta{
-    margin-top: 22px;
-    height: 42px;
-    padding: 0 20px;
-    font-size: 13px;
-    gap: 6px;
-  }
-  
-  .hero_building-wrap{
-    height: 52%;
-  }
-  
-  .hero_giant-find{
-    font-size: clamp(80px, 16vw, 140px);
-    color: rgba(0, 0, 0, 0.25);
-  }
-  
-  .hero_real-estate{
-    font-size: clamp(16px, 3vw, 22px);
-    margin-top: 4px;
-  }
-  
-  .hero_next-section{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 0 16px;
-    padding-top: 350px;
-  }
-  
-  .hero_next-right{
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  .hero_next-copy{
-    font-size: clamp(15px, 4vw, 20px);
-  }
-  
-  .hero_next-dark{
-    font-weight: 500;
-  }
-  
-  .hero_next-light{
-    margin-top: 6px;
-    font-size: 0.9em;
-  }
-  
-  .hero_why-find{
-    font-size: 14px;
-  }
-  
-  .hero_cloud-left,
-  .hero_cloud-right{
-    display: none;
-  }
-  
-  .hero_n-badge{
-    width: 32px;
-    height: 32px;
-    bottom: 16px;
-    left: 16px;
-    font-size: 12px;
-  }
-}
-
-/* Mobile: 480px */
-@media (max-width: 480px) {
-  .hero_nav{
-    padding: 12px 15px;
-    height: 56px;
-  }
-  
-  .hero_nav-logo{
-    font-size: 28px;
-  }
-  
-  .hero_nav-signin{
-    width: 85px;
-    height: 38px;
-    font-size: 12px;
-  }
-  
-  .hero_content-frame1{
-    top: 100px;
-  }
-  
-  .hero_headline{
-    font-size: clamp(48px, 14vw, 64px);
-    letter-spacing: -0.02em;
-  }
-  
-  .hero_subtitle{
-    font-size: 13px;
-    margin-top: 12px;
-    max-width: 320px;
-    line-height: 1.4;
-  }
-  
-  .hero_cta{
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 13px;
-  }
-  
-  .hero_building-wrap{
-    height: 60%;
-  }
-  
-  .hero_giant-find{
-    font-size: clamp(80px, 18vw, 120px);
-    color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .hero_real-estate{
-    font-size: clamp(16px, 3vw, 22px);
-    margin-top: 4px;
-  }
-  
-  .hero_next-section{
-    bottom: 30px;
-    padding: 0 15px;
-  }
-  
-  .hero_next-copy{
-    font-size: clamp(16px, 4.5vw, 20px);
-  }
-  
-  .hero_why-find{
-    font-size: 14px;
-  }
-}
-
-/* ============================================================
-   UTILITY: Reduced motion
-   ============================================================ */
-@media (prefers-reduced-motion: reduce) {
-  .hero_sticky{
-    transition: none;
-  }
-  
-  .hero_clouds,
-  .hero_giant-find-wrap,
-  .hero_next-section,
-  .hero_white-overlay{
-    transition: none;
   }
 }

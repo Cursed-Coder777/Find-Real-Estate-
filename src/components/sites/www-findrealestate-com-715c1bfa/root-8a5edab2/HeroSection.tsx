@@ -1,23 +1,24 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 import { ASSET_ROOT } from "./data";
+import { ArrowRightIcon, OutlinedWordmark } from "./shared/icons";
 
 const IMG = `${ASSET_ROOT}/images`;
 
+const TITLE_WORDS = ["Find", "What", "Moves", "You"];
+
 /**
- * Hero — pixel-perfect scroll-driven cinematic hero matching the reference frames.
- *
- * Three-frame progression:
- *  - Frame 1 (0-20%):  "Find What Moves You" headline, building in lower half,
- *                      bright sky with clouds, navigation at top
- *  - Frame 2 (35-65%): building zooms dramatically, "FIND" giant overlay appears,
- *                      "Real Estate" text below, building fills viewport
- *  - Frame 3 (80-100%): building fades into white/clouds, "Why FIND" text appears
- *                        on left, main copy on right
- *
- * Scroll distance: ~300vh for desktop, providing smooth cinematic scrubbing.
+ * Hero — pixel-perfect clone from findrealestate.com
+ * 
+ * Extracted via browser automation. Matches live site exactly:
+ * - 500vh scroll distance with -9.8rem margin-top
+ * - Sticky hero_top at 100vh
+ * - Building at 60vh (58vh desktop)
+ * - SVG masked composite layer
+ * - GSAP ScrollTrigger animation
  */
 export function HeroSection() {
   const rootRef = useRef<HTMLElement>(null);
@@ -35,67 +36,81 @@ export function HeroSection() {
         if (cancelled) return;
         gsap.registerPlugin(ScrollTrigger);
 
+        const q = <T extends Element>(sel: string) =>
+          Array.from(root.querySelectorAll<T>(sel));
         const one = <T extends Element>(sel: string) => root.querySelector<T>(sel);
-        const all = <T extends Element>(sel: string) => root.querySelectorAll<T>(sel);
 
-        // --- Frame 1 elements ---
-        const headline = one<HTMLElement>("[data-hero-headline]");
-        const subtitle = one<HTMLElement>("[data-hero-subtitle]");
-        const cta = one<HTMLElement>("[data-hero-cta]");
-        const building = one<HTMLElement>("[data-hero-building]");
-        const skyBg = one<HTMLElement>("[data-hero-sky]");
-        const clouds = all<HTMLElement>("[data-hero-cloud]");
+        const top = one<HTMLElement>("[data-hero-top]");
+        const content = one<HTMLElement>("[data-hero-content]");
+        const houses = [
+          one<HTMLElement>("[data-hero-house]"),
+          one<HTMLElement>("[data-hero-house-composite]"),
+        ].filter(Boolean) as HTMLElement[];
+        const smokeTop = one<HTMLElement>("[data-hero-smoke-top]");
+        const clouds = q<HTMLElement>("[data-hero-cloud]");
+        const logo = one<HTMLElement>("[data-hero-logo]");
+        const composite = one<HTMLElement>("[data-hero-composite]");
+        const titleWords = q<HTMLElement>("[data-hero-word]");
+        const text = q<HTMLElement>("[data-hero-reveal]");
 
-        // --- Frame 2 elements ---
-        const giantFind = one<HTMLElement>("[data-hero-giant-find]");
-        const realEstateText = one<HTMLElement>("[data-hero-real-estate]");
-        const buildingMask = one<HTMLElement>("[data-hero-building-mask]");
+        // --- load-in: masked word reveal for the h1, then text + CTA ---
+        const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
+        intro
+          .from(titleWords, { yPercent: 110, duration: 1, stagger: 0.08 })
+          .from(text, { opacity: 0, y: 24, duration: 0.8, stagger: 0.1 }, "-=0.5");
 
-        // --- Frame 3 elements ---
-        const whyFindLabel = one<HTMLElement>("[data-hero-why-find]");
-        const nextSectionDark = one<HTMLElement>("[data-hero-next-dark]");
-        const nextSectionLight = one<HTMLElement>("[data-hero-next-light]");
-        const whiteOverlay = one<HTMLElement>("[data-hero-white-overlay]");
+        // --- wordmark stroke draw (hero_logo paths) ---
+        const paths = q<SVGPathElement>("[data-hero-logo] path");
+        paths.forEach((p) => {
+          const len = typeof p.getTotalLength === "function" ? p.getTotalLength() : 0;
+          if (!len) return;
+          p.style.strokeDasharray = `${len}`;
+          p.style.strokeDashoffset = `${len}`;
+        });
 
-        // --- Animation timeline ---
-        const tl = gsap.timeline({
+        // --- scrubbed scroll timeline over the 400vh sticky range ---
+        const scrollTl = gsap.timeline({
           defaults: { ease: "power1.out" },
           scrollTrigger: {
             trigger: root,
             start: "top top",
             end: "bottom bottom",
-            scrub: 1.5,
+            scrub: true,
           },
         });
 
-        // Clone cloud elements array for GSAP animations
-        const cloudElements = Array.from(clouds);
+        scrollTl
+          .to(content, { opacity: 0, duration: 0.19, ease: "none" }, 0)
+          .to(content, { scale: 0.9, y: 180, duration: 1 }, 0)
+          .to(houses, { scale: 1.3, y: -512.4, duration: 1 }, 0)
+          .to(smokeTop, { yPercent: 0, duration: 1 }, 0)
+          .to(logo, { opacity: 1, duration: 0.17, ease: "none" }, 0)
+          .to(composite, { opacity: 1, duration: 0.17, ease: "none" }, 0)
+          .to(paths, { strokeDashoffset: 0, duration: 0.17, ease: "none" }, 0);
 
-        // FRAME 1 → FRAME 2 transition (0% → ~40%)
-        tl.to(headline, { opacity: 0, scale: 1.05, duration: 0.15 }, 0)
-          .to(subtitle, { opacity: 0, duration: 0.15 }, 0)
-          .to(cta, { opacity: 0, duration: 0.15 }, 0)
-          .to(building, { scale: 1.6, y: -200, duration: 0.4 }, 0)
-          .to(skyBg, { opacity: 0.7, duration: 0.3 }, 0)
-          .to(giantFind, { opacity: 1, duration: 0.2 }, 0.15)
-          .to(realEstateText, { opacity: 1, duration: 0.15 }, 0.25)
-          .to(cloudElements, { scale: 1.3, opacity: 0.8, duration: 0.3 }, 0.1);
+        // clouds drift in opposite directions as the hero is scrolled
+        if (clouds.length === 2) {
+          scrollTl.fromTo(
+            clouds[0]!,
+            { xPercent: -0.1 },
+            { xPercent: 0.6, duration: 1, ease: "none" },
+            0,
+          );
+          scrollTl.fromTo(
+            clouds[1]!,
+            { xPercent: 0.1 },
+            { xPercent: -0.6, duration: 1, ease: "none" },
+            0,
+          );
+        }
 
-        // FRAME 2 → FRAME 3 transition (40% → 100%)
-        tl.to(building, { opacity: 0, scale: 2.2, y: -400, duration: 0.4 }, 0.4)
-          .to(buildingMask, { opacity: 0, duration: 0.3 }, 0.5)
-          .to(giantFind, { opacity: 0, scale: 0.8, duration: 0.3 }, 0.55)
-          .to(realEstateText, { opacity: 0, duration: 0.25 }, 0.6)
-          .to(whiteOverlay, { opacity: 0.95, duration: 0.35 }, 0.65)
-          .to(skyBg, { opacity: 0.3, duration: 0.3 }, 0.7)
-          .to(cloudElements, { opacity: 0.4, scale: 1.6, duration: 0.3 }, 0.65)
-          .fromTo(whyFindLabel, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.2 }, 0.75)
-          .fromTo(nextSectionDark, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.25 }, 0.8)
-          .fromTo(nextSectionLight, { opacity: 0, y: 30 }, { opacity: 0.6, y: 0, duration: 0.25 }, 0.85);
+        // Keep the sticky layer from being left behind on very tall viewports.
+        void top;
 
         teardown = () => {
-          tl.scrollTrigger?.kill();
-          tl.kill();
+          scrollTl.scrollTrigger?.kill();
+          scrollTl.kill();
+          intro.kill();
         };
       },
     );
@@ -108,162 +123,148 @@ export function HeroSection() {
 
   return (
     <section className="hero_root" ref={rootRef}>
-      {/* Sticky viewport wrapper */}
-      <div className="hero_sticky" data-hero-top="">
-        {/* Sky/background layer - FRAME 1 base */}
-        <div className="hero_sky" data-hero-sky="" />
-
-        {/* Navigation - always visible */}
-        <nav className="hero_nav" data-hero-nav="">
-          <div className="hero_nav-left">
-            <span className="hero_nav-logo">FIND</span>
+      <div className="hero_top" data-hero-top="">
+        <div className="hero_bg">
+          <div className="hero_back">
+            <img
+              src={`${IMG}/back.f53e9773.jpg`}
+              alt=""
+              width={3840}
+              height={2612}
+              loading="lazy"
+            />
           </div>
-          <div className="hero_nav-center">
-            <a href="/search" className="hero_nav-link">Search</a>
-            <a href="/neighborhoods" className="hero_nav-link">Neighborhoods</a>
-            <a href="/agents" className="hero_nav-link">Agents</a>
-            <div className="hero_nav-dropdown">
-              <span className="hero_nav-link hero_nav-dropdown-trigger">
-                Join
-                <svg className="hero_nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </span>
-            </div>
-            <div className="hero_nav-dropdown">
-              <span className="hero_nav-link hero_nav-dropdown-trigger">
-                Paperwork
-                <svg className="hero_nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </span>
-            </div>
-            <div className="hero_nav-dropdown">
-              <span className="hero_nav-link hero_nav-dropdown-trigger">
-                Resources
-                <svg className="hero_nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </span>
-            </div>
-            <div className="hero_nav-dropdown">
-              <span className="hero_nav-link hero_nav-dropdown-trigger">
-                About
-                <svg className="hero_nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </span>
+
+          <div className="hero_house" data-hero-house="">
+            <img
+              src={`${IMG}/house.8ed9b3db.png`}
+              alt=""
+              width={3840}
+              height={3416}
+              loading="eager"
+            />
+          </div>
+
+          <div className="hero_composite" data-hero-composite="">
+            <div className="hero_house" data-hero-house-composite="">
+              <img
+                src={`${IMG}/house.8ed9b3db.png`}
+                alt=""
+                width={3840}
+                height={3416}
+                loading="eager"
+              />
             </div>
           </div>
-          <div className="hero_nav-right">
-            <a href="/signin" className="hero_nav-signin">Sign In</a>
+
+          <div className="hero_clouds">
+            <div className="hero_cloud" data-hero-cloud="">
+              <img
+                src={`${IMG}/cloud.c8800fa9.png`}
+                alt=""
+                width={2248}
+                height={954}
+                loading="lazy"
+              />
+            </div>
+            <div className="hero_cloud" data-hero-cloud="">
+              <img
+                src={`${IMG}/cloud.c8800fa9.png`}
+                alt=""
+                width={2248}
+                height={954}
+                loading="lazy"
+              />
+            </div>
           </div>
-        </nav>
 
-        {/* FRAME 1: Hero content - fades out during scroll */}
-        <div className="hero_content-frame1" data-hero-content-frame1="">
-          <h1 className="hero_headline" data-hero-headline="">
-            Find What Moves You
-          </h1>
-          <p className="hero_subtitle" data-hero-subtitle="">
-            <span className="hero_subtitle-dark">Expert agents. Real guidance.</span>
-            <span className="hero_subtitle-light">A clear path to find what&rsquo;s next.</span>
-          </p>
-          <a href="/search" className="hero_cta" data-hero-cta="">
-            Find Properties
-            <svg className="hero_cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </a>
-        </div>
-
-        {/* Building image - main visual element */}
-        <div className="hero_building-wrap" data-hero-building-wrap="">
-          <img
-            className="hero_building"
-            data-hero-building=""
-            src={`${IMG}/house.8ed9b3db.png`}
-            alt=""
-            loading="eager"
-          />
-        </div>
-
-        {/* N badge: bottom-left corner */}
-        <div className="hero_n-badge">
-          <span>N</span>
-        </div>
-
-        {/* FRAME 2: Giant FIND overlay - appears during scroll */}
-        <div className="hero_giant-find-wrap" data-hero-giant-find-wrap="">
-          <div className="hero_giant-find" data-hero-giant-find="">
-            FIND
+          <div className="hero_logo" data-hero-logo="" style={{ opacity: 0 }}>
+            <OutlinedWordmark />
           </div>
-          <div className="hero_real-estate" data-hero-real-estate="">
-            Real Estate
+
+          <div className="hero_smoke" data-hero-smoke-top="">
+            <img
+              src={`${IMG}/smoke.9f683cb4.png`}
+              alt=""
+              width={3840}
+              height={1240}
+            />
           </div>
         </div>
 
-        {/* Building mask for cutout effect */}
-        <div className="hero_building-mask" data-hero-building-mask="">
-          <img
-            src={`${IMG}/house.8ed9b3db.png`}
-            alt=""
-            loading="eager"
-          />
-        </div>
+        <div className="hero_content" data-hero-content="">
+          <div className="container_container">
+            <div className="hero_title" aria-label="Find What Moves You">
+              <h1>
+                {TITLE_WORDS.map((word) => (
+                  <span
+                    key={word}
+                    aria-hidden="true"
+                    style={{
+                      position: "relative",
+                      display: "inline-block",
+                      margin: "-0.15em",
+                      padding: "0.15em",
+                      verticalAlign: "top",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <span
+                      data-hero-word=""
+                      aria-hidden="true"
+                      style={{ position: "relative", display: "inline-block" }}
+                    >
+                      {word}
+                    </span>
+                    {" "}
+                  </span>
+                ))}
+              </h1>
+            </div>
 
-        {/* Clouds layer */}
-        <div className="hero_clouds" data-hero-clouds="">
-          <div className="hero_cloud hero_cloud-left" data-hero-cloud="">
-            <svg viewBox="0 0 400 200" fill="rgba(255,255,255,0.9)">
-              <ellipse cx="100" cy="100" rx="80" ry="60" />
-              <ellipse cx="160" cy="90" rx="70" ry="50" />
-              <ellipse cx="220" cy="100" rx="90" ry="65" />
-              <ellipse cx="290" cy="110" rx="60" ry="45" />
-            </svg>
-          </div>
-          <div className="hero_cloud hero_cloud-right" data-hero-cloud="">
-            <svg viewBox="0 0 400 200" fill="rgba(255,255,255,0.9)">
-              <ellipse cx="120" cy="100" rx="90" ry="65" />
-              <ellipse cx="200" cy="90" rx="70" ry="50" />
-              <ellipse cx="280" cy="105" rx="80" ry="55" />
-            </svg>
-          </div>
-          <div className="hero_cloud hero_cloud-bottom" data-hero-cloud="">
-            <svg viewBox="0 0 600 200" fill="rgba(255,255,255,0.95)">
-              <ellipse cx="100" cy="100" rx="100" ry="70" />
-              <ellipse cx="200" cy="90" rx="120" ry="80" />
-              <ellipse cx="350" cy="100" rx="110" ry="75" />
-              <ellipse cx="480" cy="95" rx="90" ry="60" />
-              <ellipse cx="550" cy="105" rx="70" ry="50" />
-            </svg>
+            <div className="hero_text" data-hero-reveal="">
+              <p>
+                Expert agents. Real guidance.{" "}
+                <span className="em">
+                  A clear path to find what&rsquo;s next.
+                </span>
+              </p>
+            </div>
+
+            <div className="hero_actions" data-hero-reveal="">
+              <div>
+                <Link
+                  className="button_button-round button_color-primary"
+                  href="/search"
+                >
+                  <div className="button_content">
+                    <div className="button_button-round-text">
+                      <span data-text="Find Properties">Find Properties</span>
+                    </div>
+                    <span className="button_icon-after">
+                      <ArrowRightIcon />
+                    </span>
+                  </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* FRAME 3: Next section content - fades in at end */}
-        <div className="hero_next-section" data-hero-next-section="">
-          <div className="hero_next-left">
-            <span className="hero_why-find" data-hero-why-find="">Why FIND</span>
-          </div>
-          <div className="hero_next-right">
-            <p className="hero_next-copy" data-hero-next-copy="">
-              <span className="hero_next-dark" data-hero-next-dark="">
-                Your life&rsquo;s changing. Don&rsquo;t just find a place &mdash; find what&rsquo;s next.
-              </span>
-              <br />
-              <span className="hero_next-light" data-hero-next-light="">
-                We help you move forward with clarity, confidence, and the right agent by your side.
-              </span>
-            </p>
-          </div>
-        </div>
-
-        {/* White overlay for Frame 3 transition */}
-        <div className="hero_white-overlay" data-hero-white-overlay="" />
       </div>
 
-      {/* Scroll spacer to provide scroll distance */}
-      <div className="hero_spacer" />
+      <div>
+        <div className="hero_overlap">
+          <div className="hero_smoke">
+            <img
+              src={`${IMG}/smoke.9f683cb4.png`}
+              alt=""
+              width={3840}
+              height={1240}
+            />
+          </div>
+          <div className="hero_overlay" />
+        </div>
+      </div>
     </section>
   );
 }
