@@ -40,7 +40,11 @@ export const metadata: Metadata = {
     "FIND Real Estate | Purchase, Rent or Sell Commercial and Residential Real Estate",
   description:
     "FIND is an agent-owned real estate brokerage helping you buy, sell or rent in New York, New Jersey, Philadelphia, Connecticut and Miami.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [
+    { rel: "icon", url: "/favicon.ico", sizes: "48x48 32x32 16x16" },
+    { rel: "icon", url: "/icon.svg", type: "image/svg+xml", sizes: "any" },
+    { rel: "apple-touch-icon", url: "/apple-icon.png", sizes: "180x180" },
+  ],
 };
 
 export default function RootLayout({
