@@ -1,0 +1,60 @@
+{
+  "heroStates": [
+    {
+      "scrollY": 0,
+      "contentOpacity": "0.9781",
+      "houseTransform": "matrix(1.0025, 0, 0, 1.0025, 0, -4.2611)",
+      "logoOpacity": "0.0245"
+    },
+    {
+      "scrollY": 600,
+      "contentOpacity": "0.1009",
+      "houseTransform": "matrix(1.0937, 0, 0, 1.0937, 0, -160.116)",
+      "logoOpacity": "1"
+    },
+    {
+      "scrollY": 3000,
+      "contentOpacity": "0",
+      "houseTransform": "matrix(1.2921, 0, 0, 1.2921, 0, -498.869)",
+      "logoOpacity": "1"
+    }
+  ],
+  "arrows": {
+    "before": "matrix(0.2173, 0, 0, 1, 0, 0)",
+    "after": "matrix(0, 0, 0, 1, 0, 0)",
+    "animating": true
+  },
+  "burger": {
+    "buttonFound": true,
+    "open": {
+      "dataOpen": "true",
+      "backdropTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "htmlClasses": "lenis menu-open",
+      "opacity": "1"
+    },
+    "closed": {
+      "dataOpen": "false",
+      "htmlClasses": "lenis"
+    }
+  },
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

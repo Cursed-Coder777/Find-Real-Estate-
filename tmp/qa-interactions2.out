@@ -1,0 +1,57 @@
+{
+  "heroStates": [
+    {
+      "scrollY": 0,
+      "contentOpacity": "1",
+      "houseTransform": "none",
+      "logoOpacity": "0"
+    },
+    {
+      "scrollY": 600,
+      "contentOpacity": "1",
+      "houseTransform": "none",
+      "logoOpacity": "0"
+    },
+    {
+      "scrollY": 3000,
+      "contentOpacity": "1",
+      "houseTransform": "none",
+      "logoOpacity": "0"
+    }
+  ],
+  "arrows": {
+    "before": null,
+    "after": null,
+    "animating": false
+  },
+  "burger": {
+    "buttonFound": true,
+    "open": {
+      "dataOpen": "true",
+      "backdropTransform": "none",
+      "htmlClasses": "menu-open lenis",
+      "opacity": "1"
+    },
+    "closed": {
+      "dataOpen": "false",
+      "htmlClasses": "lenis"
+    }
+  },
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "rows": [
+    {
+      "heading": "Homes in Williamsburg",
+      "seeAll": "See all homes →",
+      "seeAllHref": "/neighborhoods/brooklyn/williamsburg/listings",
+      "listings": [
+        {
+          "href": "/properties/3090412",
+          "image": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/169de036-5df3-4f91-8a4f-aa4c24cbd214.jpg",
+          "alt": "75 South 9th Street, Apt Building, Brooklyn, NY 11249",
+          "price": "$4,500,000",
+          "meta": "For Sale · 8 beds · 4 baths",
+          "address": "75 South 9th Street, Apt Building, Brooklyn, NY 11249",
+          "neighborhood": "Williamsburg",
+          "logoSrc": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/169de036-5df3-4f91-8a4f-aa4c24cbd214.jpg"
+        },
+        {
+          "href": "/properties/3090182",
+          "image": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/52610178-25b5-4de3-bbeb-0922e489abff.jpg",
+          "alt": "339 Bedford Avenue, Apt 30, Brooklyn, NY 11211",
+          "price": "$4,200/mo",
+          "meta": "For Rent · 2 beds · 1 bath",
+          "address": "339 Bedford Avenue, Apt 30, Brooklyn, NY 11211",
+          "neighborhood": "Williamsburg",
+          "logoSrc": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/52610178-25b5-4de3-bbeb-0922e489abff.jpg"
+        },
+        {
+          "href": "/properties/3090162",
+          "image": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/3489ea7c-63be-41ba-839f-17b7425ce8af.jpg",
+          "alt": "373 South 4th Street, Apt 10, Brooklyn, NY 11211",
+          "price": "$5,650/mo",
+          "meta": "For Rent · 3 beds · 1 bath",
+          "address": "373 South 4th Street, Apt 10, Brooklyn, NY 11211",
+          "neighborhood": "Williamsburg",
+          "logoSrc": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/3489ea7c-63be-41ba-839f-17b7425ce8af.jpg"
+        },
+        {
+          "href": "/properties/3091055",
+          "image": "https://jagmedia1.airpear.net/Aptphotos/108621734_IMG_0546.png",
+          "alt": "256 North 9th Street, Apt 2B, Brooklyn, NY 11211",
+          "price": "$8,500/mo",
+          "meta": "For Rent · 2 beds · 2 baths",
+          "address": "256 North 9th Street, Apt 2B, Brooklyn, NY 11211",
+          "neighborhood": "Williamsburg",
+          "logoSrc": "https://jagmedia1.airpear.net/Aptphotos/108621734_IMG_0546.png"
+        }
+      ]
+    },
+    {
+      "heading": "Homes in Astoria",
+      "seeAll": "See all homes →",
+      "seeAllHref": "/neighborhoods/queens/astoria/listings",
+      "listings": [
+        {
+          "href": "/properties/3091248",
+          "image": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY426511781_f0488276-3be0-40cd-9839-7345b51471e1.jpeg",
+          "alt": "33-64 21st Street, Apt 6-C, Astoria, NY 11106",
+          "price": "$519,999",
+          "meta": "For Sale · 2 beds · 1 bath",
+          "address": "33-64 21st Street, Apt 6-C, Astoria, NY 11106",
+          "neighborhood": "Astoria",
+          "logoSrc": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY426511781_f0488276-3be0-40cd-9839-7345b51471e1.jpeg"
+        },
+        {
+          "href": "/properties/3091247",
+          "image": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427302939_5f65b3cf-7d25-4448-bbf2-c681f805927d.jpeg",
+          "alt": "3514 30th Avenue, Astoria, NY 11103",
+          "price": "$1,900/mo",
+          "meta": "For Rent · 1 bed · 1 bath",
+          "address": "3514 30th Avenue, Astoria, NY 11103",
+          "neighborhood": "Astoria",
+          "logoSrc": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427302939_5f65b3cf-7d25-4448-bbf2-c681f805927d.jpeg"
+        },
+        {
+          "href": "/properties/3090824",
+          "image": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297114_ba55c9bc-5504-45c5-a861-b814b19ae520.jpeg",
+          "alt": "2540 Shore Boulevard, Apt 20-N, Astoria, NY 11102",
+          "price": "$575,000",
+          "meta": "For Sale · 1 bed · 1 bath",
+          "address": "2540 Shore Boulevard, Apt 20-N, Astoria, NY 11102",
+          "neighborhood": "Astoria",
+          "logoSrc": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297114_ba55c9bc-5504-45c5-a861-b814b19ae520.jpeg"
+        },
+        {
+          "href": "/properties/3090731",
+          "image": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297087_8c104f29-7b1a-460b-bae4-a1263a6d55e0.jpeg",
+          "alt": "1833 27th Avenue, Astoria, NY 11102",
+          "price": "$2,100,000",
+          "meta": "For Sale · 6 beds · 3 baths",
+          "address": "1833 27th Avenue, Astoria, NY 11102",
+          "neighborhood": "Astoria",
+          "logoSrc": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427297087_8c104f29-7b1a-460b-bae4-a1263a6d55e0.jpeg"
+        }
+      ]
+    },
+    {
+      "heading": "Homes in Chelsea",
+      "seeAll": "See all homes →",
+      "seeAllHref": "/neighborhoods/manhattan/chelsea/listings",
+      "listings": [
+        {
+          "href": "/properties/3091067",
+          "image": "https://media.elliman.com/01a0f44b-e732-71f0-ad28-796769676fb7.webp",
+          "alt": "405 West 23rd Street, Apt 7J, New York, NY 10011",
+          "price": "$590,000",
+          "meta": "For Sale · Studio · 1 bath",
+          "address": "405 West 23rd Street, Apt 7J, New York, NY 10011",
+          "neighborhood": "Chelsea",
+          "logoSrc": "https://media.elliman.com/01a0f44b-e732-71f0-ad28-796769676fb7.webp"
+        },
+        {
+          "href": "/properties/3091038",
+          "image": "https://media.elliman.com/01a0fd2f-5ae7-78e2-acac-e65cf3396a4a.jpg",
+          "alt": "100 West 15th Street, Apt 5F, New York, NY 10011",
+          "price": "$525,000",
+          "meta": "For Sale · Studio · 1 bath",
+          "address": "100 West 15th Street, Apt 5F, New York, NY 10011",
+          "neighborhood": "Chelsea",
+          "logoSrc": "https://media.elliman.com/01a0fd2f-5ae7-78e2-acac-e65cf3396a4a.jpg"
+        },
+        {
+          "href": "/properties/2937476",
+          "image": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/01941d8c-2ca5-447c-8900-d245f9aaea5a.jpg",
+          "alt": "315 Seventh Avenue, Apt 8-D, New York, NY 10001",
+          "price": "$4,000/mo",
+          "meta": "For Rent · Studio · 1 bath",
+          "address": "315 Seventh Avenue, Apt 8-D, New York, NY 10001",
+          "neighborhood": "Chelsea",
+          "logoSrc": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/01941d8c-2ca5-447c-8900-d245f9aaea5a.jpg"
+        },
+        {
+          "href": "/properties/3088779",
+          "image": "https://corcjagmedia1.airpear.net/Aptphotos/115033550_DSC_8986_1.jpg",
+          "alt": "256 West 21st Street, Apt G1, New York, NY 10011",
+          "price": "$1,250,000",
+          "meta": "For Sale · 1 bed · 1 bath",
+          "address": "256 West 21st Street, Apt G1, New York, NY 10011",
+          "neighborhood": "Chelsea",
+          "logoSrc": "https://corcjagmedia1.airpear.net/Aptphotos/115033550_DSC_8986_1.jpg"
+        }
+      ]
+    }
+  ],
+  "dlogos": []
+}

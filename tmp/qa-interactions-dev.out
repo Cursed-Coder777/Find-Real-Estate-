@@ -1,0 +1,48 @@
+{
+  "heroStates": [
+    {
+      "scrollY": 0,
+      "contentOpacity": "0.9781",
+      "houseTransform": "matrix(1.0025, 0, 0, 1.0025, 0, -4.2611)",
+      "logoOpacity": "0.0245"
+    },
+    {
+      "scrollY": 600,
+      "contentOpacity": "0.1009",
+      "houseTransform": "matrix(1.0937, 0, 0, 1.0937, 0, -160.116)",
+      "logoOpacity": "1"
+    },
+    {
+      "scrollY": 3000,
+      "contentOpacity": "0",
+      "houseTransform": "matrix(1.2921, 0, 0, 1.2921, 0, -498.869)",
+      "logoOpacity": "1"
+    }
+  ],
+  "arrows": {
+    "before": "matrix(0.4599, 0, 0, 1, 0, 0)",
+    "after": "matrix(0, 0, 0, 1, 0, 0)",
+    "animating": true
+  },
+  "burger": {
+    "buttonFound": true,
+    "open": {
+      "dataOpen": "true",
+      "backdropTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "htmlClasses": "lenis menu-open",
+      "opacity": "1"
+    },
+    "closed": {
+      "dataOpen": "false",
+      "htmlClasses": "lenis"
+    }
+  },
+  "consoleErrors": [
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    ",
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    ",
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    ",
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    ",
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    ",
+    "%c%s%c Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server    "
+  ]
+}

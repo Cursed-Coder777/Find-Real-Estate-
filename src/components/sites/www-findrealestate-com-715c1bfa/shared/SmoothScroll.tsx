@@ -29,13 +29,13 @@ export function SmoothScroll() {
         // The origin scrolls the window (not a wrapper element).
         autoRaf: false,
       });
-      lenis = instance as unknown as { raf: (t: number) => void; destroy: () => void };
+      lenis = instance;
 
       const raf = (time: number) => {
         instance.raf(time);
         frame = requestAnimationFrame(raf);
       };
-      frame = requestAnimationFrame(raf);
+      requestAnimationFrame(raf);
     });
 
     return () => {

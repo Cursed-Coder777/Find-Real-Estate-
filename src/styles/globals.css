@@ -18,6 +18,13 @@
 @import "./find/base.css";
 @import "./find/index.css";
 
+/*
+ * JS-driven glue (burger reveal, hero composite seed, page freeze while the
+ * menu is open, reduced-motion fallbacks). Must come after the origin CSS so
+ * its state rules win the cascade.
+ */
+@import "./clone.css";
+
 @theme {
   --font-sans: var(--font-primary), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-secondary), ui-serif, Georgia, serif;

@@ -1,29 +1,41 @@
-# Create T3 App
+# FIND Real Estate — homepage clone
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Pixel-perfect clone of [findrealestate.com](https://www.findrealestate.com/) `/`
+built on the T3 stack (Next.js 15 App Router, tRPC, Drizzle, Tailwind v4) with
+pnpm. Clone working docs: `docs/research/www-findrealestate-com-715c1bfa/root-8a5edab2/`
+(topology, behaviors, visual QA) and `docs/design-references/…` (screenshots).
 
-## What's next? How do I make an app with this?
+## Commands
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+```bash
+pnpm install        # dependencies
+pnpm dev            # dev server
+pnpm build          # production build (also runs lint)
+pnpm typecheck      # tsc --noEmit
+pnpm db:generate    # drizzle-kit generate
+```
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+> Note: port 3000 is occupied by a system service on this machine — use
+> `PORT=3100 pnpm start` (or `pnpm dev -- -p 3100`) to run locally.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## How the clone is organized
 
-## Learn More
+- `src/app/page.tsx` — assembled homepage (11 sections + header/footer).
+- `src/components/sites/www-findrealestate-com-715c1bfa/root-8a5edab2/` — one
+  component per origin section, using the origin's own CSS-module class names.
+- `src/components/sites/www-findrealestate-com-715c1bfa/shared/` — Lenis
+  provider + page-shared helpers (icon set, highlight-wipe, reveal groups).
+- `src/styles/find/` — the origin's vendored stylesheets (fluid `rem` scale,
+  tokens, per-module CSS); `src/styles/clone.css` only adds JS-driven glue.
+- `public/sites/www-findrealestate-com-715c1bfa/…` — downloaded images, video
+  and self-hosted fonts (Instrument Sans, Lora).
+- `scripts/gen-data.mjs` / `scripts/gen-icons.mjs` regenerate `content.ts` /
+  `icons.tsx` from the captured origin markup — do not hand-edit those two.
+- `scripts/lib/browser.mjs` + `tmp/qa-visual.mjs` — Playwright QA harness.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Fidelity notes
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Desktop doc height matches the origin capture within 2 px; every section height
+within 1 px (see `VISUAL_QA.md`). Known gaps: single-route clone (nav links
+404 by design), header dropdown panels replaced by top-level links, one
+listing photo substituted after the origin's CDN rotated it.
