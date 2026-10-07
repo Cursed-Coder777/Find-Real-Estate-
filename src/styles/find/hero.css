@@ -250,7 +250,7 @@
 
 @media (min-width: 768px) {
   .hero_content{
-    padding-bottom: 22.8rem;
+    padding-bottom: 22.2rem; /* centers block 4px lower to match origin (h1 at y=253) */
   }
 }
 
@@ -266,8 +266,8 @@
 
 @media (min-width: 768px) {
   .hero_title h1{
-    font-size: 6.5625rem; /* 105px - matches live site exactly */
-    letter-spacing: -2.1px;
+    font-size: 14rem; /* 105px at 1440px viewport (root = 0.5208333vw = 7.5px) */
+    letter-spacing: -0.02em; /* -2.1px at 105px */
   }
 }
 
@@ -283,8 +283,8 @@
 
 @media (min-width: 768px) {
   .hero_text{
-    margin: 2rem 0 0;
-    font-size: 2.125rem; /* 34px - matches live site */
+    margin: 2rem 0 0; /* 15px gap below h1 at 1440 */
+    font-size: 3.2rem; /* 24px at 1440 - matches live site */
     line-height: 130%;
     letter-spacing: -0.01em;
   }
@@ -334,8 +334,8 @@
 /* --- Responsive adjustments --- */
 @media (max-width: 767px) {
   .hero_title h1{
-    font-size: 56.16px;
-    letter-spacing: -1.1232px;
+    font-size: 5.4rem; /* 56.16px at 390px (root = 2.6667vw = 10.4px) */
+    letter-spacing: -0.02em;
   }
   
   .hero_text{

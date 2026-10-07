@@ -12,7 +12,7 @@ const TITLE_WORDS = ["Find", "What", "Moves", "You"];
 
 /**
  * Hero — pixel-perfect clone from findrealestate.com
- * 
+ *
  * Extracted via browser automation. Matches live site exactly:
  * - 500vh scroll distance with -9.8rem margin-top
  * - Sticky hero_top at 100vh
@@ -52,6 +52,7 @@ export function HeroSection() {
         const composite = one<HTMLElement>("[data-hero-composite]");
         const titleWords = q<HTMLElement>("[data-hero-word]");
         const text = q<HTMLElement>("[data-hero-reveal]");
+        const logoPaths = q<SVGPathElement>("[data-hero-logo] path");
 
         // --- load-in: masked word reveal for the h1, then text + CTA ---
         const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
@@ -60,8 +61,7 @@ export function HeroSection() {
           .from(text, { opacity: 0, y: 24, duration: 0.8, stagger: 0.1 }, "-=0.5");
 
         // --- wordmark stroke draw (hero_logo paths) ---
-        const paths = q<SVGPathElement>("[data-hero-logo] path");
-        paths.forEach((p) => {
+        logoPaths.forEach((p) => {
           const len = typeof p.getTotalLength === "function" ? p.getTotalLength() : 0;
           if (!len) return;
           p.style.strokeDasharray = `${len}`;
@@ -86,7 +86,7 @@ export function HeroSection() {
           .to(smokeTop, { yPercent: 0, duration: 1 }, 0)
           .to(logo, { opacity: 1, duration: 0.17, ease: "none" }, 0)
           .to(composite, { opacity: 1, duration: 0.17, ease: "none" }, 0)
-          .to(paths, { strokeDashoffset: 0, duration: 0.17, ease: "none" }, 0);
+          .to(logoPaths, { strokeDashoffset: 0, duration: 0.17, ease: "none" }, 0);
 
         // clouds drift in opposite directions as the hero is scrolled
         if (clouds.length === 2) {
@@ -145,7 +145,7 @@ export function HeroSection() {
             />
           </div>
 
-          <div className="hero_composite" data-hero-composite="">
+          <div className="hero_composite" data-hero-composite="" style={{ opacity: 0 }}>
             <div className="hero_house" data-hero-house-composite="">
               <img
                 src={`${IMG}/house.8ed9b3db.png`}
@@ -195,7 +195,15 @@ export function HeroSection() {
         <div className="hero_content" data-hero-content="">
           <div className="container_container">
             <div className="hero_title" aria-label="Find What Moves You">
-              <h1>
+              <h1
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  columnGap: "0.17em",
+                  rowGap: "0.05em",
+                }}
+              >
                 {TITLE_WORDS.map((word) => (
                   <span
                     key={word}
@@ -216,7 +224,6 @@ export function HeroSection() {
                     >
                       {word}
                     </span>
-                    {" "}
                   </span>
                 ))}
               </h1>
