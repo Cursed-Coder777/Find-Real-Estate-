@@ -13,12 +13,19 @@ const TITLE_WORDS = ["Find", "What", "Moves", "You"];
 /**
  * Hero — pixel-perfect clone from findrealestate.com
  *
- * Extracted via browser automation. Matches live site exactly:
- * - 500vh scroll distance with -9.8rem margin-top
- * - Sticky hero_top at 100vh
- * - Building at 60vh (58vh desktop)
- * - SVG masked composite layer
- * - GSAP ScrollTrigger animation
+ * Animation timeline matches origin source JS exactly (decompiled from
+ * home_page-1a3b644319932385.js, module 68347):
+ *
+ *  0.0→1.0  both house images scale 1→1.3, y 0→-40%
+ *  0.0→1.0  smoke rises yPercent 70→0
+ *  0.0→1.0  clouds drift outward x ±15%
+ *  0.0→1.0  content moves y 0→20%, scale 1→0.9
+ *  0.0→0.2  content fades opacity 1→0
+ *  0.1      outline logo pops in (opacity instant)
+ *  0.1→0.4  SVG paths draw (dashoffset len→0)
+ *  0.28→0.48 outline logo fades opacity 1→0
+ *  0.3→0.4  composite mask fades in opacity 0→1
+ *  0.3→0.4  main house fades out opacity 1→0  ← critical dissolve
  */
 export function HeroSection() {
   const rootRef = useRef<HTMLElement>(null);
@@ -38,74 +45,92 @@ export function HeroSection() {
 
         const q = <T extends Element>(sel: string) =>
           Array.from(root.querySelectorAll<T>(sel));
-        const one = <T extends Element>(sel: string) => root.querySelector<T>(sel);
+        const qs = <T extends Element>(sel: string) =>
+          root.querySelector<T>(sel);
 
-        const top = one<HTMLElement>("[data-hero-top]");
-        const content = one<HTMLElement>("[data-hero-content]");
-        const houses = [
-          one<HTMLElement>("[data-hero-house]"),
-          one<HTMLElement>("[data-hero-house-composite]"),
-        ].filter(Boolean) as HTMLElement[];
-        const smokeTop = one<HTMLElement>("[data-hero-smoke-top]");
+        const houseMain = qs<HTMLElement>("[data-hero-house]");
+        const houseComposite = qs<HTMLElement>("[data-hero-house-composite]");
+        const smokeTop = qs<HTMLElement>("[data-hero-smoke-top]");
         const clouds = q<HTMLElement>("[data-hero-cloud]");
-        const logo = one<HTMLElement>("[data-hero-logo]");
-        const composite = one<HTMLElement>("[data-hero-composite]");
+        const logo = qs<HTMLElement>("[data-hero-logo]");
+        const composite = qs<HTMLElement>("[data-hero-composite]");
+        const content = qs<HTMLElement>("[data-hero-content]");
         const titleWords = q<HTMLElement>("[data-hero-word]");
         const text = q<HTMLElement>("[data-hero-reveal]");
         const logoPaths = q<SVGPathElement>("[data-hero-logo] path");
 
-        // --- load-in: masked word reveal for the h1, then text + CTA ---
+        // --- load-in: masked word reveal for h1, then subtitle + CTA ---
         const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
         intro
           .from(titleWords, { yPercent: 110, duration: 1, stagger: 0.08 })
           .from(text, { opacity: 0, y: 24, duration: 0.8, stagger: 0.1 }, "-=0.5");
 
-        // --- wordmark stroke draw (hero_logo paths) ---
+        // --- stroke setup: initialize dasharray/dashoffset before timeline ---
         logoPaths.forEach((p) => {
-          const len = typeof p.getTotalLength === "function" ? p.getTotalLength() : 0;
+          const len =
+            typeof p.getTotalLength === "function" ? p.getTotalLength() : 0;
           if (!len) return;
           p.style.strokeDasharray = `${len}`;
           p.style.strokeDashoffset = `${len}`;
         });
 
-        // --- scrubbed scroll timeline over the 400vh sticky range ---
+        // --- scroll-scrubbed timeline ---
+        // Normalized duration 1.0 = full hero scroll (400vh at 900px viewport).
+        // scrub: 0.1 adds 100ms lag for cinematic feel (matches origin scrub:.1).
         const scrollTl = gsap.timeline({
           defaults: { ease: "power1.out" },
           scrollTrigger: {
             trigger: root,
             start: "top top",
             end: "bottom bottom",
-            scrub: true,
+            scrub: 0.1,
           },
         });
 
-        scrollTl
-          .to(content, { opacity: 0, duration: 0.19, ease: "none" }, 0)
-          .to(content, { scale: 0.9, y: 180, duration: 1 }, 0)
-          .to(houses, { scale: 1.3, y: -512.4, duration: 1 }, 0)
-          .to(smokeTop, { yPercent: 0, duration: 1 }, 0)
-          .to(logo, { opacity: 1, duration: 0.17, ease: "none" }, 0)
-          .to(composite, { opacity: 1, duration: 0.17, ease: "none" }, 0)
-          .to(logoPaths, { strokeDashoffset: 0, duration: 0.17, ease: "none" }, 0);
+        const allHouses = [houseMain, houseComposite].filter(
+          Boolean,
+        ) as HTMLElement[];
 
-        // clouds drift in opposite directions as the hero is scrolled
-        if (clouds.length === 2) {
-          scrollTl.fromTo(
-            clouds[0]!,
-            { xPercent: -0.1 },
-            { xPercent: 0.6, duration: 1, ease: "none" },
-            0,
-          );
-          scrollTl.fromTo(
-            clouds[1]!,
-            { xPercent: 0.1 },
-            { xPercent: -0.6, duration: 1, ease: "none" },
-            0,
+        // Both house images zoom (full scroll range)
+        scrollTl.to(allHouses, { y: "-40%", scale: 1.3, duration: 1 }, 0);
+
+        // Smoke top rises from translateY(70%) to 0 (full range)
+        if (smokeTop) scrollTl.to(smokeTop, { yPercent: 0, duration: 1 }, 0);
+
+        // Clouds drift outward (full range)
+        if (clouds[0]) scrollTl.to(clouds[0], { x: "-15%", duration: 1 }, 0);
+        if (clouds[1]) scrollTl.to(clouds[1], { x: "15%", duration: 1 }, 0);
+
+        // Content moves down and scales (full range) + fades fast (first 20%)
+        if (content) {
+          scrollTl.to(content, { y: "20%", scale: 0.9, duration: 1 }, 0);
+          scrollTl.to(content, { opacity: 0, duration: 0.2, ease: "none" }, 0);
+        }
+
+        // Outline logo pops in at 10%
+        if (logo) scrollTl.to(logo, { opacity: 1, duration: 0.01 }, 0.1);
+
+        // Stroke draws 10% → 40%
+        if (logoPaths.length) {
+          scrollTl.to(
+            logoPaths,
+            { strokeDashoffset: 0, duration: 0.3, ease: "none" },
+            0.1,
           );
         }
 
-        // Keep the sticky layer from being left behind on very tall viewports.
-        void top;
+        // Logo fades 28% → 48%
+        if (logo) scrollTl.to(logo, { opacity: 0, duration: 0.2 }, 0.28);
+
+        // Composite mask reveals 30% → 40%
+        if (composite) scrollTl.to(composite, { opacity: 1, duration: 0.1 }, 0.3);
+
+        // Main house dissolves 30% → 40%  ← THE KEY EFFECT
+        if (houseMain)
+          scrollTl.to(houseMain, { opacity: 0, duration: 0.1 }, 0.3);
+
+        // End-marker ensures timeline total = 1.0
+        scrollTl.add(() => {}, 1);
 
         teardown = () => {
           scrollTl.scrollTrigger?.kill();

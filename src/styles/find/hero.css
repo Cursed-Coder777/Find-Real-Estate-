@@ -13,7 +13,7 @@
 
 @media (min-width: 768px) {
   .hero_root{
-    height: 600vh;
+    height: 500vh;
     margin-top: -9.8rem;
   }
 }
@@ -67,8 +67,8 @@
 .hero_house img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 35%;
+  object-fit: contain;
+  object-position: center bottom;
 }
 
 /* --- Composite layer (SVG masked) --- */
@@ -92,8 +92,8 @@
 
 @media (min-width: 768px) {
   .hero_composite{
-    -webkit-mask-size: 97.5rem 28rem;
-    mask-size: 97.5rem 28rem;
+    -webkit-mask-size: 97.7rem 42.3rem;
+    mask-size: 97.7rem 42.3rem;
   }
 }
 
@@ -162,9 +162,9 @@
 @media (min-width: 768px) {
   .hero_logo{
     top: calc(50% - 21.15rem);
-    left: calc(50% - 48.75rem);
-    width: 97.5rem;
-    height: 28rem;
+    left: calc(50% - 48.85rem);
+    width: 97.7rem;
+    height: 42.3rem;
   }
 }
 

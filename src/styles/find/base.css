@@ -127,7 +127,7 @@ template{display:none}
 html{font-size:2.6666666667vw}
 @media(min-width:768px){html{font-size:.5208333333vw}}
 @media(min-width:1920px){html{font-size:10px}}
-html{height:100%}
+html{min-height:100%}
 html.lenis-stopped{overflow:hidden}
 *{box-sizing:border-box}
 :after,:before{box-sizing:border-box}

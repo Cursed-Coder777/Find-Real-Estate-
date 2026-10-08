@@ -152,31 +152,7 @@ export function Footer() {
           </div>
 
           <div className="footer_logo">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 975 280"
-              aria-label="FIND"
-              role="img"
-              style={{ color: "#ffffff" }}
-            >
-              <path
-                fill="currentColor"
-                d="M836.06 1.01c77.3 0 139.94 62.69 139.94 140C976 218.33 913.35 281 836.06 281H702.61V1.01zm-52.82 80.17v119.44h44.58a59.5 59.5 0 0 0 42.21-17.5 59.7 59.7 0 0 0-42.2-101.94z"
-              />
-              <path
-                fill="currentColor"
-                d="M595.45 183.2V1h80.14v279.99H556.68l-73.33-152.93V281H403.2V1h110.33z"
-              />
-              <path
-                fill="currentColor"
-                d="M376.19 280.99h-141l61.26-140.29L235.2 1h141v279.99Z"
-              />
-              <path
-                fill="currentColor"
-                d="M244.55 81.28H81.14v59.42h101.02v80.17H81.14v60.12H1V1h207.91z"
-              />
-            </svg>
+            <LogoIcon aria-label="FIND" role="img" style={{ color: "#ffffff" }} />
           </div>
 
           <div className="footer_copyright-container">
@@ -193,9 +169,7 @@ export function Footer() {
                 </a>
               ))}
               {FOOTER_NOTICES.map((notice) => (
-                <span key={notice} className="undefined">
-                  {notice}
-                </span>
+                <span key={notice}>{notice}</span>
               ))}
             </div>
             <div>FIND Real Estate</div>

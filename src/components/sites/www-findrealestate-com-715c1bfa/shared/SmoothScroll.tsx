@@ -17,16 +17,22 @@ export function SmoothScroll() {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    let lenis: { raf: (t: number) => void; destroy: () => void } | undefined;
+    let lenis: {
+      raf: (t: number) => void;
+      resize: () => void;
+      destroy: () => void;
+    } | undefined;
     let frame = 0;
     let cancelled = false;
+    let resizeObserver: ResizeObserver | undefined;
 
     void import("lenis").then(({ default: Lenis }) => {
       if (cancelled) return;
       const instance = new Lenis({
         duration: 1.1,
         smoothWheel: true,
-        // The origin scrolls the window (not a wrapper element).
+        wrapper: window,
+        content: document.body,
         autoRaf: false,
       });
       lenis = instance;
@@ -36,11 +42,22 @@ export function SmoothScroll() {
         frame = requestAnimationFrame(raf);
       };
       requestAnimationFrame(raf);
+
+      // Keep Lenis updated whenever DOM content or images resize
+      resizeObserver = new ResizeObserver(() => {
+        instance.resize();
+      });
+      if (document.body) {
+        resizeObserver.observe(document.body);
+      }
+
+      window.addEventListener("load", () => instance.resize(), { once: true });
     });
 
     return () => {
       cancelled = true;
       cancelAnimationFrame(frame);
+      resizeObserver?.disconnect();
       lenis?.destroy();
     };
   }, []);
