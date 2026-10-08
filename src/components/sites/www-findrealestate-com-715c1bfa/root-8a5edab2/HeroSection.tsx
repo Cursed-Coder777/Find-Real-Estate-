@@ -13,19 +13,31 @@ const TITLE_WORDS = ["Find", "What", "Moves", "You"];
 /**
  * Hero — pixel-perfect clone from findrealestate.com
  *
- * Animation timeline matches origin source JS exactly (decompiled from
- * home_page-1a3b644319932385.js, module 68347):
+ * The scroll timeline below was reverse-engineered from the live origin by
+ * sampling every animated property at 40–150px scroll increments and fitting
+ * each curve (see `tmp/probe-hero-timeline.mjs` / `tmp/probe-stroke.mjs`).
+ * Every ease is the timeline default `power1.out` (GSAP "Quad.out"), which is
+ * what the fitted curves match, so the numbers below are reproducible rather
+ * than guessed.
  *
- *  0.0→1.0  both house images scale 1→1.3, y 0→-40%
- *  0.0→1.0  smoke rises yPercent 70→0
- *  0.0→1.0  clouds drift outward x ±15%
- *  0.0→1.0  content moves y 0→20%, scale 1→0.9
- *  0.0→0.2  content fades opacity 1→0
- *  0.1      outline logo pops in (opacity instant)
- *  0.1→0.4  SVG paths draw (dashoffset len→0)
- *  0.28→0.48 outline logo fades opacity 1→0
- *  0.3→0.4  composite mask fades in opacity 0→1
- *  0.3→0.4  main house fades out opacity 1→0  ← critical dissolve
+ * ScrollTrigger range: `start:"top top"` → `end:"bottom top"` over the full
+ * 4500px hero, so progress runs 0→1 across 4500px of scrolling. (Using
+ * `end:"bottom bottom"` shrinks the range to 3600px and makes every mid-scroll
+ * value overshoot the origin — that was the main source of the visual diff.)
+ *
+ *   pos      dur    tween
+ *   0        1.0    both house layers   scale 1→1.3, y 0→-40%
+ *   0        1.0    .hero_smoke (top)   yPercent 69.5→0
+ *   0        1.0    clouds              x 0→∓15%
+ *   0        1.0    .hero_content       y 0→20%, scale 1→0.9
+ *   0        0.2    .hero_content       opacity 1→0
+ *   0.096    0.015  .hero_logo          opacity 0→1
+ *   0.098    0.296  .hero_logo path     strokeDashoffset len→0  (the "draw")
+ *   0.28     0.185  .hero_logo          opacity 1→0
+ *   0.297    0.1    .hero_composite     opacity 0→1   ─┐ same window + ease,
+ *   0.297    0.1    main house          opacity 1→0   ─┘ so the colour reveal
+ *                                                     fills the letters exactly
+ *                                                     as the outline fades
  */
 export function HeroSection() {
   const rootRef = useRef<HTMLElement>(null);
@@ -75,14 +87,14 @@ export function HeroSection() {
         });
 
         // --- scroll-scrubbed timeline ---
-        // Normalized duration 1.0 = full hero scroll (400vh at 900px viewport).
-        // scrub: 0.1 adds 100ms lag for cinematic feel (matches origin scrub:.1).
+        // Range is the FULL hero height (top top -> bottom top). scrub: .1 adds
+        // the origin's 100ms of lag.
         const scrollTl = gsap.timeline({
           defaults: { ease: "power1.out" },
           scrollTrigger: {
             trigger: root,
             start: "top top",
-            end: "bottom bottom",
+            end: "bottom top",
             scrub: 0.1,
           },
         });
@@ -91,46 +103,66 @@ export function HeroSection() {
           Boolean,
         ) as HTMLElement[];
 
-        // Both house images zoom (full scroll range)
+        // Both house layers zoom (full scroll range)
         scrollTl.to(allHouses, { y: "-40%", scale: 1.3, duration: 1 }, 0);
 
-        // Smoke top rises from translateY(70%) to 0 (full range)
-        if (smokeTop) scrollTl.to(smokeTop, { yPercent: 0, duration: 1 }, 0);
+        // Smoke rises out of the bottom. The start value has to be handed to
+        // GSAP explicitly: `translateY(70%)` lives in the stylesheet, and GSAP
+        // reads it as an unknown transform, so tweening `yPercent: 0` on its
+        // own is a no-op (0 -> 0) and the smoke never moves. 69.5% is the value
+        // measured on the live origin (323.3px of a 465px layer).
+        if (smokeTop) {
+          gsap.set(smokeTop, { yPercent: 69.5, y: 0 });
+          scrollTl.to(smokeTop, { yPercent: 0, duration: 1 }, 0);
+        }
 
-        // Clouds drift outward (full range)
+        // Clouds drift outward (full scroll range)
         if (clouds[0]) scrollTl.to(clouds[0], { x: "-15%", duration: 1 }, 0);
         if (clouds[1]) scrollTl.to(clouds[1], { x: "15%", duration: 1 }, 0);
 
-        // Content moves down and scales (full range) + fades fast (first 20%)
+        // Content moves down and scales (full range) then fades over the first 20%
         if (content) {
           scrollTl.to(content, { y: "20%", scale: 0.9, duration: 1 }, 0);
-          scrollTl.to(content, { opacity: 0, duration: 0.2, ease: "none" }, 0);
+          scrollTl.to(content, { opacity: 0, duration: 0.2 }, 0);
         }
 
-        // Outline logo pops in at 10%
-        if (logo) scrollTl.to(logo, { opacity: 1, duration: 0.01 }, 0.1);
+        // Outline wordmark: fade in, then the stroke "draw" runs.
+        if (logo) {
+          scrollTl.fromTo(
+            logo,
+            { opacity: 0 },
+            { opacity: 1, duration: 0.015 },
+            0.096,
+          );
+          // Outline fades back out before the colour reveal takes over
+          scrollTl.to(logo, { opacity: 0, duration: 0.185 }, 0.28);
+        }
 
-        // Stroke draws 10% → 40%
         if (logoPaths.length) {
           scrollTl.to(
             logoPaths,
-            { strokeDashoffset: 0, duration: 0.3, ease: "none" },
-            0.1,
+            { strokeDashoffset: 0, duration: 0.296 },
+            0.098,
           );
         }
 
-        // Logo fades 28% → 48%
-        if (logo) scrollTl.to(logo, { opacity: 0, duration: 0.2 }, 0.28);
+        // THE CRITICAL DISSOLVE.
+        // `.hero_composite` is the house image masked through the same 977x423
+        // wordmark geometry that `.hero_logo` strokes, and both layers sit at the
+        // same 732.75x317.25px box. Fading the colour reveal in while fading the
+        // flat house out over the *same window with the same ease* is what makes
+        // the outline appear to fill in with the building rather than cross-fade
+        // into a different shape. Keep these two lines in lockstep.
+        if (composite) {
+          scrollTl.to(composite, { opacity: 1, duration: 0.1 }, 0.297);
+        }
+        if (houseMain) {
+          scrollTl.to(houseMain, { opacity: 0, duration: 0.1 }, 0.297);
+        }
 
-        // Composite mask reveals 30% → 40%
-        if (composite) scrollTl.to(composite, { opacity: 1, duration: 0.1 }, 0.3);
-
-        // Main house dissolves 30% → 40%  ← THE KEY EFFECT
-        if (houseMain)
-          scrollTl.to(houseMain, { opacity: 0, duration: 0.1 }, 0.3);
-
-        // End-marker ensures timeline total = 1.0
-        scrollTl.add(() => {}, 1);
+        // No explicit end-marker is needed: the house / smoke / cloud / content
+        // tweens all run `duration: 1` from position 0, so the timeline's total
+        // duration is exactly 1 and ScrollTrigger progress maps 1:1 to scroll.
 
         teardown = () => {
           scrollTl.scrollTrigger?.kill();
@@ -226,7 +258,11 @@ export function HeroSection() {
                   flexWrap: "wrap",
                   justifyContent: "center",
                   columnGap: "0.17em",
-                  rowGap: "0.05em",
+                  // No rowGap: the origin wraps each word in an inline-block
+                  // shell with -0.15em margin / 0.15em padding, so consecutive
+                  // lines butt together at `line-height: 100%`. A flex rowGap
+                  // added 0.05em between wrapped lines, making the mobile h1
+                  // 115px tall against the origin's 112px.
                 }}
               >
                 {TITLE_WORDS.map((word) => (
