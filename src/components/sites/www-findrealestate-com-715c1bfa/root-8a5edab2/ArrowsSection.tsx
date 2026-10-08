@@ -2,7 +2,6 @@ import { Fragment } from "react";
 
 import { ASSET_ROOT } from "./data";
 import { HighlightLines } from "./shared/HighlightLines";
-import { RevealGroup } from "./shared/RevealGroup";
 
 const IMG = `${ASSET_ROOT}/images`;
 
@@ -36,20 +35,13 @@ export function ArrowsSection() {
           ]}
         />
 
-        <RevealGroup
-          className="arrows-section_arrows"
-          itemSelector=".arrows-section_arrow"
-          fromOpacity={0.1}
-          fromY={0}
-          stagger={0.12}
-          duration={0.9}
-        >
+        <div className="arrows-section_arrows">
           {ARROW_IMAGES.map((file) => (
             <div key={file} className="arrows-section_arrow">
               <img src={`${IMG}/${file}`} alt="" width={692} height={880} loading="lazy" />
             </div>
           ))}
-        </RevealGroup>
+        </div>
 
         <div className="arrows-section_text">
           <p>

@@ -11,6 +11,15 @@ type Props = {
   fromX?: number;
   stagger?: number;
   duration?: number;
+  /**
+   * Seconds for the opacity leg. The origin often fades opacity in far faster
+   * than it moves the element — on the Rewired steps the measured timeline is
+   * opacity 0->1 in ~0.1s while `y` 70->0 takes ~1.7s, which a single tween
+   * cannot express.
+   */
+  opacityDuration?: number;
+  /** Ease for the positional leg. */
+  ease?: string;
   className?: string;
   children: ReactNode;
 };
@@ -29,6 +38,8 @@ export function RevealGroup({
   fromX = 0,
   stagger = 0.08,
   duration = 0.9,
+  opacityDuration,
+  ease = "power3.out",
   className,
   children,
 }: Props) {
@@ -53,14 +64,25 @@ export function RevealGroup({
           entries.forEach((entry) => {
             if (!entry.isIntersecting) return;
             observer.disconnect();
-            gsap.to(items, {
-              opacity: 1,
-              x: 0,
-              y: 0,
-              duration,
-              stagger,
-              ease: "power3.out",
-            });
+            // Positional and opacity legs are independent so a group can move
+            // for ~2s while its fade finishes in ~0.1s, as the origin does.
+            if (fromOpacity !== 1) {
+              gsap.to(items, {
+                opacity: 1,
+                duration: opacityDuration ?? duration,
+                stagger,
+                ease,
+              });
+            }
+            if (fromX !== 0 || fromY !== 0) {
+              gsap.to(items, {
+                x: 0,
+                y: 0,
+                duration,
+                stagger,
+                ease,
+              });
+            }
           });
         },
         { threshold: 0.2, rootMargin: "0px 0px -8% 0px" },
@@ -73,7 +95,7 @@ export function RevealGroup({
       cancelled = true;
       teardown?.();
     };
-  }, [itemSelector, stagger, duration, fromOpacity, fromY, fromX]);
+  }, [itemSelector, stagger, duration, opacityDuration, ease, fromOpacity, fromY, fromX]);
 
   return (
     <div ref={ref} className={className}>

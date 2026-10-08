@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { TESTIMONIALS } from "./content";
 import { ASSET_ROOT } from "./data";
+import { ClipReveal } from "./shared/ClipReveal";
 import { HighlightLines } from "./shared/HighlightLines";
 
 const IMG = `${ASSET_ROOT}/images`;
@@ -16,6 +17,10 @@ const IMG = `${ASSET_ROOT}/images`;
  * a preview image column that sits first on desktop (`order: -1`).
  *
  * Interaction model: click-driven pagination; no autoplay in the origin.
+ *
+ * The preview image reveals with a clip-path wipe *top to bottom*
+ * (`inset(0 100% 0 0)` -> `inset(0 0 0 0)`, 2s, `power4.out`) rather than a
+ * fade — measured on the live site, see `shared/ClipReveal`.
  */
 export function TestimonialsSection() {
   return (
@@ -64,16 +69,16 @@ export function TestimonialsSection() {
           </div>
 
           <div className="testimonials_grid-col">
-            <div className="testimonials_preview">
-              <img
-                src={`${IMG}/1.52131ac7.jpg`}
-                alt=""
-                width={976}
-                height={688}
-                loading="lazy"
-              />
-            </div>
-          </div>
+          <ClipReveal as="div" className="testimonials_preview" axis="y">
+            <img
+              src={`${IMG}/1.52131ac7.jpg`}
+              alt=""
+              width={976}
+              height={688}
+              loading="lazy"
+            />
+          </ClipReveal>
+        </div>
         </div>
       </div>
     </section>

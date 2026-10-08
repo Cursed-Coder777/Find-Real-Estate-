@@ -3,13 +3,21 @@ import { Fragment } from "react";
 
 import { POSTS } from "./content";
 import { ArrowRightIcon } from "./shared/icons";
+import { ClipReveal } from "./shared/ClipReveal";
 import { HighlightLines } from "./shared/HighlightLines";
-import { RevealGroup } from "./shared/RevealGroup";
 
 /**
  * Blog & Resources (section 9) — three blog post entries on the muted
  * `#f1f1f1` surface. Dates are rendered verbatim (ISO strings) exactly like
  * the origin.
+ *
+ * Entry animation: the origin does not fade the post rows up. Each
+ * `.post-entry_thumbnail` anchor is parked clipped shut at
+ * `inset(0 0 0 100%)` and wipes open left-to-right (2s, `power4.out`) as it
+ * enters the viewport, while the `<img>` inside it cross-fades from opacity 0
+ * over ~1.7s. Measured on the live site — see `shared/ClipReveal`. An earlier
+ * revision here used a staggered `RevealGroup` fade-up on `.latest-posts_item`,
+ * which the live site does not do.
  */
 export function LatestPostsSection() {
   return (
@@ -62,22 +70,20 @@ export function LatestPostsSection() {
           </div>
         </div>
 
-        <RevealGroup
-          itemSelector=".latest-posts_item"
-          fromY={32}
-          stagger={0.1}
-          className="latest-posts_items"
-        >
+        <div className="latest-posts_items">
           {POSTS.map((post) => (
             <div key={post.href} className="latest-posts_item">
               <div className="post-entry_root">
                 <div className="post-entry_grid">
                   <div className="post-entry_grid-col">
-                    <Link
+                    <ClipReveal
+                      as={Link}
                       className="post-entry_thumbnail"
                       href={post.href}
                       tabIndex={-1}
                       aria-hidden="true"
+                      axis="x"
+                      fadeInner="img"
                     >
                       <div className="image_container image_loaded">
                         <img
@@ -88,7 +94,7 @@ export function LatestPostsSection() {
                           fetchPriority="low"
                         />
                       </div>
-                    </Link>
+                    </ClipReveal>
                   </div>
                   <div className="post-entry_grid-col">
                     <div className="post-entry_date">{post.date}</div>
@@ -120,7 +126,7 @@ export function LatestPostsSection() {
               </div>
             </div>
           ))}
-        </RevealGroup>
+        </div>
       </div>
     </section>
   );

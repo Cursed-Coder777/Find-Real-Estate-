@@ -4,7 +4,6 @@ import { Fragment } from "react";
 import { FEATURES } from "./content";
 import { ArrowRightIcon } from "./shared/icons";
 import { HighlightLines } from "./shared/HighlightLines";
-import { RevealGroup } from "./shared/RevealGroup";
 
 /**
  * "Support Beyond Buying and Selling" (section 8) — dark grid of three image
@@ -68,12 +67,7 @@ export function FeaturesSection() {
           </div>
         </div>
 
-        <RevealGroup
-          itemSelector=".features_item"
-          fromY={32}
-          stagger={0.1}
-          className="features_items"
-        >
+        <div className="features_items">
           {FEATURES.map((feature) => (
             <div key={feature.title} className="features_item">
               <div className="features_item-bg">
@@ -108,7 +102,7 @@ export function FeaturesSection() {
               </div>
             </div>
           ))}
-        </RevealGroup>
+        </div>
       </div>
     </section>
   );

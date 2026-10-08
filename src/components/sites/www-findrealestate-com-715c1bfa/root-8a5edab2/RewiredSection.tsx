@@ -65,7 +65,13 @@ export function RewiredSection() {
             <div className="assymetric-cols_col">
               <div>
                 <div className="rewired_label">Steps:</div>
-                <RevealGroup itemSelector=".rewired_list-item" fromY={20} stagger={0.12}>
+                <RevealGroup
+                  itemSelector=".rewired_list-item"
+                  fromY={70}
+                  duration={1.7}
+                  opacityDuration={0.1}
+                  ease="expo.out"
+                >
                   {STEPS.map((step) => (
                     <div
                       key={step.index}

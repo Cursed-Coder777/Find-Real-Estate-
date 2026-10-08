@@ -1,11 +1,17 @@
 import { Fragment } from "react";
 
 import { ASSET_ROOT } from "./data";
+import { ClipReveal } from "./shared/ClipReveal";
 import { HighlightLines } from "./shared/HighlightLines";
 
 /**
  * "Why FIND" — a text grid plus an autoplaying, looping, muted product video.
- * The video is time-driven; nothing in this section reacts to scroll.
+ *
+ * The video itself is purely time-driven (autoplay/loop/muted/playsinline,
+ * no poster), but the origin does not simply fade it in on scroll: it parks
+ * the preview clipped shut with `inset(0 0 0 100%)` and wipes it open
+ * left-to-right over 2s with a `power4.out` ease once any part enters the
+ * viewport, clearing the clip path afterwards. See `shared/ClipReveal`.
  */
 export function WhyUsSection() {
   return (
@@ -38,7 +44,7 @@ export function WhyUsSection() {
           />
         </div>
 
-        <div className="why-us_preview">
+        <ClipReveal as="div" className="why-us_preview" axis="x">
           <video
             src={`${ASSET_ROOT}/video/why-us.mp4`}
             autoPlay
@@ -47,7 +53,7 @@ export function WhyUsSection() {
             playsInline
             preload="metadata"
           />
-        </div>
+        </ClipReveal>
       </div>
     </section>
   );
