@@ -1,0 +1,35 @@
+.core-values-slides_em{color:#b3b3b3}
+.core-values-slides_invisible{visibility:hidden}
+.core-values-slides_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.core-values-slides_desktop-only{display:initial!important;pointer-events:auto}}
+.core-values-slides_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.core-values-slides_mobile-only{display:initial!important;pointer-events:auto}}
+.core-values-slides_underline{text-decoration:underline}
+.core-values-slides_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.core-values-slides_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.core-values-slides_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.core-values-slides_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.core-values-slides_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.core-values-slides_dropdown-content{padding:2rem 0}}
+.core-values-slides_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.core-values-slides_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.core-values-slides_dropdown-trigger.core-values-slides_underlined{border-bottom:1px solid #151717}
+.core-values-slides_dropdown-trigger.core-values-slides_outlined{border:1px solid rgba(21,23,23,.1)}
+.core-values-slides_wrapper{overflow:auto;margin:0 calc(-50vw + 50% + var(--scrollbar-width, 0px));padding:0 2.5rem;scrollbar-width:none;-ms-overflow-style:none;display:flex;gap:1.5rem}
+.core-values-slides_wrapper::-webkit-scrollbar{display:none}
+@media(min-width:768px){.core-values-slides_wrapper{padding:0;gap:0}}
+.core-values-slides_slide{position:relative;min-width:100%;height:40rem;background-color:#d3d3d3;overflow:hidden}
+.core-values-slides_slide:first-child .core-values-slides_img-wrapper img{object-position:-22rem}
+.core-values-slides_slide:nth-child(3) .core-values-slides_img-wrapper img{object-position:-16rem}
+@media(min-width:768px){.core-values-slides_slide{flex:1 1;min-width:0;height:65rem}.core-values-slides_slide:first-child .core-values-slides_img-wrapper img{object-position:-33rem;height:100%}.core-values-slides_slide:nth-child(2) .core-values-slides_img-wrapper img{object-position:-22rem;height:100%}.core-values-slides_slide:nth-child(3) .core-values-slides_img-wrapper img{object-position:-33rem;height:100%}.core-values-slides_slide:nth-child(4) .core-values-slides_img-wrapper img{position:absolute;height:100%;object-position:-30rem 0}.core-values-slides_slide:nth-child(5) .core-values-slides_img-wrapper img{object-position:-15rem;transform:scale(1.7)}}
+@media(min-width:768px)and (min-width:768px){.core-values-slides_slide .core-values-slides_description{opacity:0;height:0}}
+.core-values-slides_content{position:absolute;top:0;left:0;width:100%;height:100%;padding:3rem;z-index:2;display:flex;flex-direction:column;color:#fff}
+@media(min-width:768px){.core-values-slides_content{padding:4rem}}
+.core-values-slides_title{margin-top:auto;font-weight:500;font-size:2.2rem;line-height:1.3}
+@media(min-width:768px){.core-values-slides_title{font-size:3.2rem;line-height:1.15;letter-spacing:-.03em;max-width:10ch}}
+.core-values-slides_description{font-weight:500;font-size:1.6rem;line-height:1.5;padding-top:1.5rem}
+@media(min-width:768px){.core-values-slides_description{font-size:1.8rem;width:40rem}}
+.core-values-slides_img-wrapper{position:absolute;bottom:0;left:0;width:100%;height:100%}
+.core-values-slides_img-wrapper:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.2);z-index:1}
+.core-values-slides_img-wrapper img{height:100%;width:100%;object-fit:cover}
+@media(min-width:768px){.core-values-slides_img-wrapper img{position:absolute;bottom:0;left:0;height:auto;width:50vw}}

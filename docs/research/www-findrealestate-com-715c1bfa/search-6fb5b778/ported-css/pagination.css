@@ -1,0 +1,37 @@
+.pagination_em{color:#b3b3b3}
+.pagination_invisible{visibility:hidden}
+.pagination_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.pagination_desktop-only{display:initial!important;pointer-events:auto}}
+.pagination_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.pagination_mobile-only{display:initial!important;pointer-events:auto}}
+.pagination_underline{text-decoration:underline}
+.pagination_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.pagination_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.pagination_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.pagination_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.pagination_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.pagination_dropdown-content{padding:2rem 0}}
+.pagination_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.pagination_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.pagination_dropdown-trigger.pagination_underlined{border-bottom:1px solid #151717}
+.pagination_dropdown-trigger.pagination_outlined{border:1px solid rgba(21,23,23,.1)}
+.pagination_pagination{display:flex;align-items:center;gap:.5rem;visibility:hidden;pointer-events:none;opacity:0;transition:opacity .17s ease-in-out;list-style:none;padding:0;margin:0}
+@media(min-width:768px){.pagination_pagination{gap:1.5rem;font-size:2rem}}
+.pagination_pagination .rc-pagination-item{transition:background-color .35s ease-in-out}
+.pagination_pagination .rc-pagination-item:hover:not(.rc-pagination-item-active){background-color:#ededed}
+@media(pointer:fine){.pagination_pagination .rc-pagination-item:hover{transform:scaleX(1.02);transition:transform .7s cubic-bezier(.34,5.56,.64,1)}}
+.pagination_pagination .rc-pagination-item,.pagination_pagination .rc-pagination-jump-next,.pagination_pagination .rc-pagination-jump-prev{--size:2.8rem;width:var(--size);height:var(--size);border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.4rem;line-height:1.3;font-weight:500}
+@media(min-width:768px){.pagination_pagination .rc-pagination-item,.pagination_pagination .rc-pagination-jump-next,.pagination_pagination .rc-pagination-jump-prev{--size:4rem;font-size:2rem}}
+.pagination_pagination .rc-pagination-item-active{background-color:#151717;color:#fff}
+.pagination_pagination .rc-pagination-prev{margin-right:auto}
+.pagination_pagination .rc-pagination-next{margin-left:auto}
+.pagination_pagination .rc-pagination-next,.pagination_pagination .rc-pagination-prev{--size:4rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:transform .3s;min-width:var(--size);width:var(--size);height:var(--size);border-radius:50%;background-color:var(--color-white);border:1px solid rgba(21,23,23,.5)}
+@media(pointer:fine){.pagination_pagination .rc-pagination-next:hover,.pagination_pagination .rc-pagination-prev:hover{transform:scaleX(1.02);transition:transform .7s cubic-bezier(.34,5.56,.64,1)}}
+@media(pointer:fine){.pagination_pagination .rc-pagination-next:hover .pagination_next,.pagination_pagination .rc-pagination-next:hover .pagination_prev,.pagination_pagination .rc-pagination-prev:hover .pagination_next,.pagination_pagination .rc-pagination-prev:hover .pagination_prev{transform:translateY(-100%)}}
+@media(min-width:768px){.pagination_pagination .rc-pagination-next,.pagination_pagination .rc-pagination-prev{--size:5.2rem}}
+.pagination_pagination .rc-pagination-disabled{pointer-events:none;visibility:hidden}
+.pagination_initialized{visibility:visible;pointer-events:auto;opacity:1}
+.pagination_disabled{pointer-events:none;opacity:.5;transition:opacity .17s ease-in-out}
+.pagination_nav{position:relative;overflow:hidden}
+.pagination_next,.pagination_prev{position:relative;display:flex;flex-direction:column;transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.pagination_next>div:nth-child(2),.pagination_prev>div:nth-child(2){position:absolute;top:100%;left:0;width:100%;height:100%}

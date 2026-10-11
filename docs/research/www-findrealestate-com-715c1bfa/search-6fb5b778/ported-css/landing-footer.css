@@ -1,0 +1,24 @@
+.landing-footer_em{color:#b3b3b3}
+.landing-footer_invisible{visibility:hidden}
+.landing-footer_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.landing-footer_desktop-only{display:initial!important;pointer-events:auto}}
+.landing-footer_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.landing-footer_mobile-only{display:initial!important;pointer-events:auto}}
+.landing-footer_underline{text-decoration:underline}
+.landing-footer_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.landing-footer_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.landing-footer_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.landing-footer_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.landing-footer_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.landing-footer_dropdown-content{padding:2rem 0}}
+.landing-footer_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.landing-footer_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.landing-footer_dropdown-trigger.landing-footer_underlined{border-bottom:1px solid #151717}
+.landing-footer_dropdown-trigger.landing-footer_outlined{border:1px solid rgba(21,23,23,.1)}
+.landing-footer_wrapper{padding:4rem 0;color:#fff;background-color:#151717}
+@media(min-width:768px){.landing-footer_wrapper{padding:6rem 0}}
+.landing-footer_content{display:grid;grid-gap:2.4rem;gap:2.4rem;font-size:1.4rem;line-height:1.5}
+.landing-footer_contacts,.landing-footer_notices{display:flex;flex-wrap:wrap;gap:.8rem 2.4rem;color:hsla(0,0%,100%,.75)}
+.landing-footer_contacts a,.landing-footer_notices a{color:inherit}
+.landing-footer_contacts a:hover,.landing-footer_notices a:hover{color:#fff}
+.landing-footer_legal{font-size:1.3rem;color:hsla(0,0%,100%,.55)}

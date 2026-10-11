@@ -1,0 +1,28 @@
+.talk_em{color:#b3b3b3}
+.talk_invisible{visibility:hidden}
+.talk_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.talk_desktop-only{display:initial!important;pointer-events:auto}}
+.talk_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.talk_mobile-only{display:initial!important;pointer-events:auto}}
+.talk_underline{text-decoration:underline}
+.talk_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.talk_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.talk_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.talk_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.talk_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.talk_dropdown-content{padding:2rem 0}}
+.talk_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.talk_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.talk_dropdown-trigger.talk_underlined{border-bottom:1px solid #151717}
+.talk_dropdown-trigger.talk_outlined{border:1px solid rgba(21,23,23,.1)}
+.talk_wrapper{padding:6rem 0;background-color:#fff}
+@media(min-width:768px){.talk_wrapper{padding:15rem 0}}
+.talk_grid{display:grid;grid-gap:4rem;gap:4rem}
+@media(min-width:768px){.talk_grid{grid-template-columns:1fr 1.2fr;gap:10rem;align-items:start}}
+.talk_formWrap,.talk_intro{display:flex;flex-direction:column;align-items:flex-start;gap:1.6rem}
+.talk_title{font-weight:500;font-size:4.4rem;line-height:1;letter-spacing:-.02em}
+@media(min-width:768px){.talk_title{font-size:7.2rem;letter-spacing:-.04em}}
+.talk_lead{font-size:2.2rem;font-weight:500;line-height:1.3}
+@media(min-width:768px){.talk_lead{font-size:3.2rem;letter-spacing:-.01em}}
+.talk_form{display:flex;flex-direction:column;gap:3rem}
+.talk_actions{margin-top:1rem}

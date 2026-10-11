@@ -1,0 +1,25 @@
+.assymetric-image-split_em{color:#b3b3b3}
+.assymetric-image-split_invisible{visibility:hidden}
+.assymetric-image-split_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.assymetric-image-split_desktop-only{display:initial!important;pointer-events:auto}}
+.assymetric-image-split_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.assymetric-image-split_mobile-only{display:initial!important;pointer-events:auto}}
+.assymetric-image-split_underline{text-decoration:underline}
+.assymetric-image-split_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.assymetric-image-split_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.assymetric-image-split_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.assymetric-image-split_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.assymetric-image-split_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.assymetric-image-split_dropdown-content{padding:2rem 0}}
+.assymetric-image-split_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.assymetric-image-split_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.assymetric-image-split_dropdown-trigger.assymetric-image-split_underlined{border-bottom:1px solid #151717}
+.assymetric-image-split_dropdown-trigger.assymetric-image-split_outlined{border:1px solid rgba(21,23,23,.1)}
+.assymetric-image-split_wrapper{padding:6rem 0}
+@media(min-width:768px){.assymetric-image-split_wrapper{padding:15rem 0}}
+.assymetric-image-split_label{font-weight:600;font-size:2rem;line-height:1.4}
+.assymetric-image-split_small-img{margin-top:69%;position:relative;aspect-ratio:364/431;width:36.4rem}
+.assymetric-image-split_image{position:relative;aspect-ratio:365/450;margin:0 calc(-50vw + 50% + .5rem + var(--scrollbar-width, 0px))}
+@media(min-width:768px){.assymetric-image-split_image{aspect-ratio:var(--aspect-ratio,976/688);margin:0}}
+.assymetric-image-split_right-col{display:flex;flex-direction:column;gap:var(--gap,4rem)}
+@media(min-width:768px){.assymetric-image-split_right-col{gap:var(--gap,8rem)}}

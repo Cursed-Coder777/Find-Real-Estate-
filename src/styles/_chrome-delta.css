@@ -1,0 +1,53 @@
+/* ============================================================
+   Site chrome delta — the "Beta" pill
+
+   The origin added a "Beta" badge next to Sign In AFTER the homepage was first
+   captured, so the installed header.css / burger-menu.css in src/styles/find/
+   predate it and contain no rules for it. This file carries exactly those
+   missing rules; it must stay in sync with src/components/.../root-8a5edab2/
+   data.ts (BETA_HREF / BETA_TITLE) and with Header.tsx / BurgerMenu.tsx.
+
+   Every value below was read off the live origin with getComputedStyle, not
+   guessed:
+
+     a.header_beta        box 41x18 · font-size 9px (1.2rem) · weight 600
+                          padding 2.25px/6.75px (.3rem/.9rem)
+                          margin-right 9px (1.2rem)
+                          border 1px solid rgb(21,23,23) (#151717)
+                          border-radius 999px · color #151717
+                          letter-spacing .06em (measured 0.54px)
+     a.burger-menu_beta   the same link, labelled "Beta: new agent platform",
+                          placed under Sign In inside .burger-menu_actions
+
+   Note the origin's DOM text is "Beta" but it *displays* as "BETA" — the
+   uppercase is a CSS text-transform, so the markup below matches the origin's
+   and the transform reproduces the rendered result (and the 41px pill width;
+   without it the pill measures 35px).
+   ============================================================ */
+
+.header_actions a.header_beta{
+  display:inline-flex;
+  align-items:center;
+  margin:0 1.2rem 0 0;
+  padding:.3rem .9rem;
+  border:1px solid #151717;
+  border-radius:999px;
+  font-size:1.2rem;
+  font-weight:600;
+  line-height:1.3;
+  color:#151717;
+  white-space:nowrap;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+
+.header_actions a.header_beta:hover{
+  opacity:.6;
+}
+
+.burger-menu_actions a.burger-menu_beta{
+  margin-top:1.6rem;
+  font-size:1.4rem;
+  opacity:.7;
+  text-decoration:underline;
+}

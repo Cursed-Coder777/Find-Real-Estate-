@@ -1,0 +1,31 @@
+/* ============================================================
+   /search chrome delta
+
+   Written by hand from a diff of the origin's freshly downloaded
+   stylesheets against the older homepage copy. These are the only rules the
+   newer deploy added for this route's chrome.
+
+   The origin renders a "BETA" badge next to Sign In on both routes; the clone
+   never rendered it, so the homepage copy had no styling for it either.
+   ============================================================ */
+
+.header_actions a.header_beta{
+  margin-right:1.2rem;
+  padding:.3rem .9rem;
+  border:1px solid;
+  border-radius:999px;
+  font-size:1.2rem;
+  font-weight:600;
+  letter-spacing:.02em;
+}
+
+.header_actions a.header_beta:hover{
+  opacity:1;
+}
+
+.burger-menu_actions a.burger-menu_beta{
+  margin-top:1.6rem;
+  font-size:1.4rem;
+  opacity:.7;
+  text-decoration:underline;
+}

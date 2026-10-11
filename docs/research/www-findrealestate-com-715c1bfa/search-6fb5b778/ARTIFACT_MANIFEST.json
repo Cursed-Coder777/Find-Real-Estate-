@@ -1,0 +1,2086 @@
+{
+  "page": "https://www.findrealestate.com/search",
+  "listingCount": 120,
+  "total": 346,
+  "ok": 346,
+  "failed": 0,
+  "brokenOnOrigin": [],
+  "assets": [
+    {
+      "source": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/9b0ec10b-eb9d-4960-b188-e93b6fd96073.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/9b0ec10b-eb9d-4960-b188-e93b6fd96073.jpg",
+      "status": "ok",
+      "bytes": 113346
+    },
+    {
+      "source": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/ef14c8a6-1d86-45ae-977e-ce3152a98c50.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/ef14c8a6-1d86-45ae-977e-ce3152a98c50.jpg",
+      "status": "ok",
+      "bytes": 126751
+    },
+    {
+      "source": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/a8d3dccd-f06b-45ad-9379-7aa61b473176.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a8d3dccd-f06b-45ad-9379-7aa61b473176.jpg",
+      "status": "ok",
+      "bytes": 104215
+    },
+    {
+      "source": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/c466b77f-c1fb-4871-b4fb-f0f7cc0c8599.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/c466b77f-c1fb-4871-b4fb-f0f7cc0c8599.jpg",
+      "status": "ok",
+      "bytes": 136416
+    },
+    {
+      "source": "https://d885a8425d3c5e3bb321-4329b665eb26bf0f64515879fa7842b8.ssl.cf5.rackcdn.com/16583d57-8083-4c88-8256-cb409d8b5d83.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/16583d57-8083-4c88-8256-cb409d8b5d83.jpg",
+      "status": "ok",
+      "bytes": 106833
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/304887319_IMG_4237.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/304887319_IMG_4237.jpg",
+      "status": "ok",
+      "bytes": 388454
+    },
+    {
+      "source": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/REBNY_logo.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/REBNY_logo.png",
+      "status": "ok",
+      "bytes": 12687
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/373787552_IMG_4246.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/373787552_IMG_4246.jpg",
+      "status": "ok",
+      "bytes": 337681
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/108157979_IMG_4240.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/108157979_IMG_4240.jpg",
+      "status": "ok",
+      "bytes": 186842
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/79391672_IMG_4242.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/79391672_IMG_4242.jpg",
+      "status": "ok",
+      "bytes": 280522
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/341121504_IMG_4243.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/341121504_IMG_4243.jpg",
+      "status": "ok",
+      "bytes": 244409
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047534-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047534-2_l.jpg",
+      "status": "ok",
+      "bytes": 152607
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047534-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047534-3_l.jpg",
+      "status": "ok",
+      "bytes": 97540
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047534-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047534-4_l.jpg",
+      "status": "ok",
+      "bytes": 108710
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047534-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047534-5_l.jpg",
+      "status": "ok",
+      "bytes": 142914
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047534-6_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047534-6_l.jpg",
+      "status": "ok",
+      "bytes": 114434
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047538-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047538-2_l.jpg",
+      "status": "ok",
+      "bytes": 95724
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047538-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047538-3_l.jpg",
+      "status": "ok",
+      "bytes": 140684
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047538-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047538-4_l.jpg",
+      "status": "ok",
+      "bytes": 150748
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047538-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047538-5_l.jpg",
+      "status": "ok",
+      "bytes": 106935
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047538-6_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047538-6_l.jpg",
+      "status": "ok",
+      "bytes": 112786
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024090-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024090-1_l.jpg",
+      "status": "ok",
+      "bytes": 128137
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024090-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024090-2_l.jpg",
+      "status": "ok",
+      "bytes": 108985
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024090-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024090-3_l.jpg",
+      "status": "ok",
+      "bytes": 147007
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024090-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024090-4_l.jpg",
+      "status": "ok",
+      "bytes": 120604
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024090-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024090-5_l.jpg",
+      "status": "ok",
+      "bytes": 260193
+    },
+    {
+      "source": "https://media.elliman.com/01a1187e-090e-7c59-8519-e6343bee7077.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a1187e-090e-7c59-8519-e6343bee7077.jpg",
+      "status": "ok",
+      "bytes": 381491
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206975_cc88aaa2-8498-45d3-90cc-0354f1715641.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206975_cc88aaa2-8498-45d3-90cc-0354f1715641.jpg",
+      "status": "ok",
+      "bytes": 94429
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/45638078_400_East_56th_Street_34P_Balcony_18.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/45638078_400_East_56th_Street_34P_Balcony_18.jpg",
+      "status": "ok",
+      "bytes": 427933
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2207094_13bfc756-b033-4431-ab2c-47707cd58262.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2207094_13bfc756-b033-4431-ab2c-47707cd58262.jpg",
+      "status": "ok",
+      "bytes": 154511
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427333181_59cb447e-76bd-4db7-af34-3f3e104f1b0b.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427333181_59cb447e-76bd-4db7-af34-3f3e104f1b0b.jpeg",
+      "status": "ok",
+      "bytes": 159178
+    },
+    {
+      "source": "https://644f916408e3e942a953-24b2ea65264df89438d3f074e84e93ba.ssl.cf5.rackcdn.com/mls-logos/OneKeyMLS_logo.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/OneKeyMLS_logo.png",
+      "status": "ok",
+      "bytes": 7295
+    },
+    {
+      "source": "https://images.nestseekers.com/_next/image?url=https://photos.nestseekers.com/Apt/Lv-1.png&w=2048&q=75",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/image",
+      "status": "ok",
+      "bytes": 558725
+    },
+    {
+      "source": "https://media.elliman.com/01a11844-818d-7e9d-b4b8-0f5fb9803376.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11844-818d-7e9d-b4b8-0f5fb9803376.jpg",
+      "status": "ok",
+      "bytes": 400816
+    },
+    {
+      "source": "https://media.elliman.com/01a11844-986e-72a8-af54-ea8fe17f1cb2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11844-986e-72a8-af54-ea8fe17f1cb2.jpg",
+      "status": "ok",
+      "bytes": 419327
+    },
+    {
+      "source": "https://media.elliman.com/01a11844-b00a-71a3-a9e7-821ac626f383.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11844-b00a-71a3-a9e7-821ac626f383.jpg",
+      "status": "ok",
+      "bytes": 275902
+    },
+    {
+      "source": "https://media.elliman.com/01a11844-c56d-7d9a-bfb2-9dd943d48fc2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11844-c56d-7d9a-bfb2-9dd943d48fc2.jpg",
+      "status": "ok",
+      "bytes": 363199
+    },
+    {
+      "source": "https://media.elliman.com/01a11844-e202-751d-85fd-d3151cbb7db9.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11844-e202-751d-85fd-d3151cbb7db9.jpg",
+      "status": "ok",
+      "bytes": 354696
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_24,owk_sir-dark/0/90ce5002-2fe8-477f-a347-155ad9ace505/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/007c3a8e-origin.jpg",
+      "status": "ok",
+      "bytes": 101608
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_36,owk_sir-dark/0/4bd45830-5f6d-46e3-b593-227c598fd4de/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/70d1765b-origin.jpg",
+      "status": "ok",
+      "bytes": 76813
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_36,owk_sir-dark/0/bb3b3277-5612-4489-ac17-c05fe8ea94a2/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/f97e084d-origin.jpg",
+      "status": "ok",
+      "bytes": 108052
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_36,owk_sir-dark/0/a2dff506-6f21-4589-a00f-885182a9af6c/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a7b582de-origin.jpg",
+      "status": "ok",
+      "bytes": 79788
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_24,owk_sir-dark/0/c87dbf20-a9a4-46fa-93f8-5a0186f787f1/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/6c245a19-origin.jpg",
+      "status": "ok",
+      "bytes": 68823
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046951-14_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046951-14_l.jpg",
+      "status": "ok",
+      "bytes": 135384
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046951-15_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046951-15_l.jpg",
+      "status": "ok",
+      "bytes": 127575
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046951-16_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046951-16_l.jpg",
+      "status": "ok",
+      "bytes": 125518
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046951-17_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046951-17_l.jpg",
+      "status": "ok",
+      "bytes": 119772
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046951-18_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046951-18_l.jpg",
+      "status": "ok",
+      "bytes": 118684
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047484-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047484-1_l.jpg",
+      "status": "ok",
+      "bytes": 151361
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047484-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047484-2_l.jpg",
+      "status": "ok",
+      "bytes": 133197
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047484-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047484-3_l.jpg",
+      "status": "ok",
+      "bytes": 137676
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047484-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047484-4_l.jpg",
+      "status": "ok",
+      "bytes": 125158
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047484-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047484-5_l.jpg",
+      "status": "ok",
+      "bytes": 140656
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048979-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048979-1_l.jpg",
+      "status": "ok",
+      "bytes": 160336
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048979-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048979-2_l.jpg",
+      "status": "ok",
+      "bytes": 209324
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048979-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048979-3_l.jpg",
+      "status": "ok",
+      "bytes": 156713
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048979-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048979-4_l.jpg",
+      "status": "ok",
+      "bytes": 102521
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048979-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048979-5_l.jpg",
+      "status": "ok",
+      "bytes": 167152
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048537-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048537-1_l.jpg",
+      "status": "ok",
+      "bytes": 130906
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048537-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048537-2_l.jpg",
+      "status": "ok",
+      "bytes": 124900
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048537-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048537-3_l.jpg",
+      "status": "ok",
+      "bytes": 116809
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048537-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048537-4_l.jpg",
+      "status": "ok",
+      "bytes": 107538
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048537-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048537-5_l.jpg",
+      "status": "ok",
+      "bytes": 86562
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026107_a019073681da4957.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026107_a019073681da4957.jpeg",
+      "status": "ok",
+      "bytes": 234642
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/240039520_55_Liberty_St_19A_Small_003.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/240039520_55_Liberty_St_19A_Small_003.jpg",
+      "status": "ok",
+      "bytes": 447185
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24033425-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24033425-1_l.jpg",
+      "status": "ok",
+      "bytes": 148479
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427331259_96a3bd64-1d36-4280-9a9d-4301c417787f.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427331259_96a3bd64-1d36-4280-9a9d-4301c417787f.jpeg",
+      "status": "ok",
+      "bytes": 122158
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/222094997_Living_room_mage_Oct_5,_2026,_09_19_46_AM.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/222094997_Living_room_mage_Oct_5,_2026,_09_19_46_AM.png",
+      "status": "ok",
+      "bytes": 201951
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24039167-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24039167-4_l.jpg",
+      "status": "ok",
+      "bytes": 107060
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/351939386_Warm_Neutral_Living_Room_from_New_Angle.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/351939386_Warm_Neutral_Living_Room_from_New_Angle.png",
+      "status": "ok",
+      "bytes": 377691
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/316663074_ChatGPT_Image_Oct_2,_2026,_12_32_47_PM.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/316663074_ChatGPT_Image_Oct_2,_2026,_12_32_47_PM.png",
+      "status": "ok",
+      "bytes": 364484
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/291348885_Warm_Staged_Kitchen_Dining_Nook.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/291348885_Warm_Staged_Kitchen_Dining_Nook.png",
+      "status": "ok",
+      "bytes": 251704
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/360665427_Cozy_Neutral_Boho_Living_Space.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/360665427_Cozy_Neutral_Boho_Living_Space.png",
+      "status": "ok",
+      "bytes": 279368
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/23950899_ChatGPT_Image_Oct_2,_2026,_01_05_34_PM.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/23950899_ChatGPT_Image_Oct_2,_2026,_01_05_34_PM.png",
+      "status": "ok",
+      "bytes": 303005
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24034581-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24034581-1_l.jpg",
+      "status": "ok",
+      "bytes": 188604
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24034581-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24034581-2_l.jpg",
+      "status": "ok",
+      "bytes": 105033
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24034581-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24034581-3_l.jpg",
+      "status": "ok",
+      "bytes": 93948
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24034581-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24034581-4_l.jpg",
+      "status": "ok",
+      "bytes": 157117
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24034581-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24034581-5_l.jpg",
+      "status": "ok",
+      "bytes": 166084
+    },
+    {
+      "source": "https://ctrejagmedia1.airpear.net/Aptphotos/8519160_Living_room_staged.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/8519160_Living_room_staged.png",
+      "status": "ok",
+      "bytes": 447685
+    },
+    {
+      "source": "https://ctrejagmedia1.airpear.net/Aptphotos/312550818_Living_1_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/312550818_Living_1_1.jpg",
+      "status": "ok",
+      "bytes": 466559
+    },
+    {
+      "source": "https://ctrejagmedia1.airpear.net/Aptphotos/46042821_Balcony.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/46042821_Balcony.png",
+      "status": "ok",
+      "bytes": 654290
+    },
+    {
+      "source": "https://ctrejagmedia1.airpear.net/Aptphotos/27475935_balcony.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/27475935_balcony.jpg",
+      "status": "ok",
+      "bytes": 566321
+    },
+    {
+      "source": "https://ctrejagmedia1.airpear.net/Aptphotos/373310733_kitchen_3.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/373310733_kitchen_3.jpg",
+      "status": "ok",
+      "bytes": 249743
+    },
+    {
+      "source": "https://media.elliman.com/01a11283-e2ae-747d-a148-46a3805fccfe.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11283-e2ae-747d-a148-46a3805fccfe.jpg",
+      "status": "ok",
+      "bytes": 367525
+    },
+    {
+      "source": "https://media.elliman.com/01a11283-dcbd-7fa9-8dfa-77333b83b6e3.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11283-dcbd-7fa9-8dfa-77333b83b6e3.jpg",
+      "status": "ok",
+      "bytes": 443397
+    },
+    {
+      "source": "https://media.elliman.com/01a11283-df1d-7193-b2c6-8e6cd060a924.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11283-df1d-7193-b2c6-8e6cd060a924.jpg",
+      "status": "ok",
+      "bytes": 384297
+    },
+    {
+      "source": "https://media.elliman.com/01a11283-ebb9-746f-8fd7-a8cb064aa1d8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11283-ebb9-746f-8fd7-a8cb064aa1d8.jpg",
+      "status": "ok",
+      "bytes": 536947
+    },
+    {
+      "source": "https://media.elliman.com/01a11283-d7c5-702b-9083-d0566355467f.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11283-d7c5-702b-9083-d0566355467f.jpg",
+      "status": "ok",
+      "bytes": 335308
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048406-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048406-1_l.jpg",
+      "status": "ok",
+      "bytes": 139790
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048406-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048406-2_l.jpg",
+      "status": "ok",
+      "bytes": 121100
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048406-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048406-3_l.jpg",
+      "status": "ok",
+      "bytes": 117343
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048406-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048406-4_l.jpg",
+      "status": "ok",
+      "bytes": 101672
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048406-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048406-5_l.jpg",
+      "status": "ok",
+      "bytes": 112485
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/189847729_NEW_Kitchen_cropped_.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/189847729_NEW_Kitchen_cropped_.jpg",
+      "status": "ok",
+      "bytes": 193571
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/152324068_NEW_Living_room.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/152324068_NEW_Living_room.png",
+      "status": "ok",
+      "bytes": 356368
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/377851029_kitchen_vignette_updated.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/377851029_kitchen_vignette_updated.jpg",
+      "status": "ok",
+      "bytes": 186953
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/191531434_5._Primary_Bedroom.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/191531434_5._Primary_Bedroom.jpeg",
+      "status": "ok",
+      "bytes": 317830
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/180248522_Primary_Bathroom_new.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/180248522_Primary_Bathroom_new.jpg",
+      "status": "ok",
+      "bytes": 136671
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046928-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046928-1_l.jpg",
+      "status": "ok",
+      "bytes": 140145
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206702_7b9843d7-31bf-47f3-b41f-333187b718e8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206702_7b9843d7-31bf-47f3-b41f-333187b718e8.jpg",
+      "status": "ok",
+      "bytes": 190802
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/382419633_kitchen_livingroom.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/382419633_kitchen_livingroom.png",
+      "status": "ok",
+      "bytes": 306278
+    },
+    {
+      "source": "https://media.elliman.com/01a11d4f-bfaa-7fcf-8a04-9570fc317ef9.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11d4f-bfaa-7fcf-8a04-9570fc317ef9.jpg",
+      "status": "ok",
+      "bytes": 369634
+    },
+    {
+      "source": "https://media.elliman.com/01a11718-c96e-7396-a644-a6164cee11ce.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11718-c96e-7396-a644-a6164cee11ce.jpg",
+      "status": "ok",
+      "bytes": 206253
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24048556-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24048556-5_l.jpg",
+      "status": "ok",
+      "bytes": 120511
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206986_6760720a-0f77-4a15-b394-e179f19becb3.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206986_6760720a-0f77-4a15-b394-e179f19becb3.jpg",
+      "status": "ok",
+      "bytes": 105211
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206986_55855762-31d5-420c-b11f-7fc31a2b625d.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206986_55855762-31d5-420c-b11f-7fc31a2b625d.jpg",
+      "status": "ok",
+      "bytes": 101423
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206986_d2f847a6-88db-4870-8314-7c2f3460784d.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206986_d2f847a6-88db-4870-8314-7c2f3460784d.jpg",
+      "status": "ok",
+      "bytes": 106522
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206986_c72c4a36-6497-4e54-9361-3bde498d0cfb.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206986_c72c4a36-6497-4e54-9361-3bde498d0cfb.jpg",
+      "status": "ok",
+      "bytes": 96494
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206986_a1b09648-9645-4260-aa19-e03541ef120b.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206986_a1b09648-9645-4260-aa19-e03541ef120b.jpg",
+      "status": "ok",
+      "bytes": 101841
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/101469470_425_E_13th_St__6G-5_02.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/101469470_425_E_13th_St__6G-5_02.jpg",
+      "status": "ok",
+      "bytes": 307982
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/359268248_425_E_13th_St__6G-4_02.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/359268248_425_E_13th_St__6G-4_02.jpg",
+      "status": "ok",
+      "bytes": 215153
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/311729071_425_E_13th_St__6G-1_02.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/311729071_425_E_13th_St__6G-1_02.jpg",
+      "status": "ok",
+      "bytes": 315713
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/353600095_425_E_13th_St__6G-2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/353600095_425_E_13th_St__6G-2.jpg",
+      "status": "ok",
+      "bytes": 726981
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/395471120_425_E_13th_St__6G-3_02.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/395471120_425_E_13th_St__6G-3_02.jpg",
+      "status": "ok",
+      "bytes": 312665
+    },
+    {
+      "source": "https://media.perchwell.com/property_images/pictures/118/124/801/watermark/PI-88rmi2c479.png?1791223371",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/PI-88rmi2c479.png",
+      "status": "ok",
+      "bytes": 2176827
+    },
+    {
+      "source": "https://media.perchwell.com/property_images/pictures/118/124/799/watermark/PI-88rmi29puv.png?1791223371",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/PI-88rmi29puv.png",
+      "status": "ok",
+      "bytes": 1892962
+    },
+    {
+      "source": "https://media.perchwell.com/property_images/pictures/118/396/366/watermark/PI-88vuoriec3.jpg?1791369270",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/PI-88vuoriec3.jpg",
+      "status": "ok",
+      "bytes": 109906
+    },
+    {
+      "source": "https://media.perchwell.com/property_images/pictures/118/396/369/watermark/PI-88vuorm0m5.jpg?1791369272",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/PI-88vuorm0m5.jpg",
+      "status": "ok",
+      "bytes": 100068
+    },
+    {
+      "source": "https://media.perchwell.com/property_images/pictures/118/396/371/watermark/PI-88vuorq4en.jpg?1791369273",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/PI-88vuorq4en.jpg",
+      "status": "ok",
+      "bytes": 106948
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/319541970_547W47_Studio_718_Home_Office_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/319541970_547W47_Studio_718_Home_Office_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "status": "ok",
+      "bytes": 183373
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/47765308_547W47_Studio_718_Dining_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/47765308_547W47_Studio_718_Dining_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "status": "ok",
+      "bytes": 128059
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/96625274_547W47_Studio_718_Kitchen_Detail_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/96625274_547W47_Studio_718_Kitchen_Detail_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "status": "ok",
+      "bytes": 267213
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/203944413_547W47_Studio_718_Kitchen_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/203944413_547W47_Studio_718_Kitchen_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "status": "ok",
+      "bytes": 291760
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/330878275_547W47_Studio_718_Sleeping_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/330878275_547W47_Studio_718_Sleeping_Area_ASH_Turnkey_Model_Credit_Max_Burkhalter.jpg",
+      "status": "ok",
+      "bytes": 261394
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/235640_6c379bef-54cb-4534-be34-36b8774a679b.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/235640_6c379bef-54cb-4534-be34-36b8774a679b.jpg",
+      "status": "ok",
+      "bytes": 201132
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/235640_7426395a-6f6c-435d-8b9f-6b49398eb543.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/235640_7426395a-6f6c-435d-8b9f-6b49398eb543.jpg",
+      "status": "ok",
+      "bytes": 195704
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/235640_94334705-dda7-4356-a00a-6ac42c4c6d26.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/235640_94334705-dda7-4356-a00a-6ac42c4c6d26.jpg",
+      "status": "ok",
+      "bytes": 133428
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/235640_4768fae3-ff09-4667-9bd1-d09eceb5ecce.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/235640_4768fae3-ff09-4667-9bd1-d09eceb5ecce.jpg",
+      "status": "ok",
+      "bytes": 234718
+    },
+    {
+      "source": "https://media.elliman.com/01a10c0f-68b9-731e-b60a-e346dccb6198.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10c0f-68b9-731e-b60a-e346dccb6198.jpg",
+      "status": "ok",
+      "bytes": 2175438
+    },
+    {
+      "source": "https://media.elliman.com/01a10c0f-67fb-7261-a8e4-84d2d328e335.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10c0f-67fb-7261-a8e4-84d2d328e335.jpg",
+      "status": "ok",
+      "bytes": 1827307
+    },
+    {
+      "source": "https://media.elliman.com/01a10c0f-68bf-7e12-b285-b4ce0508404a.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10c0f-68bf-7e12-b285-b4ce0508404a.jpg",
+      "status": "ok",
+      "bytes": 1818549
+    },
+    {
+      "source": "https://media.elliman.com/01a10c0f-6803-7319-a99d-7b7bad309dee.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10c0f-6803-7319-a99d-7b7bad309dee.jpg",
+      "status": "ok",
+      "bytes": 1447633
+    },
+    {
+      "source": "https://media.elliman.com/01a10c0f-6a47-730d-9fa5-d3c4053dc0ff.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10c0f-6a47-730d-9fa5-d3c4053dc0ff.jpg",
+      "status": "ok",
+      "bytes": 2434722
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2199698_4f8fdc5d-28d2-4478-9e8e-9594bce50cec.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2199698_4f8fdc5d-28d2-4478-9e8e-9594bce50cec.jpg",
+      "status": "ok",
+      "bytes": 431734
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/86009_2107afab-060d-43ec-b09d-226a43e09a71.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/86009_2107afab-060d-43ec-b09d-226a43e09a71.jpg",
+      "status": "ok",
+      "bytes": 253868
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/44189798_61_Jane_St_8J_-_1_final.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/44189798_61_Jane_St_8J_-_1_final.jpg",
+      "status": "ok",
+      "bytes": 262490
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1961766_int_photo253966724.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1961766_int_photo253966724.jpg",
+      "status": "ok",
+      "bytes": 80172
+    },
+    {
+      "source": "https://media.elliman.com/01a1211b-1b85-7926-913e-18eaf2784788.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a1211b-1b85-7926-913e-18eaf2784788.jpg",
+      "status": "ok",
+      "bytes": 1599072
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/147255737_ALE_2710_-_Web.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/147255737_ALE_2710_-_Web.jpg",
+      "status": "ok",
+      "bytes": 446301
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/210450747_Floor_20_Great_Room_credit_Visualisation_One_3840x2016.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/210450747_Floor_20_Great_Room_credit_Visualisation_One_3840x2016.jpg",
+      "status": "ok",
+      "bytes": 351572
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/77454502_Floor_20_Kitchen_credit_Visualisation_One.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/77454502_Floor_20_Kitchen_credit_Visualisation_One.jpg",
+      "status": "ok",
+      "bytes": 155126
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/156486271_Master_Bedroom_20.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/156486271_Master_Bedroom_20.jpg",
+      "status": "ok",
+      "bytes": 222152
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/116577763_Primary_Bath_alt_angle_credit_Visualisation_One.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/116577763_Primary_Bath_alt_angle_credit_Visualisation_One.jpg",
+      "status": "ok",
+      "bytes": 176090
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/211069404_Image12.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/211069404_Image12.jpg",
+      "status": "ok",
+      "bytes": 218092
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/543ead42-c521-4d7e-9e9d-2b86fb0ab531/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/cdd7eb22-origin.jpg",
+      "status": "ok",
+      "bytes": 609513
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/830e02bd-4386-4cd5-9fc2-7cc735701b93/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/4d8756b2-origin.jpg",
+      "status": "ok",
+      "bytes": 634507
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/213a5dc6-6828-4ed7-83ea-0e116b0b7848/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/0fb075de-origin.jpg",
+      "status": "ok",
+      "bytes": 608398
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/8f0041a2-c1bb-48e4-a3bc-4e795fa4af26/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/b7da32b9-origin.jpg",
+      "status": "ok",
+      "bytes": 645525
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/397e69a4-cbca-48b2-8387-12a0fcc1c882/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/cae345c3-origin.jpg",
+      "status": "ok",
+      "bytes": 529062
+    },
+    {
+      "source": "https://media.elliman.com/01a112a9-ae61-725e-b57b-73ff47d9a307.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a112a9-ae61-725e-b57b-73ff47d9a307.jpg",
+      "status": "ok",
+      "bytes": 257430
+    },
+    {
+      "source": "https://media.elliman.com/01a112a9-be92-7416-9281-f4e7eccdddb5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a112a9-be92-7416-9281-f4e7eccdddb5.jpg",
+      "status": "ok",
+      "bytes": 269688
+    },
+    {
+      "source": "https://media.elliman.com/01a112a9-a9fc-7114-85bf-54286f315ea6.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a112a9-a9fc-7114-85bf-54286f315ea6.jpg",
+      "status": "ok",
+      "bytes": 150082
+    },
+    {
+      "source": "https://media.elliman.com/01a112a9-c219-7a31-9f7d-e278c0a899e8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a112a9-c219-7a31-9f7d-e278c0a899e8.jpg",
+      "status": "ok",
+      "bytes": 199993
+    },
+    {
+      "source": "https://media.elliman.com/01a112a9-b719-78d6-a1ec-07a49e5f7a5d.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a112a9-b719-78d6-a1ec-07a49e5f7a5d.jpg",
+      "status": "ok",
+      "bytes": 132933
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_156,owk_compass-dark/0/05c18e83-8ebd-4ea2-966c-bcd05aec1a0b/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/c91c0063-origin.jpg",
+      "status": "ok",
+      "bytes": 4027036
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_156,owk_compass-dark/0/0cce84e0-8dcb-47aa-b890-d551b247e0e5/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/d93fc4ec-origin.jpg",
+      "status": "ok",
+      "bytes": 4104746
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_156,owk_compass-dark/0/a4f9f3c8-7767-48bd-aef3-0a44b3192c0e/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a0725837-origin.jpg",
+      "status": "ok",
+      "bytes": 3530594
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_234,owk_compass-dark/0/3e47ceb5-aa40-4df9-89bc-6df53d5a71b0/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/42ef43b7-origin.jpg",
+      "status": "ok",
+      "bytes": 3083753
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_156,owk_compass-dark/0/384fb338-6b87-4e50-986b-04781e2316aa/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/3ecd10a3-origin.jpg",
+      "status": "ok",
+      "bytes": 3092488
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/314ba748-a55f-446d-92cb-9f5740c4ad51/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1de8a006-origin.jpg",
+      "status": "ok",
+      "bytes": 271015
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/0c0f5796-b4e9-4a72-a481-3ef2438a3aa4/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/6771903c-origin.jpg",
+      "status": "ok",
+      "bytes": 334788
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/3071d0ee-1bfb-4c25-8640-01446320ba2b/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/8dd71583-origin.jpg",
+      "status": "ok",
+      "bytes": 3190495
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/1cb1fca1-cfeb-450a-b7b7-131f326980a5/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a2f60caa-origin.jpg",
+      "status": "ok",
+      "bytes": 3256906
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/30c57d64-d9b5-4a42-a8e3-2bdfbbc8c3fd/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a5b588c8-origin.jpg",
+      "status": "ok",
+      "bytes": 2207567
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/80206715_MEDIUM_RES_260909_EJ_55_warren_PH_0055.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/80206715_MEDIUM_RES_260909_EJ_55_warren_PH_0055.jpg",
+      "status": "ok",
+      "bytes": 746542
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/182305324_MEDIUM_RES_260909_EJ_55_warren_PH_0129.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/182305324_MEDIUM_RES_260909_EJ_55_warren_PH_0129.jpg",
+      "status": "ok",
+      "bytes": 490139
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/389923347_MEDIUM_RES_260909_EJ_55_warren_PH_0110.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/389923347_MEDIUM_RES_260909_EJ_55_warren_PH_0110.jpg",
+      "status": "ok",
+      "bytes": 366726
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/126456416_MEDIUM_RES_260909_EJ_55_warren_PH_0107.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/126456416_MEDIUM_RES_260909_EJ_55_warren_PH_0107.jpg",
+      "status": "ok",
+      "bytes": 376472
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/87195657_MEDIUM_RES_260909_EJ_55_warren_PH_0061.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/87195657_MEDIUM_RES_260909_EJ_55_warren_PH_0061.jpg",
+      "status": "ok",
+      "bytes": 380046
+    },
+    {
+      "source": "https://media.elliman.com/01a1118a-88d8-7d38-98ea-5f08e1f141e1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a1118a-88d8-7d38-98ea-5f08e1f141e1.jpg",
+      "status": "ok",
+      "bytes": 2898369
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/267181459_PH12_Dining_Area_Vignette_credit_Donna_Dotan.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/267181459_PH12_Dining_Area_Vignette_credit_Donna_Dotan.jpg",
+      "status": "ok",
+      "bytes": 225218
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/4fa28f77-4b4b-4b0b-acf5-8e9f60eeae29/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/ec468c31-origin.jpg",
+      "status": "ok",
+      "bytes": 3025568
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427310781_2920845b-452f-4ea7-97fc-d5c2dd0dbae1.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427310781_2920845b-452f-4ea7-97fc-d5c2dd0dbae1.jpeg",
+      "status": "ok",
+      "bytes": 116371
+    },
+    {
+      "source": "https://media.elliman.com/01a11447-8f56-717a-abf8-d26b364a7181.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11447-8f56-717a-abf8-d26b364a7181.png",
+      "status": "ok",
+      "bytes": 168002
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047869-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047869-1_l.jpg",
+      "status": "ok",
+      "bytes": 140304
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/339975416_33_Greenwich_Ave_LR_Virtual_Stage.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/339975416_33_Greenwich_Ave_LR_Virtual_Stage.png",
+      "status": "ok",
+      "bytes": 357985
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/354795153_33_Greenwich_3C_LR1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/354795153_33_Greenwich_3C_LR1.jpg",
+      "status": "ok",
+      "bytes": 260329
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/129299506_33_Greenwich_Ave_3C_LR3.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/129299506_33_Greenwich_Ave_3C_LR3.jpg",
+      "status": "ok",
+      "bytes": 221540
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/24590631_33_Greenwich_3C_LR2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24590631_33_Greenwich_3C_LR2.jpg",
+      "status": "ok",
+      "bytes": 189365
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/308993075_33_Greenwich_Ave_3C_Bathroom_.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/308993075_33_Greenwich_Ave_3C_Bathroom_.jpg",
+      "status": "ok",
+      "bytes": 183578
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/638c6bda-3f49-4085-a3f4-1ca555d7ed69/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/55bf110b-origin.jpg",
+      "status": "ok",
+      "bytes": 7719761
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_286,owk_sir-dark/0/f838ff73-0a47-4033-8bde-e29311e62fd6/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/c318f72e-origin.jpg",
+      "status": "ok",
+      "bytes": 7109026
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/0ef30574-7547-4101-8a3f-040f40352fcf/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/7654864d-origin.jpg",
+      "status": "ok",
+      "bytes": 7495147
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/16fe2f24-1e7d-4499-b200-f3b90fb2da2f/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/38395383-origin.jpg",
+      "status": "ok",
+      "bytes": 8799244
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/6eef0aaf-2658-471d-a4f2-3e515721290d/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/d887a256-origin.jpg",
+      "status": "ok",
+      "bytes": 8515440
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/d21cc5f3-c02b-4fad-af28-932f41e47523/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/d32e3234-origin.jpg",
+      "status": "ok",
+      "bytes": 9332404
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_286,owk_sir-dark/0/01643b56-53ac-4bf5-903b-d688769b89fe/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/95e4a6e4-origin.jpg",
+      "status": "ok",
+      "bytes": 7672602
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_286,owk_sir-dark/0/c5c461d2-a574-42b5-8e10-4a3d94c27713/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/4daec541-origin.jpg",
+      "status": "ok",
+      "bytes": 8874684
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_251,owk_sir-dark/0/c368003e-07dd-4835-8977-f4951eae4235/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/d60c3eee-origin.jpg",
+      "status": "ok",
+      "bytes": 8281883
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_286,owk_sir-dark/0/32ee660e-cb4d-4754-ad5b-b71974d1355f/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/88e7d533-origin.jpg",
+      "status": "ok",
+      "bytes": 5522463
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/10479953_Andrew_Cooper_205_WEA_28R_DSC_0832.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/10479953_Andrew_Cooper_205_WEA_28R_DSC_0832.jpg",
+      "status": "ok",
+      "bytes": 446392
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/392408825_Andrew_Cooper_205_WEA_28R_DSC_0793-5_final06-2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/392408825_Andrew_Cooper_205_WEA_28R_DSC_0793-5_final06-2.jpg",
+      "status": "ok",
+      "bytes": 412065
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/13460357_Andrew_Cooper_205_WEA_28R_DSC_0793-5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/13460357_Andrew_Cooper_205_WEA_28R_DSC_0793-5.jpg",
+      "status": "ok",
+      "bytes": 229113
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/111712618_Andrew_Cooper_205_WEA_28R_DSC_0815-5_final06-2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/111712618_Andrew_Cooper_205_WEA_28R_DSC_0815-5_final06-2.jpg",
+      "status": "ok",
+      "bytes": 346704
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/18456069_Andrew_Cooper_205_WEA_28R_DSC_0815-5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/18456069_Andrew_Cooper_205_WEA_28R_DSC_0815-5.jpg",
+      "status": "ok",
+      "bytes": 188810
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_96,owk_sir-dark/0/0d5c3682-c92a-4795-862d-6a0cb5ac23c8/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/bef28616-origin.jpg",
+      "status": "ok",
+      "bytes": 856768
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_99,owk_sir-dark/0/c69af407-c75a-4402-8c4f-e5a71b851130/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/8dee2184-origin.jpg",
+      "status": "ok",
+      "bytes": 994495
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_98,owk_sir-dark/0/b7f0c33a-12db-4d3e-972e-7d10296b063b/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/7cb9edea-origin.jpg",
+      "status": "ok",
+      "bytes": 1247473
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_98,owk_sir-dark/0/6ae4d716-5772-4811-9ea8-9f0d32a9ee05/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/b5cf57f5-origin.jpg",
+      "status": "ok",
+      "bytes": 1069093
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_99,owk_sir-dark/0/3b834693-a4cf-4335-aa98-ec4aa6ed3f1c/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/20846d4d-origin.jpg",
+      "status": "ok",
+      "bytes": 912312
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/1c768e5b-4982-46a3-ae3c-48b30545ea0d/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/910d1f2c-origin.jpg",
+      "status": "ok",
+      "bytes": 634507
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/408cc1f1-1557-4ecc-b9f3-ba93a5278c0b/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/94564105-origin.jpg",
+      "status": "ok",
+      "bytes": 608398
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/4bc926bf-505e-4182-b005-7fdaedcb6bbd/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/f11c055f-origin.jpg",
+      "status": "ok",
+      "bytes": 653930
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/d4c040d3-9a6d-453a-9627-d94007f25d27/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/7a593717-origin.jpg",
+      "status": "ok",
+      "bytes": 833067
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_81,owk_sir-dark/0/a3d646b0-95e6-489f-89f8-7272ad072461/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/3eb54476-origin.jpg",
+      "status": "ok",
+      "bytes": 405390
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/308820863_ChatGPT_Image_May_7,_2026,_03_35_09_PM.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/308820863_ChatGPT_Image_May_7,_2026,_03_35_09_PM.png",
+      "status": "ok",
+      "bytes": 330015
+    },
+    {
+      "source": "https://media.elliman.com/01a0f399-e1ae-7a4e-8c59-a39ae35d7ca3.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f399-e1ae-7a4e-8c59-a39ae35d7ca3.jpg",
+      "status": "ok",
+      "bytes": 362099
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046313-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046313-1_l.jpg",
+      "status": "ok",
+      "bytes": 125593
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427311306_c689e6a8-3fb5-41a9-95f4-b4f66576aad8.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427311306_c689e6a8-3fb5-41a9-95f4-b4f66576aad8.jpeg",
+      "status": "ok",
+      "bytes": 282628
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427308844_74ce4252-5a9f-42fc-a2c0-59614fe738d9.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427308844_74ce4252-5a9f-42fc-a2c0-59614fe738d9.jpeg",
+      "status": "ok",
+      "bytes": 192426
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24035509-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24035509-1_l.jpg",
+      "status": "ok",
+      "bytes": 97996
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206696_80848e05-267a-4cf8-986a-cc07337ad5d5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206696_80848e05-267a-4cf8-986a-cc07337ad5d5.jpg",
+      "status": "ok",
+      "bytes": 89735
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206696_c3a594af-6963-431f-a865-467e098a1697.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206696_c3a594af-6963-431f-a865-467e098a1697.jpg",
+      "status": "ok",
+      "bytes": 86364
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206696_c3b9217d-b6db-4d17-92eb-1c19143f0f4e.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206696_c3b9217d-b6db-4d17-92eb-1c19143f0f4e.jpg",
+      "status": "ok",
+      "bytes": 100931
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206696_9d75635b-4e6e-45ae-8c83-0cb68af017a1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206696_9d75635b-4e6e-45ae-8c83-0cb68af017a1.jpg",
+      "status": "ok",
+      "bytes": 87661
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/2206696_ece221f6-33c4-4c78-8cd4-edfa60150abd.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2206696_ece221f6-33c4-4c78-8cd4-edfa60150abd.jpg",
+      "status": "ok",
+      "bytes": 84989
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/331702350_14H.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/331702350_14H.jpg",
+      "status": "ok",
+      "bytes": 483114
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1559533_035a53b3-dc69-4660-be9a-b11905ad74f5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1559533_035a53b3-dc69-4660-be9a-b11905ad74f5.jpg",
+      "status": "ok",
+      "bytes": 198092
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1559533_9d3ac5a1-50a0-435a-bd2d-143b494b034b.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1559533_9d3ac5a1-50a0-435a-bd2d-143b494b034b.jpg",
+      "status": "ok",
+      "bytes": 187512
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1559533_4af286b7-313c-4222-8b4f-b8843eef1a9c.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1559533_4af286b7-313c-4222-8b4f-b8843eef1a9c.jpg",
+      "status": "ok",
+      "bytes": 178100
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1559533_9fb6d46e-51cc-4583-8c5b-6515d38515a4.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1559533_9fb6d46e-51cc-4583-8c5b-6515d38515a4.jpg",
+      "status": "ok",
+      "bytes": 156162
+    },
+    {
+      "source": "https://www.olr.com/Pictures/Interior_Photo/1559533_21f015d8-a079-48f1-9000-715567d3c314.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1559533_21f015d8-a079-48f1-9000-715567d3c314.jpg",
+      "status": "ok",
+      "bytes": 116021
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/308641871_200_Chambers_Facade.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/308641871_200_Chambers_Facade.jpeg",
+      "status": "ok",
+      "bytes": 114351
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/253804229_200_Chambers_View_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/253804229_200_Chambers_View_1.jpg",
+      "status": "ok",
+      "bytes": 355658
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/83709866_200_Chambers_deck_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/83709866_200_Chambers_deck_1.jpg",
+      "status": "ok",
+      "bytes": 430771
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/182719275_200_Chambers_roof_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/182719275_200_Chambers_roof_1.jpg",
+      "status": "ok",
+      "bytes": 249050
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/125580891_200_Chambers_Pool_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/125580891_200_Chambers_Pool_1.jpg",
+      "status": "ok",
+      "bytes": 276252
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026106_58ec5ebd55ce42a3.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026106_58ec5ebd55ce42a3.jpeg",
+      "status": "ok",
+      "bytes": 373039
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026106_3cbccc9df0f64329.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026106_3cbccc9df0f64329.jpeg",
+      "status": "ok",
+      "bytes": 248610
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026106_8414c7c25b1e4715.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026106_8414c7c25b1e4715.jpeg",
+      "status": "ok",
+      "bytes": 266357
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026106_4c3e7dbd97624490.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026106_4c3e7dbd97624490.jpeg",
+      "status": "ok",
+      "bytes": 197394
+    },
+    {
+      "source": "https://cdn.lofty.com/image/fs/477141594396134/website/47139/mls-listing/2026106_736cea68ae3c4763.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2026106_736cea68ae3c4763.jpeg",
+      "status": "ok",
+      "bytes": 159968
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/188513664_111_Leroy_St_9_04.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/188513664_111_Leroy_St_9_04.png",
+      "status": "ok",
+      "bytes": 300908
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/325046733_111_Leroy_St_9_05.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/325046733_111_Leroy_St_9_05.png",
+      "status": "ok",
+      "bytes": 172747
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/220369172_111_Leroy_St_9_06.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/220369172_111_Leroy_St_9_06.png",
+      "status": "ok",
+      "bytes": 320547
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/63348214_111_Leroy_St_9_08.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/63348214_111_Leroy_St_9_08.jpeg",
+      "status": "ok",
+      "bytes": 292621
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/22766665_111_Leroy_St_9_07.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/22766665_111_Leroy_St_9_07.jpeg",
+      "status": "ok",
+      "bytes": 190346
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24046409-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24046409-1_l.jpg",
+      "status": "ok",
+      "bytes": 332407
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/23942443-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/23942443-4_l.jpg",
+      "status": "ok",
+      "bytes": 195646
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/27d30b78-39eb-4b7d-8c98-e7f952cc9e23/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/05b8af6c-origin.jpg",
+      "status": "ok",
+      "bytes": 883838
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24024202-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24024202-1_l.jpg",
+      "status": "ok",
+      "bytes": 121085
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/249981580_514_Dining_Room_Credit_Donna_Dotan.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/249981580_514_Dining_Room_Credit_Donna_Dotan.jpg",
+      "status": "ok",
+      "bytes": 197883
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_56,owk_sir-dark/0/8854d3ef-8c12-427f-9e15-8511dbe5d487/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/8b67de7a-origin.jpg",
+      "status": "ok",
+      "bytes": 459385
+    },
+    {
+      "source": "https://media.elliman.com/01a0f417-7b4f-7216-9802-1feb66c0b90f.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f417-7b4f-7216-9802-1feb66c0b90f.jpg",
+      "status": "ok",
+      "bytes": 2146643
+    },
+    {
+      "source": "https://media.elliman.com/01a0f91c-9d2a-7443-8b26-145592e98bdd.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f91c-9d2a-7443-8b26-145592e98bdd.png",
+      "status": "ok",
+      "bytes": 246924
+    },
+    {
+      "source": "https://media.elliman.com/01a0f417-75d4-7d58-b536-40050daaab22.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f417-75d4-7d58-b536-40050daaab22.jpg",
+      "status": "ok",
+      "bytes": 1826465
+    },
+    {
+      "source": "https://media.elliman.com/01a0f91e-31d4-7bdb-9da7-60c96dfc6ad6.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f91e-31d4-7bdb-9da7-60c96dfc6ad6.jpeg",
+      "status": "ok",
+      "bytes": 203084
+    },
+    {
+      "source": "https://media.elliman.com/01a0f417-6d9a-7a91-bf02-f5cef24edf95.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0f417-6d9a-7a91-bf02-f5cef24edf95.jpg",
+      "status": "ok",
+      "bytes": 2081154
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/143703766",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/143703766",
+      "status": "ok",
+      "bytes": 2568234
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/143703768",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/143703768",
+      "status": "ok",
+      "bytes": 2236410
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/143705819",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/143705819",
+      "status": "ok",
+      "bytes": 2396214
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/143705820",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/143705820",
+      "status": "ok",
+      "bytes": 2136275
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/143705821",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/143705821",
+      "status": "ok",
+      "bytes": 2677713
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/61640678_260928_EM_25_Tudor_City_Pl_322_01_1_HIGH_RES.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/61640678_260928_EM_25_Tudor_City_Pl_322_01_1_HIGH_RES.jpg",
+      "status": "ok",
+      "bytes": 297299
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/220633852_260928_EM_25_Tudor_City_Pl_322_03_HIGH_RES.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/220633852_260928_EM_25_Tudor_City_Pl_322_03_HIGH_RES.jpg",
+      "status": "ok",
+      "bytes": 259717
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/5421630_260928_EM_25_Tudor_City_Pl_322_02_1_HIGH_RES.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/5421630_260928_EM_25_Tudor_City_Pl_322_02_1_HIGH_RES.jpeg",
+      "status": "ok",
+      "bytes": 262855
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/302275885_260928_EM_25_Tudor_City_Pl_322_04_HIGH_RES.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/302275885_260928_EM_25_Tudor_City_Pl_322_04_HIGH_RES.jpg",
+      "status": "ok",
+      "bytes": 101208
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/271656460_260928_EM_25_Tudor_City_Pl_322_05_HIGH_RES.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/271656460_260928_EM_25_Tudor_City_Pl_322_05_HIGH_RES.jpg",
+      "status": "ok",
+      "bytes": 260842
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/80d0c19c-41ab-4618-be84-47766599f0e6/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/56e64e75-origin.jpg",
+      "status": "ok",
+      "bytes": 2940664
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/c2fa0163-0395-4074-b651-7f717510f493/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/64aea7fc-origin.jpg",
+      "status": "ok",
+      "bytes": 2980508
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/512f3311-67bc-445d-a294-124a30f8e544/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/9382cd88-origin.jpg",
+      "status": "ok",
+      "bytes": 2945347
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/087d0124-358a-40f0-bcb9-4d3d9ed80e26/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/26c7c784-origin.jpg",
+      "status": "ok",
+      "bytes": 5174469
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_191,owk_sir-dark/0/2188a67b-b4bd-4773-be82-e363f5acd9bb/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/6ddae740-origin.jpg",
+      "status": "ok",
+      "bytes": 2804728
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047182-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047182-1_l.jpg",
+      "status": "ok",
+      "bytes": 149789
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047182-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047182-2_l.jpg",
+      "status": "ok",
+      "bytes": 111311
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047182-3_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047182-3_l.jpg",
+      "status": "ok",
+      "bytes": 173651
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047182-4_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047182-4_l.jpg",
+      "status": "ok",
+      "bytes": 148374
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24047182-5_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24047182-5_l.jpg",
+      "status": "ok",
+      "bytes": 140136
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/365801501_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/365801501_1.jpg",
+      "status": "ok",
+      "bytes": 342237
+    },
+    {
+      "source": "https://media.elliman.com/01a111a6-a670-753e-a015-d8a9eb1fa9a8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a111a6-a670-753e-a015-d8a9eb1fa9a8.jpg",
+      "status": "ok",
+      "bytes": 283860
+    },
+    {
+      "source": "https://images.realty.mx/72cb70b8f708a06f9d74d2b474f3e828/images/assets/1416_7365.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1416_7365.jpg",
+      "status": "ok",
+      "bytes": 172740
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_61,owk_sir-dark/0/bdc707bf-5076-41e9-a1a2-b961ea47b873/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/5e59a6a0-origin.jpg",
+      "status": "ok",
+      "bytes": 790693
+    },
+    {
+      "source": "https://media.elliman.com/01a11220-113e-7fa9-a16f-e6e6dd20e542.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a11220-113e-7fa9-a16f-e6e6dd20e542.png",
+      "status": "ok",
+      "bytes": 331524
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24039977-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24039977-1_l.jpg",
+      "status": "ok",
+      "bytes": 109013
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_139,owk_compass-dark/0/7d3f0f8a-ec37-4726-b602-bcac0b5dacaf/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/6cdf9240-origin.jpg",
+      "status": "ok",
+      "bytes": 2704601
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_140,owk_compass-dark/0/f29f94d2-722f-4e7a-b587-6707b7e89f87/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/d933eda7-origin.jpg",
+      "status": "ok",
+      "bytes": 2661707
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_133,owk_compass-dark/0/aea4478c-5a77-4089-a86d-807b12b44e5e/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/54c199d2-origin.jpg",
+      "status": "ok",
+      "bytes": 4258109
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_148,owk_compass-dark/0/575e7dfb-089c-4057-87b7-2db15a8abdca/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/9c1c6693-origin.jpg",
+      "status": "ok",
+      "bytes": 1672268
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_210,owk_compass-dark/0/308d41f7-ffe9-4a1c-a102-5cac30cbd5d6/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/b0a49260-origin.jpg",
+      "status": "ok",
+      "bytes": 2182144
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427301586_6354af3f-b437-4cb7-9175-b145a78864db.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427301586_6354af3f-b437-4cb7-9175-b145a78864db.jpeg",
+      "status": "ok",
+      "bytes": 306623
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427301586_846e3e5b-8454-4a24-903e-ce005cc296d1.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427301586_846e3e5b-8454-4a24-903e-ce005cc296d1.jpeg",
+      "status": "ok",
+      "bytes": 361526
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427301586_bdddaf79-882f-4615-ab38-4364d3c5dea9.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427301586_bdddaf79-882f-4615-ab38-4364d3c5dea9.jpeg",
+      "status": "ok",
+      "bytes": 361262
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427301586_a5a2565d-643e-4760-acd0-18af5e9f41c1.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427301586_a5a2565d-643e-4760-acd0-18af5e9f41c1.jpeg",
+      "status": "ok",
+      "bytes": 154856
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427301586_d0b84b45-284e-4652-9d8f-9031b8773cd8.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427301586_d0b84b45-284e-4652-9d8f-9031b8773cd8.jpeg",
+      "status": "ok",
+      "bytes": 157113
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/f022db47-15cd-4cf7-bf1c-4f7b6a3a7d63/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/00f26fc7-origin.jpg",
+      "status": "ok",
+      "bytes": 3205285
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/fb70efd6-6165-4b6a-8cd1-a4b8ee1fb67c/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/96e4c6ab-origin.jpg",
+      "status": "ok",
+      "bytes": 2576742
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/949fc409-5d82-4c0b-81bf-2a41680c952b/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/3084d13f-origin.jpg",
+      "status": "ok",
+      "bytes": 2913411
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/a2339c56-7714-41da-abe2-c93afdc86a27/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/6a2287af-origin.jpg",
+      "status": "ok",
+      "bytes": 2664047
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_35,owk_compass-dark/0/fb685920-ca7f-40eb-a183-0a0b3e3e97c6/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/64898a43-origin.jpg",
+      "status": "ok",
+      "bytes": 2670810
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/153722357",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/153722357",
+      "status": "ok",
+      "bytes": 2650535
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/153722359",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/153722359",
+      "status": "ok",
+      "bytes": 2447432
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/141897646",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/141897646",
+      "status": "ok",
+      "bytes": 1168524
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/310104257_gym.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/310104257_gym.jpg",
+      "status": "ok",
+      "bytes": 240914
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/209774060_lobby.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/209774060_lobby.jpg",
+      "status": "ok",
+      "bytes": 332732
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/173341618_macro_livingroom.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/173341618_macro_livingroom.jpg",
+      "status": "ok",
+      "bytes": 252082
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/308553898_Kitchen.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/308553898_Kitchen.jpg",
+      "status": "ok",
+      "bytes": 214606
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/1895153_1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/1895153_1.jpg",
+      "status": "ok",
+      "bytes": 250043
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/45086967_2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/45086967_2.jpg",
+      "status": "ok",
+      "bytes": 242547
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/201234759_bathroom.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/201234759_bathroom.jpg",
+      "status": "ok",
+      "bytes": 125428
+    },
+    {
+      "source": "https://media.elliman.com/01a0fe4b-f8a4-74d3-a19b-cc825a5ab1a8.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0fe4b-f8a4-74d3-a19b-cc825a5ab1a8.jpg",
+      "status": "ok",
+      "bytes": 448842
+    },
+    {
+      "source": "https://media.elliman.com/01a0fe4b-f494-7f8a-8be3-d2e6200303d4.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0fe4b-f494-7f8a-8be3-d2e6200303d4.jpg",
+      "status": "ok",
+      "bytes": 168124
+    },
+    {
+      "source": "https://media.elliman.com/01a0fe4b-a8bc-7afd-b9d7-d88b64840eb5.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0fe4b-a8bc-7afd-b9d7-d88b64840eb5.png",
+      "status": "ok",
+      "bytes": 330067
+    },
+    {
+      "source": "https://media.elliman.com/01a0fe4b-b1fb-7f9e-8d27-f80baeb11602.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0fe4b-b1fb-7f9e-8d27-f80baeb11602.png",
+      "status": "ok",
+      "bytes": 293454
+    },
+    {
+      "source": "https://media.elliman.com/01a0fe4b-a873-71ca-9037-4f9bccafd685.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a0fe4b-a873-71ca-9037-4f9bccafd685.jpg",
+      "status": "ok",
+      "bytes": 333034
+    },
+    {
+      "source": "https://images.realty.mx/3d423ca825b967df3a90dad40ab1a3af/images/assets/18411_243055.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/18411_243055.jpg",
+      "status": "ok",
+      "bytes": 467606
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/285810427_A._7_Park_Avenue_56-1_final.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/285810427_A._7_Park_Avenue_56-1_final.jpg",
+      "status": "ok",
+      "bytes": 306919
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24045849-1_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24045849-1_l.jpg",
+      "status": "ok",
+      "bytes": 185603
+    },
+    {
+      "source": "https://media.elliman.com/01a10d58-5ac7-789b-85e1-77b0913be6ca.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10d58-5ac7-789b-85e1-77b0913be6ca.jpeg",
+      "status": "ok",
+      "bytes": 144940
+    },
+    {
+      "source": "https://media.elliman.com/01a10d05-c1ef-796e-af75-d62f77726490.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10d05-c1ef-796e-af75-d62f77726490.jpeg",
+      "status": "ok",
+      "bytes": 151070
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/369736072_TIM_6819_MEDIUM_RES.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/369736072_TIM_6819_MEDIUM_RES.jpg",
+      "status": "ok",
+      "bytes": 382106
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_116,owk_compass-dark/0/bcdaaa7c-5bc5-437b-ba3b-844cf9dae4b1/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/e692fd09-origin.jpg",
+      "status": "ok",
+      "bytes": 1639081
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_116,owk_compass-dark/0/1952e2ff-eb88-44e2-baec-47b70de0a9d4/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/f3d689fb-origin.jpg",
+      "status": "ok",
+      "bytes": 1577272
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_163,owk_compass-dark/0/7c7a5ab5-2314-4892-ab50-bf378c4132de/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/565761fe-origin.jpg",
+      "status": "ok",
+      "bytes": 1909411
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_163,owk_compass-dark/0/ca24fca9-0773-4b28-9da3-656c106aa707/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/a052e8d3-origin.jpg",
+      "status": "ok",
+      "bytes": 1936683
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_116,owk_compass-dark/0/fd2b5826-7046-4f20-a14c-77298df8697e/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/c85e3e96-origin.jpg",
+      "status": "ok",
+      "bytes": 1190194
+    },
+    {
+      "source": "https://media.elliman.com/01a10ca7-67c2-7535-b065-ba1103e37a22.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10ca7-67c2-7535-b065-ba1103e37a22.png",
+      "status": "ok",
+      "bytes": 2818824
+    },
+    {
+      "source": "https://media.elliman.com/01a10ca7-a1a3-7900-b178-c9322deafbcf.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10ca7-a1a3-7900-b178-c9322deafbcf.png",
+      "status": "ok",
+      "bytes": 275522
+    },
+    {
+      "source": "https://media.elliman.com/01a10ca7-aad4-729a-bca0-07fecc1bd587.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10ca7-aad4-729a-bca0-07fecc1bd587.png",
+      "status": "ok",
+      "bytes": 2056915
+    },
+    {
+      "source": "https://media.elliman.com/01a10ca7-b2ac-7f7d-ab16-e8bc576fedd3.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10ca7-b2ac-7f7d-ab16-e8bc576fedd3.png",
+      "status": "ok",
+      "bytes": 1290076
+    },
+    {
+      "source": "https://media.elliman.com/01a10ca7-b95f-7f2e-8d71-7dd0c3149cbd.png",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/01a10ca7-b95f-7f2e-8d71-7dd0c3149cbd.png",
+      "status": "ok",
+      "bytes": 1838654
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/137171675",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/137171675",
+      "status": "ok",
+      "bytes": 2842043
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/137171679",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/137171679",
+      "status": "ok",
+      "bytes": 2618853
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/137171684",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/137171684",
+      "status": "ok",
+      "bytes": 3256707
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/137171688",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/137171688",
+      "status": "ok",
+      "bytes": 993716
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/323546284_188_E_64th_St__901-1.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/323546284_188_E_64th_St__901-1.jpg",
+      "status": "ok",
+      "bytes": 384193
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/32880732_188_E_64th_St__901-6.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/32880732_188_E_64th_St__901-6.jpg",
+      "status": "ok",
+      "bytes": 301751
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/268091606_188_E_64th_St__901-5.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/268091606_188_E_64th_St__901-5.jpg",
+      "status": "ok",
+      "bytes": 229068
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/66794024_188_E_64th_St,_901-1.jpg_LR.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/66794024_188_E_64th_St,_901-1.jpg_LR.jpg",
+      "status": "ok",
+      "bytes": 275230
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/255360967_188_E_64th_St,_901-2.jpg_view_balcony.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/255360967_188_E_64th_St,_901-2.jpg_view_balcony.jpg",
+      "status": "ok",
+      "bytes": 460220
+    },
+    {
+      "source": "https://images.realty.mx/9fd1e77c9e45b52048dbf68d838cbce1/images/assets/2600_13880.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2600_13880.jpg",
+      "status": "ok",
+      "bytes": 65287
+    },
+    {
+      "source": "https://images.realty.mx/9fd1e77c9e45b52048dbf68d838cbce1/images/assets/2600_13881.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2600_13881.jpg",
+      "status": "ok",
+      "bytes": 68375
+    },
+    {
+      "source": "https://images.realty.mx/9fd1e77c9e45b52048dbf68d838cbce1/images/assets/2600_13882.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2600_13882.jpg",
+      "status": "ok",
+      "bytes": 50738
+    },
+    {
+      "source": "https://images.realty.mx/9fd1e77c9e45b52048dbf68d838cbce1/images/assets/2600_13883.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2600_13883.jpg",
+      "status": "ok",
+      "bytes": 61419
+    },
+    {
+      "source": "https://images.realty.mx/9fd1e77c9e45b52048dbf68d838cbce1/images/assets/2600_13884.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/2600_13884.jpg",
+      "status": "ok",
+      "bytes": 109237
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/133243271_323_East_18_16_1920px.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/133243271_323_East_18_16_1920px.jpg",
+      "status": "ok",
+      "bytes": 346066
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/201270337_323_East_18_08_1920px.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/201270337_323_East_18_08_1920px.jpg",
+      "status": "ok",
+      "bytes": 402651
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/169446142_323_East_18_15_1920px.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/169446142_323_East_18_15_1920px.jpg",
+      "status": "ok",
+      "bytes": 351799
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/180782448_323_East_18_19_1920px.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/180782448_323_East_18_19_1920px.jpg",
+      "status": "ok",
+      "bytes": 319092
+    },
+    {
+      "source": "https://corcjagmedia1.airpear.net/Aptphotos/216985319_323_East_18_18_1920px.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/216985319_323_East_18_18_1920px.jpg",
+      "status": "ok",
+      "bytes": 266607
+    },
+    {
+      "source": "https://mediarouting.vestahub.com/Media/155688671",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/155688671",
+      "status": "ok",
+      "bytes": 3356078
+    },
+    {
+      "source": "https://jagmedia1.airpear.net/Aptphotos/275907291_240_e_79_14AB_Living2.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/275907291_240_e_79_14AB_Living2.jpg",
+      "status": "ok",
+      "bytes": 416494
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24043663-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24043663-2_l.jpg",
+      "status": "ok",
+      "bytes": 105506
+    },
+    {
+      "source": "https://www.compass.com/m/p-ohp_7,op_50,owk_compass-dark/0/c6b92efb-582c-42cc-8e64-ab9156a31e82/origin.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/ecfeb465-origin.jpg",
+      "status": "ok",
+      "bytes": 514481
+    },
+    {
+      "source": "https://media.bhsusa.com/pictures/24038358-2_l.jpg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/24038358-2_l.jpg",
+      "status": "ok",
+      "bytes": 120215
+    },
+    {
+      "source": "https://a09d1efe6ac99db2d893-7a4092082fed76b45af6ab903a5273f5.ssl.cf2.rackcdn.com/KEY427289279_8fffa947-2e50-4131-9350-2b7ee43dd51c.jpeg",
+      "local": "/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/KEY427289279_8fffa947-2e50-4131-9350-2b7ee43dd51c.jpeg",
+      "status": "ok",
+      "bytes": 170507
+    }
+  ]
+}

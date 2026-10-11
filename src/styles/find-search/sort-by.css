@@ -1,0 +1,27 @@
+.sort-by_em{color:#b3b3b3}
+.sort-by_invisible{visibility:hidden}
+.sort-by_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.sort-by_desktop-only{display:initial!important;pointer-events:auto}}
+.sort-by_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.sort-by_mobile-only{display:initial!important;pointer-events:auto}}
+.sort-by_underline{text-decoration:underline}
+.sort-by_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.sort-by_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.sort-by_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.sort-by_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.sort-by_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.sort-by_dropdown-content{padding:2rem 0}}
+.sort-by_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.sort-by_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.sort-by_dropdown-trigger.sort-by_underlined{border-bottom:1px solid #151717}
+.sort-by_dropdown-trigger.sort-by_outlined{border:1px solid rgba(21,23,23,.1)}
+.sort-by_sort-by{grid-area:sort-by;display:flex;align-items:center;gap:1rem;justify-self:end;font-size:1.4rem;font-weight:500;line-height:1.5}
+@media(min-width:768px){.sort-by_sort-by{font-size:1.8rem}}
+.sort-by_content{margin-top:1rem;max-height:40rem;background-color:#fff;border:1px solid rgba(21,23,23,.1);overflow:hidden}
+.sort-by_content>div{padding:1rem 0;overflow:auto;height:100%}
+@media(min-width:768px){.sort-by_content>div{padding:2rem 0}}
+.sort-by_trigger{display:flex;align-items:center;gap:1rem;color:#0496ff;cursor:pointer}
+.sort-by_trigger-label{font-size:inherit;font-weight:500;line-height:1.5;white-space:nowrap}
+.sort-by_item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:1rem 2rem;outline:none;display:flex;align-items:center;gap:1rem}
+.sort-by_item.sort-by_active,.sort-by_item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+@media(min-width:768px){.sort-by_item{padding:1.35rem 3rem;font-size:1.8rem}}

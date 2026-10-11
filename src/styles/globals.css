@@ -25,6 +25,15 @@
  */
 @import "./clone.css";
 
+/*
+ * Rules the origin added AFTER the homepage was first captured — currently the
+ * "Beta" pill next to Sign In, which both routes render. Installed by
+ * scripts/search/install-search-css.mjs; see the file's header for the measured
+ * values it carries. Imported here rather than into a route stylesheet because
+ * the homepage has to pick it up too.
+ */
+@import "./_chrome-delta.css";
+
 @theme {
   --font-sans: var(--font-primary), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-secondary), ui-serif, Georgia, serif;

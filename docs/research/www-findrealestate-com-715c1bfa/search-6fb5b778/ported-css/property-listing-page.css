@@ -1,0 +1,21 @@
+.property-listing-page_em{color:#b3b3b3}
+.property-listing-page_invisible{visibility:hidden}
+.property-listing-page_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.property-listing-page_desktop-only{display:initial!important;pointer-events:auto}}
+.property-listing-page_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.property-listing-page_mobile-only{display:initial!important;pointer-events:auto}}
+.property-listing-page_underline{text-decoration:underline}
+.property-listing-page_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.property-listing-page_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.property-listing-page_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.property-listing-page_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.property-listing-page_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.property-listing-page_dropdown-content{padding:2rem 0}}
+.property-listing-page_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.property-listing-page_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.property-listing-page_dropdown-trigger.property-listing-page_underlined{border-bottom:1px solid #151717}
+.property-listing-page_dropdown-trigger.property-listing-page_outlined{border:1px solid rgba(21,23,23,.1)}
+.property-listing-page_content{--content-py:2rem;--content-px:2.5rem;display:grid;position:relative;grid-template-rows:auto 1fr}
+@media(min-width:768px){.property-listing-page_content{--content-py:3rem;--content-px:0;min-height:calc(100vh - 18.6rem)}.property-listing-page_content.property-listing-page_list-view .property-listing-page_map-container{display:none}.property-listing-page_content.property-listing-page_list-view .property-listing-page_listing-container{width:100%}.property-listing-page_content.property-listing-page_split-view .property-listing-page_map-container{display:block}.property-listing-page_bound{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1}.property-listing-page_controls{position:sticky;top:18.6rem;height:calc(100vh - 18.6rem);display:grid;grid-template-rows:auto 1fr}.property-listing-page_filters-container{z-index:3;position:sticky;top:7.8rem}}
+.property-listing-page_map-container{display:none}
+@media(min-width:768px){.property-listing-page_map-container{display:block;width:calc(50% - 2rem)}.property-listing-page_listing-container{position:relative;width:calc(50% - 2rem);margin-left:auto;isolation:isolate;z-index:2}}

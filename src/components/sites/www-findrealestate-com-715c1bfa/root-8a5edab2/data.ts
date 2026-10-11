@@ -8,6 +8,21 @@ export const SIGN_IN_HREF =
   "https://app.findrealestate.com/authentication/sign-in";
 
 /**
+ * The "Beta" pill next to Sign In. Present on BOTH cloned routes — it was added
+ * by the origin after the homepage was first captured, which is why the older
+ * homepage stylesheet has no rules for it. Values read off the live DOM:
+ *
+ *   <a class="header_beta" title="Invited agents: try the new FIND platform"
+ *      href="https://find-platform.vercel.app/login">Beta</a>
+ *
+ * Measured box 41x18, font-size 9px (=1.2rem), weight 600, padding 2.25px/6.75px
+ * (=.3rem/.9rem), margin-right 9px (=1.2rem), border 1px solid #151717,
+ * radius 999px.
+ */
+export const BETA_HREF = "https://find-platform.vercel.app/login";
+export const BETA_TITLE = "Invited agents: try the new FIND platform";
+
+/**
  * Desktop header navigation. The origin renders Join / Paperwork / Resources /
  * About as buttons that open lazily-hydrated submenu panels; the clone links
  * each to its top-level route instead (see the project README's gaps section).

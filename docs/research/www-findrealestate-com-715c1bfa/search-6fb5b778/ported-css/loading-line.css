@@ -1,0 +1,23 @@
+.loading-line_em{color:#b3b3b3}
+.loading-line_invisible{visibility:hidden}
+.loading-line_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.loading-line_desktop-only{display:initial!important;pointer-events:auto}}
+.loading-line_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.loading-line_mobile-only{display:initial!important;pointer-events:auto}}
+.loading-line_underline{text-decoration:underline}
+.loading-line_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.loading-line_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.loading-line_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.loading-line_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.loading-line_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.loading-line_dropdown-content{padding:2rem 0}}
+.loading-line_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.loading-line_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.loading-line_dropdown-trigger.loading-line_underlined{border-bottom:1px solid #151717}
+.loading-line_dropdown-trigger.loading-line_outlined{border:1px solid rgba(21,23,23,.1)}
+.loading-line_loadingLine{position:fixed;top:0;left:0;width:100%;height:.45rem;background:hsla(0,0%,100%,.1);z-index:9999;visibility:hidden}
+.loading-line_loadingLine:before{content:"";position:absolute;top:0;left:0;height:100%;width:0;background:#151717;transition:width .3s ease-out}
+.loading-line_loadingLine.loading-line_visible:before{visibility:visible}
+.loading-line_loadingLine.loading-line_loading:before{animation:loading-line_youtubeLoading 3s ease-out forwards}
+.loading-line_loadingLine.loading-line_loading-slow:before{animation:loading-line_youtubeLoadingSlow 2s ease-in-out infinite}
+.loading-line_loadingLine.loading-line_completing:before{animation:loading-line_youtubeCompleting .5s ease-out forwards}

@@ -1,0 +1,29 @@
+.grid_em{color:#b3b3b3}
+.grid_invisible{visibility:hidden}
+.grid_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.grid_desktop-only{display:initial!important;pointer-events:auto}}
+.grid_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.grid_mobile-only{display:initial!important;pointer-events:auto}}
+.grid_underline{text-decoration:underline}
+.grid_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.grid_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.grid_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.grid_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.grid_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.grid_dropdown-content{padding:2rem 0}}
+.grid_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.grid_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.grid_dropdown-trigger.grid_underlined{border-bottom:1px solid #151717}
+.grid_dropdown-trigger.grid_outlined{border:1px solid rgba(21,23,23,.1)}
+@media(max-width:767px){.grid_wrapper{margin:0 calc(-50vw + 50% + var(--scrollbar-width, 0px))}}
+.grid_swiper{--aspect-ratio:330/220}
+@media(min-width:768px){.grid_swiper{--aspect-ratio:557/260}}
+@media(max-width:767px){.grid_swiper{padding:0 2.5rem!important}}
+.grid_slider-wrapper{height:auto}
+.grid_pagination{margin-top:4rem;padding:0 2.5rem;display:none}
+@media(min-width:768px){.grid_pagination{margin-top:8rem;padding:0;display:block}}
+.grid_slide{--aspect-ratio:1/1}
+@media(max-width:767px){.grid_slide{width:20rem}}
+.grid_empty{font-size:1.6;line-height:1.5}
+@media(min-width:768px){.grid_empty{font-size:2.4rem;line-height:1.3}}
+.grid_skeleton-slide{visibility:hidden;pointer-events:none}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { NAV_ITEMS, SIGN_IN_HREF } from "./data";
+import { BETA_HREF, NAV_ITEMS, SIGN_IN_HREF } from "./data";
 import { ChevronDownIcon } from "./shared/icons";
 
 type Props = {
@@ -57,6 +57,11 @@ export function BurgerMenu({ open, onClose }: Props) {
               <span data-text="Sign In">Sign In</span>
             </div>
           </div>
+        </a>
+        {/* Verbatim from the live DOM:
+            <a class="burger-menu_beta" href="…/login">Beta: new agent platform</a> */}
+        <a className="burger-menu_beta" href={BETA_HREF}>
+          Beta: new agent platform
         </a>
       </div>
     </div>

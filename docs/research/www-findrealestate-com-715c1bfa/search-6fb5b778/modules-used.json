@@ -1,0 +1,662 @@
+{
+  "scannedAt": "2026-10-10T22:04:39.838Z",
+  "url": "https://www.findrealestate.com/search",
+  "moduleCount": 85,
+  "modules": [
+    {
+      "mod": "burger-btn",
+      "classes": [
+        "burger-btn_btn"
+      ]
+    },
+    {
+      "mod": "burger-menu",
+      "classes": [
+        "burger-menu_wrapper",
+        "burger-menu_backdrop",
+        "burger-menu_content",
+        "burger-menu_nav",
+        "burger-menu_nav-item",
+        "burger-menu_nav-item-content",
+        "burger-menu_actions",
+        "burger-menu_beta"
+      ]
+    },
+    {
+      "mod": "button",
+      "classes": [
+        "button_button-round",
+        "button_color-primary",
+        "button_content",
+        "button_button-round-text",
+        "button_icon-button",
+        "button_color-secondary",
+        "button_content-icon"
+      ]
+    },
+    {
+      "mod": "container",
+      "classes": [
+        "container_container"
+      ]
+    },
+    {
+      "mod": "dropdown-base",
+      "classes": [
+        "dropdown-base_trigger",
+        "dropdown-base_outlined",
+        "dropdown-base_trigger-label"
+      ]
+    },
+    {
+      "mod": "filter-selection",
+      "classes": [
+        "filter-selection_filter-selection"
+      ]
+    },
+    {
+      "mod": "filters-bar",
+      "classes": [
+        "filters-bar_filters-bar-mobile",
+        "filters-bar_content",
+        "filters-bar_filters",
+        "filters-bar_options",
+        "filters-bar_option"
+      ]
+    },
+    {
+      "mod": "footer",
+      "classes": [
+        "footer_wrapper",
+        "footer_content",
+        "footer_newsletter-container",
+        "footer_newsletter-title",
+        "footer_newsletter-form",
+        "footer_input-container",
+        "footer_input-wrapper",
+        "footer_newsletter-submit-btn",
+        "footer_contacts",
+        "footer_contact",
+        "footer_contact-label",
+        "footer_contact-value",
+        "footer_links",
+        "footer_nav",
+        "footer_nav-link",
+        "footer_socials",
+        "footer_social-link",
+        "footer_logo",
+        "footer_copyright-container",
+        "footer_sublinks"
+      ]
+    },
+    {
+      "mod": "form-text-input",
+      "classes": [
+        "form-text-input_form-input",
+        "form-text-input_input-wrapper"
+      ]
+    },
+    {
+      "mod": "g-recaptcha-response",
+      "classes": [
+        "g-recaptcha-response"
+      ]
+    },
+    {
+      "mod": "gm-bundled-control",
+      "classes": [
+        "gm-bundled-control"
+      ]
+    },
+    {
+      "mod": "gm-bundled-control-on-bottom",
+      "classes": [
+        "gm-bundled-control-on-bottom"
+      ]
+    },
+    {
+      "mod": "gm-control-active",
+      "classes": [
+        "gm-control-active"
+      ]
+    },
+    {
+      "mod": "gm-fullscreen-control",
+      "classes": [
+        "gm-fullscreen-control"
+      ]
+    },
+    {
+      "mod": "gm-style",
+      "classes": [
+        "gm-style"
+      ]
+    },
+    {
+      "mod": "gm-style-cc",
+      "classes": [
+        "gm-style-cc"
+      ]
+    },
+    {
+      "mod": "gm-style-moc",
+      "classes": [
+        "gm-style-moc"
+      ]
+    },
+    {
+      "mod": "gm-style-mot",
+      "classes": [
+        "gm-style-mot"
+      ]
+    },
+    {
+      "mod": "gmnoprint",
+      "classes": [
+        "gmnoprint"
+      ]
+    },
+    {
+      "mod": "gmnoscreen",
+      "classes": [
+        "gmnoscreen"
+      ]
+    },
+    {
+      "mod": "grecaptcha-badge",
+      "classes": [
+        "grecaptcha-badge"
+      ]
+    },
+    {
+      "mod": "grecaptcha-error",
+      "classes": [
+        "grecaptcha-error"
+      ]
+    },
+    {
+      "mod": "grecaptcha-logo",
+      "classes": [
+        "grecaptcha-logo"
+      ]
+    },
+    {
+      "mod": "header",
+      "classes": [
+        "header_wrapper",
+        "header_content",
+        "header_logo",
+        "header_nav",
+        "header_nav-item",
+        "header_nav-arrow",
+        "header_actions",
+        "header_beta",
+        "header_burger-control"
+      ]
+    },
+    {
+      "mod": "hover-gallery",
+      "classes": [
+        "hover-gallery_hover-gallery",
+        "hover-gallery_slider-wrapper",
+        "hover-gallery_slide",
+        "hover-gallery_gallery-image",
+        "hover-gallery_data-source-logo",
+        "hover-gallery_data-source-logo-image"
+      ]
+    },
+    {
+      "mod": "image",
+      "classes": [
+        "image_container",
+        "image_loaded",
+        "image_image",
+        "image_lazy",
+        "image_placeholder"
+      ]
+    },
+    {
+      "mod": "image-placeholder",
+      "classes": [
+        "image-placeholder_image-placeholder",
+        "image-placeholder_inner"
+      ]
+    },
+    {
+      "mod": "iubenda-banner-content",
+      "classes": [
+        "iubenda-banner-content"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-accept-btn",
+      "classes": [
+        "iubenda-cs-accept-btn"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-bottom",
+      "classes": [
+        "iubenda-cs-bottom"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-btn-primary",
+      "classes": [
+        "iubenda-cs-btn-primary"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-close-btn",
+      "classes": [
+        "iubenda-cs-close-btn"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-container",
+      "classes": [
+        "iubenda-cs-container"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-content",
+      "classes": [
+        "iubenda-cs-content"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-counter",
+      "classes": [
+        "iubenda-cs-counter"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-customize-btn",
+      "classes": [
+        "iubenda-cs-customize-btn"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-default",
+      "classes": [
+        "iubenda-cs-default"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-opt-group",
+      "classes": [
+        "iubenda-cs-opt-group"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-opt-group-consent",
+      "classes": [
+        "iubenda-cs-opt-group-consent"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-opt-group-custom",
+      "classes": [
+        "iubenda-cs-opt-group-custom"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-rationale",
+      "classes": [
+        "iubenda-cs-rationale"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-reject-btn",
+      "classes": [
+        "iubenda-cs-reject-btn"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-slidein",
+      "classes": [
+        "iubenda-cs-slidein"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-small-margin-top",
+      "classes": [
+        "iubenda-cs-small-margin-top"
+      ]
+    },
+    {
+      "mod": "iubenda-cs-visible",
+      "classes": [
+        "iubenda-cs-visible"
+      ]
+    },
+    {
+      "mod": "iubenda-custom-content",
+      "classes": [
+        "iubenda-custom-content"
+      ]
+    },
+    {
+      "mod": "lenis",
+      "classes": [
+        "lenis"
+      ]
+    },
+    {
+      "mod": "LGLeeN-keyboard-shortcuts-view",
+      "classes": [
+        "LGLeeN-keyboard-shortcuts-view"
+      ]
+    },
+    {
+      "mod": "list-view",
+      "classes": [
+        "list-view_content",
+        "list-view_list-header",
+        "list-view_filters",
+        "list-view_list-count",
+        "list-view_list",
+        "list-view_split",
+        "list-view_pagination-container"
+      ]
+    },
+    {
+      "mod": "listing-card",
+      "classes": [
+        "listing-card_container",
+        "listing-card_body",
+        "listing-card_title",
+        "listing-card_amenities",
+        "listing-card_address",
+        "listing-card_actions"
+      ]
+    },
+    {
+      "mod": "loading-line",
+      "classes": [
+        "loading-line_loadingLine"
+      ]
+    },
+    {
+      "mod": "map",
+      "classes": [
+        "map_map",
+        "map_marker-popup",
+        "map_marker-popup-container",
+        "map_marker-popup-image",
+        "map_marker-popup-overlay",
+        "map_marker-popup-overlay-pills",
+        "map_marker-popup-overlay-pill",
+        "map_marker-popup-content",
+        "map_marker-popup-amenities",
+        "map_marker-popup-address",
+        "map_marker-popup-data-source-logo",
+        "map_marker-popup-data-source-logo-image"
+      ]
+    },
+    {
+      "mod": "map-view",
+      "classes": [
+        "map-view_map-view"
+      ]
+    },
+    {
+      "mod": "mobile-filters",
+      "classes": [
+        "mobile-filters_trigger"
+      ]
+    },
+    {
+      "mod": "pagination",
+      "classes": [
+        "pagination_pagination",
+        "pagination_initialized",
+        "pagination_nav",
+        "pagination_prev",
+        "pagination_next"
+      ]
+    },
+    {
+      "mod": "property-listing-page",
+      "classes": [
+        "property-listing-page_filters-container",
+        "property-listing-page_content",
+        "property-listing-page_split-view",
+        "property-listing-page_bound",
+        "property-listing-page_controls",
+        "property-listing-page_map-container",
+        "property-listing-page_listing-container"
+      ]
+    },
+    {
+      "mod": "rc-pagination",
+      "classes": [
+        "rc-pagination"
+      ]
+    },
+    {
+      "mod": "rc-pagination-disabled",
+      "classes": [
+        "rc-pagination-disabled"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item",
+      "classes": [
+        "rc-pagination-item"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-1",
+      "classes": [
+        "rc-pagination-item-1"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-2",
+      "classes": [
+        "rc-pagination-item-2"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-3",
+      "classes": [
+        "rc-pagination-item-3"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-534",
+      "classes": [
+        "rc-pagination-item-534"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-active",
+      "classes": [
+        "rc-pagination-item-active"
+      ]
+    },
+    {
+      "mod": "rc-pagination-item-before-jump-next",
+      "classes": [
+        "rc-pagination-item-before-jump-next"
+      ]
+    },
+    {
+      "mod": "rc-pagination-jump-next",
+      "classes": [
+        "rc-pagination-jump-next"
+      ]
+    },
+    {
+      "mod": "rc-pagination-jump-next-custom-icon",
+      "classes": [
+        "rc-pagination-jump-next-custom-icon"
+      ]
+    },
+    {
+      "mod": "rc-pagination-next",
+      "classes": [
+        "rc-pagination-next"
+      ]
+    },
+    {
+      "mod": "rc-pagination-prev",
+      "classes": [
+        "rc-pagination-prev"
+      ]
+    },
+    {
+      "mod": "select-base",
+      "classes": [
+        "select-base_trigger",
+        "select-base_outlined",
+        "select-base_trigger-label"
+      ]
+    },
+    {
+      "mod": "sort-by",
+      "classes": [
+        "sort-by_sort-by",
+        "sort-by_trigger",
+        "sort-by_trigger-label"
+      ]
+    },
+    {
+      "mod": "swiper",
+      "classes": [
+        "swiper"
+      ]
+    },
+    {
+      "mod": "swiper-backface-hidden",
+      "classes": [
+        "swiper-backface-hidden"
+      ]
+    },
+    {
+      "mod": "swiper-horizontal",
+      "classes": [
+        "swiper-horizontal"
+      ]
+    },
+    {
+      "mod": "swiper-initialized",
+      "classes": [
+        "swiper-initialized"
+      ]
+    },
+    {
+      "mod": "swiper-slide",
+      "classes": [
+        "swiper-slide"
+      ]
+    },
+    {
+      "mod": "swiper-slide-active",
+      "classes": [
+        "swiper-slide-active"
+      ]
+    },
+    {
+      "mod": "swiper-slide-fully-visible",
+      "classes": [
+        "swiper-slide-fully-visible"
+      ]
+    },
+    {
+      "mod": "swiper-slide-next",
+      "classes": [
+        "swiper-slide-next"
+      ]
+    },
+    {
+      "mod": "swiper-slide-visible",
+      "classes": [
+        "swiper-slide-visible"
+      ]
+    },
+    {
+      "mod": "swiper-watch-progress",
+      "classes": [
+        "swiper-watch-progress"
+      ]
+    },
+    {
+      "mod": "swiper-wrapper",
+      "classes": [
+        "swiper-wrapper"
+      ]
+    },
+    {
+      "mod": "text-input",
+      "classes": [
+        "text-input_input-wrapper",
+        "text-input_input",
+        "text-input_clear-button",
+        "text-input_dark"
+      ]
+    },
+    {
+      "mod": "undefined",
+      "classes": [
+        "undefined"
+      ]
+    },
+    {
+      "mod": "yNHHyP-marker-view",
+      "classes": [
+        "yNHHyP-marker-view"
+      ]
+    }
+  ],
+  "discoveredOnlyAfterOpening": [
+    "map_map_map",
+    "map_map_marker-popup",
+    "map_map_marker-popup-container",
+    "map_map_marker-popup-image",
+    "map_map_marker-popup-overlay",
+    "map_map_marker-popup-overlay-pills",
+    "map_map_marker-popup-overlay-pill",
+    "map_map_marker-popup-content",
+    "map_map_marker-popup-amenities",
+    "map_map_marker-popup-address",
+    "map_map_marker-popup-data-source-logo",
+    "map_map_marker-popup-data-source-logo-image",
+    "LGLeeN-keyboard-shortcuts-view_LGLeeN-keyboard-shortcuts-view",
+    "gm-style_gm-style",
+    "yNHHyP-marker-view_yNHHyP-marker-view",
+    "gm-style-moc_gm-style-moc",
+    "gm-style-mot_gm-style-mot",
+    "gm-control-active_gm-control-active",
+    "gm-fullscreen-control_gm-fullscreen-control",
+    "gmnoprint_gmnoprint",
+    "gm-bundled-control_gm-bundled-control",
+    "gm-bundled-control-on-bottom_gm-bundled-control-on-bottom",
+    "gm-style-cc_gm-style-cc",
+    "gmnoscreen_gmnoscreen",
+    "grecaptcha-badge_grecaptcha-badge",
+    "grecaptcha-logo_grecaptcha-logo",
+    "grecaptcha-error_grecaptcha-error",
+    "g-recaptcha-response_g-recaptcha-response",
+    "iubenda-cs-default_iubenda-cs-default",
+    "iubenda-cs-bottom_iubenda-cs-bottom",
+    "iubenda-cs-slidein_iubenda-cs-slidein",
+    "iubenda-cs-visible_iubenda-cs-visible",
+    "iubenda-cs-container_iubenda-cs-container",
+    "iubenda-cs-content_iubenda-cs-content",
+    "iubenda-cs-rationale_iubenda-cs-rationale",
+    "iubenda-cs-close-btn_iubenda-cs-close-btn",
+    "iubenda-banner-content_iubenda-banner-content",
+    "iubenda-custom-content_iubenda-custom-content",
+    "iubenda-cs-small-margin-top_iubenda-cs-small-margin-top",
+    "iubenda-cs-counter_iubenda-cs-counter",
+    "iubenda-cs-opt-group_iubenda-cs-opt-group",
+    "iubenda-cs-opt-group-custom_iubenda-cs-opt-group-custom",
+    "iubenda-cs-customize-btn_iubenda-cs-customize-btn",
+    "iubenda-cs-opt-group-consent_iubenda-cs-opt-group-consent",
+    "iubenda-cs-reject-btn_iubenda-cs-reject-btn",
+    "iubenda-cs-btn-primary_iubenda-cs-btn-primary",
+    "iubenda-cs-accept-btn_iubenda-cs-accept-btn"
+  ]
+}

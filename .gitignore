@@ -44,3 +44,8 @@ yarn-error.log*
 
 # idea files
 .idea
+# Captured listing imagery for /search: 346 files, ~285MB.
+# Re-fetchable with: node scripts/search/capture-listings.mjs --download-only
+# (the manifest in docs/research/.../ARTIFACT_MANIFEST.json is the authority for
+# which source URL maps to which local filename).
+/public/sites/www-findrealestate-com-715c1bfa/search-6fb5b778/images/

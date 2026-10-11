@@ -1,0 +1,25 @@
+.core-values_em{color:#b3b3b3}
+.core-values_invisible{visibility:hidden}
+.core-values_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.core-values_desktop-only{display:initial!important;pointer-events:auto}}
+.core-values_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.core-values_mobile-only{display:initial!important;pointer-events:auto}}
+.core-values_underline{text-decoration:underline}
+.core-values_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.core-values_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.core-values_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.core-values_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.core-values_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.core-values_dropdown-content{padding:2rem 0}}
+.core-values_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.core-values_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.core-values_dropdown-trigger.core-values_underlined{border-bottom:1px solid #151717}
+.core-values_dropdown-trigger.core-values_outlined{border:1px solid rgba(21,23,23,.1)}
+.core-values_core-values{padding:4rem 0}
+@media(min-width:768px){.core-values_core-values{padding:10rem 0}}
+.core-values_core-values-title{display:flex;justify-content:center;font-size:4.4rem;line-height:1.05;letter-spacing:-.02em;font-weight:500}
+@media(min-width:768px){.core-values_core-values-title{font-size:7.2rem;line-height:1;letter-spacing:-.04em}}
+.core-values_core-values-description{font-weight:500;font-size:2rem;line-height:1.5;margin-top:4rem}
+@media(min-width:768px){.core-values_core-values-description{text-align:center}}
+.core-values_core-values-slides{margin-top:4rem}
+@media(min-width:768px){.core-values_core-values-slides{margin-top:8rem}}

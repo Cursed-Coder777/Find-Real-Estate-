@@ -1,0 +1,27 @@
+.beds-and-baths-dropdown_em{color:#b3b3b3}
+.beds-and-baths-dropdown_invisible{visibility:hidden}
+.beds-and-baths-dropdown_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.beds-and-baths-dropdown_desktop-only{display:initial!important;pointer-events:auto}}
+.beds-and-baths-dropdown_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.beds-and-baths-dropdown_mobile-only{display:initial!important;pointer-events:auto}}
+.beds-and-baths-dropdown_underline{text-decoration:underline}
+.beds-and-baths-dropdown_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.beds-and-baths-dropdown_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.beds-and-baths-dropdown_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.beds-and-baths-dropdown_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.beds-and-baths-dropdown_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.beds-and-baths-dropdown_dropdown-content{padding:2rem 0}}
+.beds-and-baths-dropdown_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.beds-and-baths-dropdown_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.beds-and-baths-dropdown_dropdown-trigger.beds-and-baths-dropdown_underlined{border-bottom:1px solid #151717}
+.beds-and-baths-dropdown_dropdown-trigger.beds-and-baths-dropdown_outlined{border:1px solid rgba(21,23,23,.1)}
+.beds-and-baths-dropdown_item{font-size:1.6rem;font-weight:500;line-height:1.5}
+.beds-and-baths-dropdown_body{display:flex;flex-direction:column;gap:3rem}
+.beds-and-baths-dropdown_actions{display:flex;justify-content:flex-end;gap:1.2rem;margin-top:3rem}
+.beds-and-baths-dropdown_actions>button{padding:1.3rem 3.4rem}
+.beds-and-baths-dropdown_label{font-size:1.8rem;font-weight:500;line-height:1.5;margin-bottom:2rem}
+.beds-and-baths-dropdown_options{display:flex}
+.beds-and-baths-dropdown_options>*{flex:1 1}
+.beds-and-baths-dropdown_option{font-size:1.8rem;font-weight:500;line-height:1.5;min-width:8rem;cursor:pointer;border:1px solid #f1f1f1;border-right:none;background-color:#fff;padding:1.3rem 0}
+.beds-and-baths-dropdown_option[data-state=on]{background-color:#151717;border-color:none;color:#fff}
+.beds-and-baths-dropdown_option:last-child{border-right:1px solid #f1f1f1}

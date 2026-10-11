@@ -1,0 +1,29 @@
+.latest-posts_em{color:#b3b3b3}
+.latest-posts_invisible{visibility:hidden}
+.latest-posts_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.latest-posts_desktop-only{display:initial!important;pointer-events:auto}}
+.latest-posts_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.latest-posts_mobile-only{display:initial!important;pointer-events:auto}}
+.latest-posts_underline{text-decoration:underline}
+.latest-posts_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.latest-posts_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.latest-posts_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.latest-posts_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.latest-posts_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.latest-posts_dropdown-content{padding:2rem 0}}
+.latest-posts_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.latest-posts_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.latest-posts_dropdown-trigger.latest-posts_underlined{border-bottom:1px solid #151717}
+.latest-posts_dropdown-trigger.latest-posts_outlined{border:1px solid rgba(21,23,23,.1)}
+.latest-posts_root{padding:6rem 0;background:#f1f1f1}
+@media(min-width:768px){.latest-posts_root{padding:15rem 0}}
+.latest-posts_grid{display:grid;grid-gap:4rem;gap:4rem}
+@media(min-width:768px){.latest-posts_grid{grid-template-columns:auto 97.6rem}}
+.latest-posts_title{font-weight:500;font-size:4.4rem;line-height:105%;letter-spacing:-.02em}
+@media(min-width:768px){.latest-posts_title{font-size:8rem;line-height:100%;letter-spacing:-.04em}}
+.latest-posts_text{font-weight:500;font-size:2.2rem;line-height:115%}
+@media(min-width:768px){.latest-posts_text{font-size:3.2rem;line-height:130%;letter-spacing:-.01em}}
+.latest-posts_actions{margin:3rem 0 0}
+@media(min-width:768px){.latest-posts_actions{margin:4rem 0 0}}
+.latest-posts_items{display:grid;margin:4rem 0 0;grid-gap:6rem;gap:6rem}
+@media(min-width:768px){.latest-posts_items{margin:10rem 0 0;gap:0;border-bottom:1px solid rgba(21,23,23,.1)}.latest-posts_item{padding:3rem 0;border-top:1px solid rgba(21,23,23,.1)}}

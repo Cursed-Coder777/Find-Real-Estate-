@@ -1,0 +1,28 @@
+.search-listings-skeleton_em{color:#b3b3b3}
+.search-listings-skeleton_invisible{visibility:hidden}
+.search-listings-skeleton_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.search-listings-skeleton_desktop-only{display:initial!important;pointer-events:auto}}
+.search-listings-skeleton_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.search-listings-skeleton_mobile-only{display:initial!important;pointer-events:auto}}
+.search-listings-skeleton_underline{text-decoration:underline}
+.search-listings-skeleton_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.search-listings-skeleton_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.search-listings-skeleton_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.search-listings-skeleton_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.search-listings-skeleton_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.search-listings-skeleton_dropdown-content{padding:2rem 0}}
+.search-listings-skeleton_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.search-listings-skeleton_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.search-listings-skeleton_dropdown-trigger.search-listings-skeleton_underlined{border-bottom:1px solid #151717}
+.search-listings-skeleton_dropdown-trigger.search-listings-skeleton_outlined{border:1px solid rgba(21,23,23,.1)}
+.search-listings-skeleton_map{min-height:40rem;border-radius:0}
+.search-listings-skeleton_list{padding:var(--content-py,2rem) 0}
+@media(min-width:768px){.search-listings-skeleton_list{padding:var(--content-py,3rem) var(--content-px,2.5rem)}}
+.search-listings-skeleton_list-count{margin-bottom:2rem}
+.search-listings-skeleton_cards{display:flex;flex-direction:column;gap:2.4rem}
+.search-listings-skeleton_card{display:flex;flex-direction:column}
+.search-listings-skeleton_card-image{aspect-ratio:16/10}
+.search-listings-skeleton_card-title{margin-top:1.5rem}
+@media(min-width:768px){.search-listings-skeleton_card-title{margin-top:2rem}}
+.search-listings-skeleton_card-meta{margin-top:1.5rem}
+.search-listings-skeleton_card-address{margin-top:.8rem}

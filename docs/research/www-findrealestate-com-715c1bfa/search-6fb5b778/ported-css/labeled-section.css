@@ -1,0 +1,25 @@
+.labeled-section_em{color:#b3b3b3}
+.labeled-section_invisible{visibility:hidden}
+.labeled-section_desktop-only{display:none!important;pointer-events:none}
+@media(min-width:768px){.labeled-section_desktop-only{display:initial!important;pointer-events:auto}}
+.labeled-section_mobile-only{display:none!important;pointer-events:none}
+@media(max-width:767px){.labeled-section_mobile-only{display:initial!important;pointer-events:auto}}
+.labeled-section_underline{text-decoration:underline}
+.labeled-section_dropdown-item{font-size:1.4rem;font-weight:500;line-height:1.5;cursor:pointer;padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem}
+.labeled-section_dropdown-item:hover{background-color:#ededed;box-shadow:none;outline:none;border:none;filter:none}
+.labeled-section_dropdown-item[data-selected=true]{background-color:#ededed}
+@media(min-width:768px){.labeled-section_dropdown-item{font-size:1.8rem;padding:1.35rem 3rem}}
+.labeled-section_dropdown-content{margin-top:1rem;max-height:25rem;z-index:201;background-color:#fff;border:1px solid rgba(21,23,23,.1);padding:1rem 0}
+@media(min-width:768px){.labeled-section_dropdown-content{padding:2rem 0}}
+.labeled-section_dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;cursor:pointer;padding:1.2rem 1rem 1.2rem 1.5rem}
+@media(min-width:768px){.labeled-section_dropdown-trigger{padding:1.5rem 1.5rem 1.5rem 2rem}}
+.labeled-section_dropdown-trigger.labeled-section_underlined{border-bottom:1px solid #151717}
+.labeled-section_dropdown-trigger.labeled-section_outlined{border:1px solid rgba(21,23,23,.1)}
+.labeled-section_labeled-section{padding:3.5rem 0;display:flex;flex-direction:column;gap:4rem}
+@media(min-width:768px){.labeled-section_labeled-section{padding:10rem 0;flex-direction:row}}
+.labeled-section_label-container{flex:1 1}
+.labeled-section_label{font-size:3rem;font-weight:500;line-height:1;color:#151717}
+@media(min-width:768px){.labeled-section_label{font-size:4.4rem;letter-spacing:-.02em}}
+.labeled-section_sub-label{margin-top:4rem;font-weight:500;font-size:1.6rem;line-height:1.5;max-width:45rem}
+@media(min-width:768px){.labeled-section_sub-label{font-size:2rem}}
+.labeled-section_content{max-width:97.6rem;flex:2 1}

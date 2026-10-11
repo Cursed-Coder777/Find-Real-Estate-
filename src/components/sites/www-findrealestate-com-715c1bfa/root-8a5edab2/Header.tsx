@@ -3,14 +3,18 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-import { NAV_ITEMS, SIGN_IN_HREF } from "./data";
+import { BETA_HREF, BETA_TITLE, NAV_ITEMS, SIGN_IN_HREF } from "./data";
 import { BurgerMenu } from "./BurgerMenu";
 import { ChevronDownIcon, LogoIcon } from "./shared/icons";
 
 /**
  * Cloned site header.
  *
- * Measured behaviour (see docs/research/<site-key>/<page-key>/BEHAVIORS.md):
+ * Two variants, because the two cloned routes measure completely differently.
+ * Both were sampled live with `getComputedStyle` at a series of scroll
+ * positions rather than inferred.
+ *
+ * variant="home" (measured on the homepage):
  *  - `.header_wrapper` is `position: sticky; top: 0` (not fixed) and starts with
  *    `header_transparent`, so the hero shows through it.
  *  - `header_-hidden` is added once the user scrolls down past ~100px, and is
@@ -18,16 +22,29 @@ import { ChevronDownIcon, LogoIcon } from "./shared/icons";
  *  - `header_-fixed` is added once scrollY passes 3 × viewport height
  *    (measured: absent at 2690, present at 2710 on a 900px viewport) and stops
  *    the wrapper being transparent.
+ *
+ * variant="search" (measured on /search):
+ *  - completely static. At scrollY 0, 100, 300, 600, 1200, 2000 and after
+ *    scrolling back up, the class list is always exactly `header_wrapper`:
+ *    sticky, white background, `transform: none`, 59px tall.
+ *  - no `header_transparent`, no `header_-hidden`, no `header_-fixed`, ever.
+ *    So this variant installs no scroll listener at all rather than
+ *    approximating the home behaviour.
  */
 const HIDDEN_THRESHOLD = 100;
 
-export function Header() {
+export type HeaderVariant = "home" | "search";
+
+export function Header({ variant = "home" }: { variant?: HeaderVariant }) {
   const [hidden, setHidden] = useState(false);
   const [fixed, setFixed] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const lastY = useRef(0);
+  const isHome = variant === "home";
 
   useEffect(() => {
+    if (!isHome) return;
+
     lastY.current = window.scrollY;
 
     const onScroll = () => {
@@ -41,7 +58,7 @@ export function Header() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isHome]);
 
   useEffect(() => {
     // While the menu is open the origin freezes the page (Lenis is stopped and
@@ -52,9 +69,9 @@ export function Header() {
 
   const wrapperClass = [
     "header_wrapper",
-    "header_transparent",
-    fixed ? "header_-fixed" : "",
-    hidden ? "header_-hidden" : "",
+    isHome ? "header_transparent" : "",
+    isHome && fixed ? "header_-fixed" : "",
+    isHome && hidden ? "header_-hidden" : "",
     menuOpen ? "header_-opened" : "",
   ]
     .filter(Boolean)
@@ -93,6 +110,9 @@ export function Header() {
             </nav>
 
             <div className="header_actions">
+              <a className="header_beta" title={BETA_TITLE} href={BETA_HREF}>
+                Beta
+              </a>
               <a
                 className="button_button-round button_color-primary"
                 href={SIGN_IN_HREF}
