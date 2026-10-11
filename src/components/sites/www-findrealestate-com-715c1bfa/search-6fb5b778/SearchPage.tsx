@@ -65,17 +65,20 @@ function applyFilters(all: Listing[], f: Filters): Listing[] {
   const bedMin = threshold(f.beds);
   const bathMin = threshold(f.baths);
   return all.filter((l) => {
+    // Two independent geographic inputs, both matching on the ZIP-derived
+    // borough rather than a plain substring — none of the 120 captured
+    // addresses contain the word "Manhattan", so a text match returns nothing.
+    // The text fallback keeps a typed street address findable.
     if (f.neighborhoods.length) {
-      // "Neighborhoods" is a geographic multi-select on the origin, not a text
-      // match: it defaults to Manhattan, yet none of the captured addresses
-      // contain the word. Match the ZIP-derived borough, and fall back to a text
-      // match so an address typed into the search box still finds its card.
       const hit = f.neighborhoods.some(
         (n) =>
           l.borough === n || l.address.toLowerCase().includes(n.toLowerCase()),
       );
       if (!hit) return false;
     }
+    const q = f.address.trim().toLowerCase();
+    if (q && l.borough !== f.address && !l.address.toLowerCase().includes(q))
+      return false;
     if (f.saleType && l.status !== f.saleType) return false;
     if (f.propertyType) {
       // The capture is the origin's default "Residential" result set, so the
@@ -126,11 +129,12 @@ export function SearchPage() {
       maximumFractionDigits: 0,
     });
   const activePills: { key: string; label: string }[] = [];
-  if (filters.neighborhoods.length)
-    activePills.push({
-      key: "neighborhood",
-      label: `Address: ${filters.neighborhoods.join(", ")}`,
-    });
+  if (filters.address.trim())
+    activePills.push({ key: "address", label: `Address: ${filters.address}` });
+  // NB: a selected borough does NOT become a pill. Verified on the live
+  // origin — checking "Brooklyn" takes the count from 6408 to 6385 and leaves
+  // the pill row showing only "Address: Manhattan" + "Clear All". The origin
+  // treats Neighborhoods as a map-bounds filter and keeps it off the pill row.
   if (filters.priceMin > PRICE_MIN || filters.priceMax < PRICE_MAX)
     activePills.push({
       key: "price",
@@ -145,6 +149,7 @@ export function SearchPage() {
   const clearPill = (key: string) => {
     setFilters((f) => {
       if (key === "price") return { ...f, priceMin: PRICE_MIN, priceMax: PRICE_MAX };
+      if (key === "address") return { ...f, address: "" };
       if (key === "neighborhood") return { ...f, neighborhoods: [] };
       return { ...f, [key]: "Any" };
     });

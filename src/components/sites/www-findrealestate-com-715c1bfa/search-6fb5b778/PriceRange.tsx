@@ -7,23 +7,33 @@ import { useState } from "react";
  * assumed. Opening `.dropdown-base_trigger` labelled "Price" gives:
  *
  *   dropdown-base_content                 413x238
- *     div.price-dropdown_label            "Price"
- *     span.price-dropdown_slider-range
- *     span.price-dropdown_slider-thumb    x2
- *     div "$750"          div "$50M"     min / max readouts
- *     input.number-input_input            val "750"         172x42
- *     input.number-input_input            val "50,000,000"  172x42
- *     button "Reset" 89x40   button "Done" 87x40
+ *     div.price-dropdown_body              (flex column)
+ *       div.price-dropdown_label          "Price"
+ *       span.price-dropdown_slider-range  (absolutely positioned track)
+ *       span.price-dropdown_slider-thumb  x2
+ *       div.price-dropdown_price-range    "$750"  "$50M"
+ *       div.price-dropdown_inputs
+ *         input.number-input_input.price-dropdown_input   val "750"         172x42
+ *         input.number-input_input.price-dropdown_input   val "50,000,000"  172x42
+ *       div.price-dropdown_actions         (flex, end, gap 1.2rem, mt 3rem)
+ *         button "Reset" 89x40   button "Done" 87x40
  *
- * So it is a min/max numeric range with a visual slider, and the two numeric
- * fields are `.number-input_input` (hence `number-input.css` is installed).
+ * The track and thumbs are positioned against a wrapper that carries
+ * `position:relative` inline — the origin's stylesheet declares no such class,
+ * so an invented class name would silently get no positioning context and the
+ * absolutely-positioned track would collapse.
  *
- * The origin stages edits locally and only commits them on "Done"; "Reset"
- * restores the full range. Both are reproduced.
- *
- * The slider is presentational: the two number inputs are the real controls, so
- * the range can be typed as well as dragged.
+ * The origin stages edits locally and only commits on "Done"; "Reset" restores
+ * the full range. Both are reproduced. The two number inputs are the real
+ * controls, so the range can be typed as well as dragged.
  */
+
+/**
+ * Half the slider thumb. The origin's `.price-dropdown_slider-thumb` measures
+ * 18x18 (2.4rem), so each absolutely-positioned wrapper is offset by -9 to
+ * centre it on its percentage stop.
+ */
+const THUMB_HALF = 9;
 
 const fmt = (n: number) =>
   n.toLocaleString("en-US", {
@@ -57,11 +67,39 @@ export function PriceRange({ min, max, onApply }: Props) {
     <div className="price-dropdown_body">
       <div className="price-dropdown_label">Price</div>
 
-      <div className="price-dropdown_slider">
-        <span
-          className="price-dropdown_slider-range"
-          style={{ left: `${loPct}%`, width: `${Math.max(0, hiPct - loPct)}%` }}
-        />
+      {/* The origin's own classes: _slider-root (relative flex) > _slider-track
+          (3px, #f1f1f1) > _slider-range (absolute) + _slider-thumb (2.4rem
+          rounded rect, white with a 2px #151717 border, radius 10px).
+          Measured: root 366x3, track 366x3, thumb 18x18. */}
+      <div className="price-dropdown_slider-root">
+        <div className="price-dropdown_slider-track">
+          <div
+            className="price-dropdown_slider-range"
+            style={{
+              left: `${loPct}%`,
+              width: `${Math.max(0, hiPct - loPct)}%`,
+            }}
+          />
+          <span
+            style={{
+              position: "absolute",
+              left: `${loPct}%`,
+              marginLeft: -THUMB_HALF,
+            }}
+          >
+            <span className="price-dropdown_slider-thumb" />
+          </span>
+          <span
+            style={{
+              position: "absolute",
+              left: `${hiPct}%`,
+              marginLeft: -THUMB_HALF,
+            }}
+          >
+            <span className="price-dropdown_slider-thumb" />
+          </span>
+        </div>
+        {/* two transparent range inputs stacked on the track: the real controls */}
         <input
           type="range"
           aria-label="Minimum price"
@@ -69,6 +107,15 @@ export function PriceRange({ min, max, onApply }: Props) {
           max={max}
           value={lo}
           onChange={(e) => setLo(Math.min(Number(e.target.value), hi))}
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: 18,
+            margin: 0,
+            opacity: 0,
+            cursor: "pointer",
+          }}
         />
         <input
           type="range"
@@ -77,6 +124,15 @@ export function PriceRange({ min, max, onApply }: Props) {
           max={max}
           value={hi}
           onChange={(e) => setHi(Math.max(Number(e.target.value), lo))}
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: 18,
+            margin: 0,
+            opacity: 0,
+            cursor: "pointer",
+          }}
         />
       </div>
 
