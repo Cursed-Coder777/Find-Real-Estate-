@@ -125,8 +125,16 @@ export function FiltersBar({ filters, onChange, view, onViewChange }: Props) {
           white panel onto the map behind it.
 
           25rem minus the panel's `padding:2rem 0` (4rem of vertical padding)
-          = 21rem = 157.5px, which matches the measured 156px viewport. */}
-      <div style={{ overflowY: "auto", maxHeight: "calc(25rem - 4rem)" }}>
+          = 21rem = 157.5px, which matches the measured 156px viewport.
+
+          `data-lenis-prevent-wheel` is the attribute Lenis checks for before it
+          calls preventDefault() (see its onWheel handler). Without it Lenis
+          swallows the wheel and the page scrolls instead of these rows; with
+          it, Lenis returns early and the rows scroll natively. */}
+      <div
+        data-lenis-prevent-wheel
+        style={{ overflowY: "auto", maxHeight: "calc(25rem - 4rem)" }}
+      >
         <div className="check-dropdown_search">
         <div className="text-input_input-wrapper">
           <input

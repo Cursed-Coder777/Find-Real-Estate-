@@ -12,6 +12,7 @@ import {
 import { createPortal } from "react-dom";
 
 import { ChevronDownIcon } from "../../root-8a5edab2/shared/icons";
+import { lenisIsRunning, startLenis, stopLenis } from "../../shared/lenis";
 
 /**
  * The origin's two filter dropdown shells. The ported CSS styles exactly these
@@ -133,6 +134,19 @@ export function FilterDropdown({
     const maxLeft = Math.max(8, window.innerWidth - r.width - 8);
     setLeft(Math.min(anchor.left, maxLeft));
   }, [open, anchor]);
+
+  // Freeze the page while the panel is open, for the same reason the origin
+  // freezes it for the burger menu (`html.lenis-stopped`). Lenis runs with
+  // `smoothWheel: true` and `wrapper: window`, so without this the wheel scrolls
+  // the page behind the panel instead of the panel's own rows.
+  //
+  // Only needed when Lenis is actually running — under prefers-reduced-motion it
+  // never starts and native scrolling already behaves correctly.
+  useEffect(() => {
+    if (!open || !lenisIsRunning()) return;
+    stopLenis();
+    return () => startLenis();
+  }, [open]);
 
   useEffect(() => {
     if (!open) return;

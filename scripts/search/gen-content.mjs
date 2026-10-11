@@ -120,7 +120,26 @@ const rows = listings.listings.map((l, i) => {
 
   // "" entries are lazy gallery images that never resolved during capture
   const usable = l.images.filter((u) => typeof u === "string" && u.length > 0);
-  const images = usable.map(toLocal).filter(Boolean);
+  const logoLocal = toLocal(l.dataSourceLogo);
+
+  // The capture recorded the data-source logo INTO the gallery at every slide
+  // position — for one listing it produced
+  //
+  //   0 photo.jpg   1 REBNY_logo.png   2 photo.jpg   3 REBNY_logo.png ...
+  //
+  // i.e. 5 real photos interleaved with 5 copies of the logo (457 duplicate
+  // entries across 117 of 120 listings). The logo is a separate overlay element
+  // (.hover-gallery_data-source-logo), not a gallery slide, so it is dropped
+  // here. Without this the same URL is both a slide key and the overlay src,
+  // which is what produced the duplicate-key React warning.
+  const logoLocalForCount = logoLocal; // counted, then excluded from slides
+  const logosExcluded = logoLocalForCount
+    ? usable.filter((u) => toLocal(u) === logoLocalForCount).length
+    : 0;
+  const images = usable
+    .map(toLocal)
+    .filter(Boolean)
+    .filter((u) => u !== logoLocal);
 
   return {
     id: `l${String(i).padStart(3, "0")}`,
@@ -140,8 +159,8 @@ const rows = listings.listings.map((l, i) => {
     images,
     // references that produced no local file: unresolved lazy src, or broken on
     // the origin, or a download failure. Reproduced as-is per agreed scope.
-    droppedImages: usable.length - images.length,
-    dataSourceLogo: toLocal(l.dataSourceLogo),
+    droppedImages: usable.length - images.length - logosExcluded,
+    dataSourceLogo: logoLocal,
   };
 });
 

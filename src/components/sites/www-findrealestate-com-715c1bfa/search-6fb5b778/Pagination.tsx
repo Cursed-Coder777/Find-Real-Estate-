@@ -28,6 +28,71 @@ import { useEffect, useState } from "react";
  * entirely on the first/last page rather than dimming.
  */
 
+/**
+ * The chevron used for both arrows, read off the live origin:
+ *
+ *   <svg viewBox="0 0 24 24" width="2.4rem" height="2.4rem">
+ *     <path fill="currentColor" d="m20.78 12.531-6.75 6.75a.75.75 0 1 1-1.06-1.061
+ *        l5.47-5.47H3.75a.75.75 0 1 1 0-1.5h14.69l-5.47-5.469a.75.75 0 1 1
+ *        1.06-1.061l6.75 6.75a.75.75 0 0 1 0 1.061"/>
+ *   </svg>
+ *
+ * The prev arrow is the same path with `transform: rotate(180deg)`.
+ */
+const ARROW_PATH =
+  "m20.78 12.531-6.75 6.75a.75.75 0 1 1-1.06-1.061l5.47-5.47H3.75a.75.75 0 1 1 0-1.5h14.69l-5.47-5.469a.75.75 0 1 1 1.06-1.061l6.75 6.75a.75.75 0 0 1 0 1.061";
+
+function ArrowIcon({ prev }: { prev?: boolean }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      width="2.4rem"
+      height="2.4rem"
+      style={prev ? { transform: "rotate(180deg)" } : undefined}
+      aria-hidden="true"
+    >
+      <path fill="currentColor" d={ARROW_PATH} />
+    </svg>
+  );
+}
+
+/**
+ * Each arrow button holds TWO stacked copies of the icon. That is what the
+ * origin renders, and it is load-bearing: the ported CSS animates the button
+ * with `transform: translateY(-100%)` on hover, sliding the lower copy up into
+ * place. With a single child the button still translates by its own height but
+ * there is nothing below to reveal, so the arrow jumps up and leaves a gap.
+ */
+function ArrowButton({
+  dir,
+  disabled,
+  onClick,
+}: {
+  dir: "prev" | "next";
+  disabled: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      className={dir === "prev" ? "pagination_prev" : "pagination_next"}
+      aria-label={dir === "prev" ? "Previous page" : "Next page"}
+      aria-disabled={disabled}
+      tabIndex={disabled ? -1 : 0}
+      onClick={onClick}
+    >
+      <div>
+        <ArrowIcon prev={dir === "prev"} />
+      </div>
+      <div>
+        <ArrowIcon prev={dir === "prev"} />
+      </div>
+    </button>
+  );
+}
+
 type Props = {
   page: number;
   pageCount: number;
@@ -63,16 +128,11 @@ export function Pagination({ page, pageCount, onPageChange }: Props) {
             : "rc-pagination-prev"
         }
       >
-        <button
-          type="button"
-          className="pagination_prev"
-          aria-label="Previous page"
-          aria-disabled={page === 1}
-          tabIndex={page === 1 ? -1 : 0}
-          onClick={() => page > 1 && onPageChange(page - 1)}
-        >
-          <div>←</div>
-        </button>
+        <ArrowButton
+          dir="prev"
+          disabled={page === 1}
+          onClick={() => onPageChange(page - 1)}
+        />
       </li>
 
       {items.map((it, i) => {
@@ -116,16 +176,11 @@ export function Pagination({ page, pageCount, onPageChange }: Props) {
             : "rc-pagination-next"
         }
       >
-        <button
-          type="button"
-          className="pagination_next"
-          aria-label="Next page"
-          aria-disabled={page === pageCount}
-          tabIndex={page === pageCount ? -1 : 0}
-          onClick={() => page < pageCount && onPageChange(page + 1)}
-        >
-          <div>→</div>
-        </button>
+        <ArrowButton
+          dir="next"
+          disabled={page === pageCount}
+          onClick={() => onPageChange(page + 1)}
+        />
       </li>
     </ul>
   );

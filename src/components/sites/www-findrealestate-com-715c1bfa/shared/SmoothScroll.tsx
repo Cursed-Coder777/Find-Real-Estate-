@@ -2,6 +2,8 @@
 
 import { useEffect } from "react";
 
+import { setLenis } from "./lenis";
+
 /**
  * Lenis smooth scrolling, matching the origin site.
  *
@@ -36,6 +38,11 @@ export function SmoothScroll() {
         autoRaf: false,
       });
       lenis = instance;
+      // Hand the instance to shared/lenis.ts so other components can stop it.
+      // Lenis runs with `smoothWheel: true` and `wrapper: window`, so it
+      // swallows wheel events over inner scrollable elements too — a filter
+      // panel's rows would scroll the page instead of themselves.
+      setLenis(instance);
 
       const raf = (time: number) => {
         instance.raf(time);
@@ -58,6 +65,7 @@ export function SmoothScroll() {
       cancelled = true;
       cancelAnimationFrame(frame);
       resizeObserver?.disconnect();
+      setLenis(null);
       lenis?.destroy();
     };
   }, []);
